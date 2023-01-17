@@ -4,8 +4,8 @@ print("your name is")
 
 print (name)
 
-if(name == jagga)
-{
+if name == jagga :
+
 print ("Your chatting with 20 members only girls")
 print ("Ur were went to a restaurant with girl because mixing of birany")
 print ("Can you please tell me atleast 3girls name in Instagram chattingAre u met her first time")
@@ -21,4 +21,4 @@ print (nan)
   print (na)
   print ("congratulations 👏")
   
-}
+
