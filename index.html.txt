@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Hello guys</title>
+<link rel="stylesheet"href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+Click here for more info on how to use PyScript.
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<py-script src="in.py" ></py-script>
+
+</body>
+</html>
