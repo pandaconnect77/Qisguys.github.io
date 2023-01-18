@@ -7,7 +7,7 @@ print (name)
 if name == "jagga":
   print("Your chat with 20 members only girls\n You went to a restaurant with a girl because you mixed birany\n You met her for the first time \n Can you please tell me the names of at least 10 girls  in the chat Instagram And also WhatsApp") 
 elif name== "vinay":
-  print("You are chatting with some one still now\n You are seeing bits daily in bathroom\n")
+  print("You are chatting with some one still now\n You are seeing bits daily in bathroom\nYou were not talking with some one from last 1 hour onwards ")
 
 elif name == "ammu":
   print("Your name is boochi[ psycho pilla ]\n I am very interested to do patches of my friends \nI am walking like rabbit\nI always eat carrets\nNaku koncham thikka undi danikoka lekkundi")
