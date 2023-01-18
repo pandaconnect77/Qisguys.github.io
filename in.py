@@ -13,8 +13,10 @@ elif name == "venkatesh":
 elif name == "yeshu1":
   print("your name is pikachu [ mental pilla ]\n Daily the patch is done by boochi \n Daily carrying a large carriage box that can eat easily 10 members \n Naku koncham thikka undhi dhaniki asalu lekkee ledhu ")
 
-elif name == "name":
-   Print("hello")
+elif name == "vinay":
+   Print("You are chatting with some one still now\n You are seeing bits daily in bathroom\n")
+
+
 elif name == "name":
    Print("hello")
 elif name == "name":
