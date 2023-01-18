@@ -10,4 +10,23 @@ elif name == "ammu":
   print("Your name is boochi[ psycho pilla ]\n I am very interested to do patches of my friends \nI am walking like rabbit\nI always eat carrets\nNaku koncham thikka undi danikoka lekkundi")
 elif name == "venkatesh":
   print("you are fall in love in recently with pace college girl \n now your are studying in qis college in branch of cse-6\n pedha kutha lodivi \n ")
-  
+elif name == "name":
+
+Print("hello")
+elif name == "name":
+   Print("hello")
+elif name == "name":
+   Print("hello")
+elif name == "name":
+   Print("hello")
+elif name == "name":
+   Print("hello")
+
+elif name == "name":
+   Print("hello")
+
+elif name == "name":
+   Print("hello")
+
+    elif name == "name":
+   Print("hello")
