@@ -9,7 +9,7 @@ if name == "jagga":
 elif name== "vinay":
   print("You are chatting with some one still now\n You are seeing bits daily in bathroom\nYou were not talking with some one from last 1 hour onwards ")
 
-elif name == "ammu":
+elif name == "ammu1":
   print("Your name is boochi[ psycho pilla ]\n I am very interested to do patches of my friends \nI am walking like rabbit\nI always eat carrets\nNaku koncham thikka undi danikoka lekkundi")
 elif name == "venkatesh":
   print("you are fall in love in recently with pace college girl \n now your are studying in qis college in branch of cse-6\n pedha kutha lodivi \n ")
