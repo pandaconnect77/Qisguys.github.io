@@ -15,8 +15,8 @@ elif name == "venkatesh":
   print("you are fall in love in recently with pace college girl \n now your are studying in qis college in branch of cse-6\n pedha kutha lodivi \n ")
 elif name == "yeshu1":
   print("your name is pikachu [mental pilla ]\n Daily the patch is done by boochi \n Daily carrying a large carriage box that can eat easily 10 members \n Naku koncham thikka undhi dhaniki asalu lekkee ledhu ")
-
-   
+elif name== "avinesh":
+   print("funn guy\n na degara ee test chey pinchav ga love percentage but l like u ")
 
 
 
