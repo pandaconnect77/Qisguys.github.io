@@ -18,5 +18,6 @@ elif name == "yeshu1":
 elif name== "avinesh":
    print("funn guy\n na degara ee test chey pinchav ga love percentage but l like u ")
 
-
+elif name === "azmal" :
+  print ("air force")
 
