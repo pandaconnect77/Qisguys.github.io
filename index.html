@@ -221,148 +221,741 @@ void fun(char *a)
 }	BC	AB	BA	NONE	A	7	
 
 
+Unit IV	 	
+S.NO	QUESTION	A	B	C	D	ANSWER	 	
+1	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	1	<br>
+<br>	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	1	<br>
+
+<br>	Global variables are:	Internal	external	both	none of the above	B	<br>	
+<br>	Every executable C programme must contain	printf()	printf() and scanf()	main()	all the above	C	<br>
+
+<br>	The keyword used to transfer control from a function back to the calling function is	break	return	goto	continue	B	1	<br>
+
+<br>	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	1	<br>
+
+<br>	How many valu1es a function can return at a time	only one	depends on system	any no of values	<br>	A	1	<br>
+
+<br>	The function is used to reverse a string	revstr()	strrev()	reverse()	strreverse()	B	1	<br>
+
+<br>	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	1	<br>
+
+<br>	When compared to call by value, the call by reference is_________in execution	faster	slow	neither fast nor slow	nocomparision	A	1	<br>
+
+<br>	The statement used to terminate program function is	return	continue	exit	break	C	<br>	<br>
+
+1<br>	What is the output of this C code?       
+int main()  {
+void foo(), f();
+f(); }
+void foo() {
+printf("<br> ");}
+void f() {
+printf("1 ");
+foo(); }	 Compile time error as foo is local to main	 1   <br>	<br>  1	Compile time error due to declaration of functions inside main	B	<br>	<br>
+
+1<br>	What is the output of this C code?
+ int main()
+{ void foo(); 
+void f() {
+ foo(); }
+f(); }
+void foo() {
+printf("<br> ");  }	<br> <br>	<br>	   Compile time error	 Depends on the compiler	B	<br>	<br>
+
+1<br>	functions can return structure in c?	FALSE	TRUE	system dependent	compiler dependent	B	<br><br>
+	
+1<br>	What is the default return type if it is not specified in function definition?	VOID	int	char	double	B	<br>	Unit IV	 	
+S.NO	QUESTION	A	B	C	D	ANSWER	 	
+1	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	1	<br>
+<br>	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	1	<br>
+
+<br>	Global variables are:	Internal	external	both	none of the above	B	<br>	
+<br>	Every executable C programme must contain	printf()	printf() and scanf()	main()	all the above	C	<br>
+
+<br>	The keyword used to transfer control from a function back to the calling function is	break	return	goto	continue	B	1	<br>
+
+<br>	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	1	<br>
+
+<br>	How many valu1es a function can return at a time	only one	depends on system	any no of values	<br>	A	1	<br>
+
+<br>	The function is used to reverse a string	revstr()	strrev()	reverse()	strreverse()	B	1	<br>
+
+<br>	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	1	<br>
+
+<br>	When compared to call by value, the call by reference is_________in execution	faster	slow	neither fast nor slow	nocomparision	A	1	<br>
+
+<br>	The statement used to terminate program function is	return	continue	exit	break	C	<br>	<br>
+
+1<br>	What is the output of this C code?       
+int main()  {
+void foo(), f();
+f(); }
+void foo() {
+printf("<br> ");}
+void f() {
+printf("1 ");
+foo(); }	 Compile time error as foo is local to main	 1   <br>	<br>  1	Compile time error due to declaration of functions inside main	B	<br>	<br>
+
+1<br>	What is the output of this C code?
+ int main()
+{ void foo(); 
+void f() {
+ foo(); }
+f(); }
+void foo() {
+printf("<br> ");  }	<br> <br>	<br>	   Compile time error	 Depends on the compiler	B	<br>	<br>
+
+1<br>	functions can return structure in c?	FALSE	TRUE	system dependent	compiler dependent	B	<br><br>
+	
+1<br>	What is the default return type if it is not specified in function definition?	VOID	int	char	double	B	<br>	
+1<br>	What is the problem in the following declarations?     
+int func(int);
+double func(int); 
+int func(float);	    A function with same name cannot have different signatures	A function with same name cannot have different return types	A function with same name cannot have different number of parameters	   All of the mentioned	D	<br>	
+1<br>	What is the return-type of the function sqrt()	int	float	double	depends on data type of the parameter	D	<br>	
+1<br>	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	<br>	
+1<br>	Will the program compile?  #include<stdio.h> 
+int main() { 
+char str[<br>] = "ASTIWZ"; 
+return 0; }	Compile error	Runtime Error	yes	No	C	<br>	
+<br>0	What is the output of this C code?
+void m() { 
+printf("hi"); } 
+void main(){ 
+m();
+}	hi	Runtime Error	Compile time error	none of the above	A	<br>	
+<br>1	What will happen after running the code ?   
+Main() {
+ printf("%u",main); }	Error	Will make an infinite loop	Some address will be printed	none of the above	C	<br>	
+<br><br>	Use of functions	Enhances logical clarity	reduces repeated programming	makes debugging easy	All of the above	D	<br>	
+<br><br>	Any C program   must contain	at least one function	need not contain any  function	needs input data	none of the above	A	<br>	
+<br><br>	What is a function	A block of statements that performs a task	fundamental modular unit	block of code that can be reusable	All of the ABOVE	D	<br>	
+<br><br>	The default parameter passing mechanism is	Call by value	Call by reference	Call by value result	none of the above	A	<br>	
+<br><br>	Find output 
+main() { 
+int i=<br>; 
+printf("%d %d %d %d %d",i++,i--,++I,--I,i);}	<br> <br> <br> <br> <br>	<br> <br> <br> <br> <br>	<br> <br> <br> <br>  <br>	<br> <br> <br> <br> <br>	D	<br>	
+<br><br>	Pick the correct statement	Function may have one return statement	Function may have many return statements	a function can return multiple values	with out return function returns  value	B	<br>	
+<br><br>	Guess the output  
+main(){ 
+static int i=<br>; 
+ printf("%d",i--); 
+if(i) 
+main(); }	<br> <br> <br>	<br> <br> 1	infinite loop	Compile error	B	<br>	
+<br><br>	which of the following is a complete function?	int f();	int f(int x) { return x+1;}	void f(int) { printf("hi"); }	void f(x){ return printf("hi"); }	B	<br>	
+<br>0	recursive functions are executed in	Parallel order	First in first out order	last in Fistout order	sequential order	C	<br>	
+<br>1	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	<br>	
+<br><br>	The function printf() returns	The actual values write for each argument	1	The number of charecters written	0	C	<br>	
+<br><br>	Functions have	local scope	Function scope	File scope	block scope	C	<br>	
+<br><br>	Which of the following functions calculates square of x in C	sqr(x)	pow(<br>,x)	pow(x,<br>)	power(<br>,x)	C	<br>	
+<br><br>	When a function is recursively called all automatic variables are stored in	Stack	queue	Array	Register	A	<br>	
+<br><br>	find the error in 
+f(int a,int b) 
+{ int a; a=<br>0; }	missing paranthesis in return	redeclaration of a	the function should be defined as int f(int,int)	none of the above	B	<br>	
+<br><br>	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	<br>	
+<br><br>	A function canot be defined inside another function	Error	yes	no	none of the above	B	<br>	
+<br><br>	Functions cannot return a floating point number	Error	Yes	No	none of the above	C	<br>	
+<br>0	Functions cannot return more than one value	Error	Yes	No	None of the above	B	<br>	
+<br>1	Every function must return a value	Yes	Error	No	none of the above	C	<br>	
+<br><br>	If return type for a function is not specified, it defaults to 	void	int	nothing	Compile error	B	<br>	
+<br><br>	If a function contains two return statements successively, the compiler will generate 	eRROR	Warnings	No error	No warnings	B	<br>	
+<br><br>	Maximum number of arguments that a function can take is	<br>	<br>0	1<br>	none of the above	D	<br>	
+<br><br>	Maximum number of arguments that a function can take is	1<br><br>	<br><br><br>	<br><br><br>	<br>	A	<br>	
+<br><br>	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	<br>	
+<br><br>	What is the output of this C code? 
+Void m(){ 
+printf("hi");} 
+void main()
+{
+m();
+}	Error	nothing	hi	Varies	C	<br>	
+<br><br>	What is the output of this C code?
+ void main()
+{
+m(); 
+void m() 
+{ 
+printf("hi");}
+ }	Error	nothing	hi	Varies	A	<br>	
+<br><br>	 Which of the following is a correct format for declaration of function?	return type functionname(argument type){ }	return type functionname(argument type);	returntype (argumenttype) function name;	Both a and b	B	<br>	
+<br>0	Which of the following function declaration is illegal?	int 1bhk(int);	int 1bhk(int a);	int <br>bhk(int*, int []);	All of the ABOVE	D	<br>	
+<br>1	Can we use a function as a parameter of another function? [ Eg: void wow(int func()) ]	Yes, and we can use the function value conveniently	Yes, but we call the function again to get the value, not as convenient as in using variable	No, C does not support it.	This case is compiler dependent	C	<br>	
+<br><br>	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	<br>	
+<br><br>	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	<br>	
+<br><br>	Global variables are:	Internal	External	both	none of the above	B	<br>	
+<br><br>	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	<br>	
+<br><br>	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	<br>	
+<br><br>	Maximum number of arguments that a function can take is	<br>	<br>0	<br>0	none of the above	D	<br>	
+<br><br>	A function canot be defined inside another function	Error	yes	no	none of the above	B	<br>	
+ 	 	
+<br>0	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	<br>	
+<br>1	The function printf() returns	The actual values write for each argument	0	The number of charecters written	1	C	<br>	
+<br><br>	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	<br>	
+<br><br>	The keyword used to transfer control from a function back to the calling function is	goto	switch	break	return	D	<br>	
+<br><br>	Point out the error in the program
+
+
+f(int a, int b)
+{
+    int a;
+    a = <br>0;
+    return a;
+}	Missing parenthesis in return statement	The function should be defined as int f(int a, int b)	Redeclaration of a	None of the above	C	<br>	
+<br><br>	Point out the error in the program
+
+#include<stdio.h>
+
+int main()
+{
+    int a=<br>;
+    void f();
+    a = f();
+    printf("%d\n", a);
+    return 0;
+}
+void f()
+{
+    printf("Hi");
+}	Error: Not allowed assignment	Error: Doesn't print anything	No error	None of the above	A	<br>	
+<br><br>	A function cannot be defined inside another function	TRUE	FALSE	None of the above	 	A	<br>	
+<br><br>	In C all functions except main() can be called recursively.	TRUE	FALSE	None of the above	 	B	<br>	
+<br><br>	#include<stdio.h>
+
+int main()
+{
+    int fun();
+    int i;
+    i = fun();
+    printf("%d\n", i);
+    return 0;
+}
+int fun()
+{
+    _AX = 1<br><br>0;
+}	Garbage value	0 (Zero)	1<br><br>0	No output	C	<br>	
+<br><br>	#include<stdio.h>
+void fun(int*, int*);
+int main()
+{
+    int i=<br>, j=<br>;
+    fun(&i, &j);
+    printf("%d, %d", i, j);
+    return 0;
+}
+void fun(int *i, int *j)
+{
+    *i = *i**i;
+    *j = *j**j;
+}	<br><br>,<br>	<br>,1	<br>,<br>	none	A	<br>	
+<br>0	#include<stdio.h>
+int i;
+int fun();
+
+int main()
+{
+    while(i)
+    {
+        fun();
+        main();
+    }
+    printf("Hello\n");
+    return 0;
+}
+int fun()
+{
+    printf("Hi");
+}	Hello	HiHello	error	none	A	<br>	
+<br>1	#include<stdio.h>
+
+int main()
+{
+    void fun(char*);
+    char a[<br>0];
+    a[0] = 'A'; a[1] = 'B';
+    a[<br>] = 'C'; a[<br>] = 'D';
+    fun(&a[0]);
+    return 0;
+}
+void fun(char *a)
+{
+    a++;
+    printf("%c", *a);
+    a++;
+    printf("%c", *a);
+}	BC	AB	BA	NONE	A	<br>	
+
+
  	UNIT - V	 	 	 	 	
 SNO	QUESTION	A	B	C	D	CORRECT ANSWER	Topic No	
-1	#include <stdio.h>  struct temp {      int a[10];      char p; };	5	11	41	44	B	8	
-2	Structure holds __________ variables at a time	all	single	two lines at atime	none	A	8	
-3	Which operator is used for accessing  members of the structure?	dot(.)operator	Arrow Operator(->)	* operator	none	A	8	
-4	Union holds __________ variables at a time	all	single	two lines at atime	none	B	8	
-5	Structure is a -------------	primitive data type	derived type	both	none	B	8	
-6	Which operator is used for accessing members of the union?	dot(.)operator	Arrow Operator(->)	* operator	none	A	8	
-7	The size of union is -----------of the union member.	Highest type	Lowest type	Sum of all members	none	A	8	
-8	Which of the following operator used for accessing pointer to structure member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	8	
-9	Which is the example for derived type?	Arrays	Structure	union	all	D	8	
-10	Which is the example for Primitive data type?	Arrays	Structure	union	none	D	8	
-11	What is the keyword used for declaring structure?	struct	union	typedef	none	D	9	
-12	What is the keyword used for declaring union?	struct	union	typedef	none	D	9	
-13	which of the following statement is true.	Structure contains another structure	Structure contains union	Structures can be passed as a 
-parameter to function.	all	D	9	
-14	________is a collection of different types of data types.	structure	union	both a and b	none	C	9	
-15	_______is a collection of similar types of data types	structure	union	array	none	C	9	
-16	The accessing of structure member can be done through which operator.	dot(.)	*	/	@	A	9	
-17	Typedef int eee3; eee3   a,b;    printf(“%d%d”,a,b);outout-----------------	Zunk value Zunk value	10 20	10 30	none	A	9	
-18	enum day{a=10,b,c); The value of b is----------------------	11	10	12	none	A	9	
-19	What is the operator used for  accessing pointer to union member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	9	
-20	Which of the following is valid?	eee int a,b ;	struct student s1;	student struct s1;	none	B	9	
-21	which  of the following is invalid?	int a,b ;	struct student s1;	student struct s1;	none	C	10	
-22	which is the function used for allocation single block of memory.	malloc()	calloc()	free()	none	A	10	
-23	which is the function used for allocation multiple blocks of memory.	malloc()	calloc()	free()	none	B	10	
-24	which is the function used for reallocating the memory once we allocated.	malloc()	calloc()	realloc()	none	C	10	
-25	which is the function used for freeing the memory space.	malloc()	calloc()	free()	none	C	10	
-26	typedef int eee3;eee3 a,b,c;c=a+b; what is the value of c	garbage value	0	1	2	A	10	
-27	User-defined data type can be created  by___________	struct	enum	union	none	B	10	
-28	Which of the following cannot be a structure member?	 Another structure
-Function	Array	none	B	10	
-29	struct test { int k;char c;};size of structure is------------	3	2	1	12	A	10	
-30	Which of the following share a similarity in syntax?	union	structure	array	both a and b	D	10	
-31	Which of the following data types are accepted while declaring bit-fields?	char	float	double	int	D	11	
-32	struct {int a:2 ;int b:4 }; size of strcture is	6 bits	2 bits	3 bits	none	A	11	
-33	Which of the following is not allowed?	Arrays of bit fields	Pointers to bit fields	. Functions returning bit fields	all	D	11	
-34	Bit fields can only be declared as part of a structure.	FALSE	TRUE	nothing	none	A	11	
-35	Can we declare function inside structure of C Programming?	yes	no	depends on compliler	runtime error	A	11	
-36	int main() {struct xyz{    char * n;   int eos;};struct xyz x = {"cppbuzz", 2017};
-struct xyz y=x;printf("%d", printf("%s",y.n));return 0;output of the program------	cppbuzz	7cppbuzz	8cppbuzz	 cppbuzz7	D	11	
-37	What is important difference between structure & union?	There is no difference	Union takes less memory	Union is faster	Structure is faster	B	11	
-38	Is it necessary that all elements of structure should be different in size?	Yes	no	depends on compiler	none	B	11	
-39	Are self referential structures are possible in C? 	Yes	no	depends on compiler	none	A	11	
-40	Can we compare two structures using any built in operator?	Yes	no	depends on compiler	none	A	11	
-41	Which predefined function is used to write whole structure into a file ?	write()	fwrite()	 swrite()	none	B	12	
-42	Which predefined function is used to read whole structure into a file ?	write()	fwrite()	 swrite()	fread()	D	12	
-43	Which of the following accesses a variable in structure b?	b.var	b->var	.b>var	none	A	12	
-44	Which of the following accesses a variable in a pointer to a structure, *b?	b.var	b->var	.b>var	none	B	12	
-45	Which of the following is a properly defined struct?	struct {int a;}	. struct a_struct {int a;}	struct a_struct int a;	struct a_struct {int a;};	A	12	
-46	Which properly declares a variable of struct foo?	struct foo;	struct foo var;	foo;	int foo;	B	12	
-47	A union can be nested in a structure.	TRUE	FALSE	depends on complier	none	A	12	
-48	The elements of union and structure are always accessed using & operator.	&	Arrow Operator(->)	*	none	B	12	
-49	struct employ  {    int ecode;     struct employ e;  };	Linked Error	Error: in structure declaration	No error	NONE	A	12	
-50	int main() { enum { GREAT, is=7, india };         printf("%d %d", GREAT, india);  output	0 1	0 2	0 8	none	C	12	
-51	The concept of structure within a  structure is known as __________	SelfReferential Structures	Nested Structures	Pointers within structures	structure arrays	B	13	
-52	A member variable of a structure can be of any ___________	Datatype	variable	keyword	none	A	13	
-53	What is the difference between a normal variable and a pointer variable declaration	*	&	(	)	A	13	
-54	int a=10; int *p; p=&a;printf("p=%d",p); output	address of a	address of p	garbage value	0	A	13	
-55	Which of the following operation is illegal in structures?	Typecasting of structure	Pointer to a variable of the same structure	 Dynamic allocation of memory for structure	All of the mentioned	A	13	
-56	#include <stdio.h>  struct temp {     int m[20];     char p;   }; What will be the size of the following structure?	5	11	41	44	C	13	
-57	//Let P be a structure    //Let Q be a union Which among the following is never possible in C when members in a structure are same as that in a union?	Sizeof(P) is less than to sizeof(Q)	sizeof(P) is equal to sizeof(Q)	Sizeof(Q) is less than to sizeof(P)	None	A	13	
-58	Choose a correct statement about C structures.	A structure can contain same structure type member.	A structure size is limited by only physical memory of that PC.	You can define an unlimited number of members inside a structure.	All the above.	D	13	
-59	What are the uses of C Structures.?	structure is used to implement Linked Lists, Stack and Queue data structures	Structures are used in Operating System functionality like Display and Input taking.	Structure are used to exchange information with peripherals of PC	All the above	D	13	
-60	A C Structure or User defined data type is also called.?	Derived data type	pointer type	address type	None	A	13	
-61	What is the size of a C structure.?	C structure is always 128 bytes.	Size of C structure is the total bytes of all elements of structure.	Size of C structure is the size of largest element.	None	B	14	
-62	int main() {    struct ship    {       };    return 0;  } Choose a correct statement about  this C structure.?	It is wrong to define an empty structure	Member variables can be added to a structure even after its first definition.	There is no use of defining an empty structure	None	C	14	
-63	Size of integer pointer	2 Bytes	4 Bytes	1 Byte	10 Bytes	A	14	
-64	Size of character pointer	1 Byte	2 bytes	4 bytes	10 Bytes	B	14	
-65	What is (void*)0?	Representation of void pointer	Representation null pointer	Error	NONE OF THE ABOVE	B	14	
-66	Are the expression *ptr++ and ++*ptr are same?	Compile error	TRUE	FALSE	system dependent	C	14	
-67	Is there any difference between the following two statements? char *p=0;   char *t=NULL;	Compile error	Yes	No	system dependent	C	14	
-68	Pointer is special kind of variable which is used to stored __________ of the variable.	value	variable	datatype	address	D	14	
-69	Pointer variable is declared using preceding _________ sign.	%	&	*	^	C	14	
-70	Address stored in the pointer variable is of type __________.	float	integer	character	array	B	14	
+1	#include <stdio.h>  struct temp {      int a[<br>];      char p; };	<br>	<br>	<br>1	<br><br>	B	<br>	
+<br>	Structure holds __________ variables at a time	all	single	two lines at atime	none	A	<br>	<br>
+<br>	Which operator is used for accessing  members of the structure?	dot(.)operator	Arrow Operator(->)	* operator	none	A	<br>	<br>
+<br>	Union holds __________ variables at a time	all	single	two lines at atime	none	B	<br>	<br>
+<br>	Structure is a -------------	primitive data type	derived type	both	none	B	<br>	
+<br>	Which operator is used for accessing members of the union?	dot(.)operator	Arrow Operator(->)	* operator	none	A	<br>	<br>
+<br>	The size of union is -----------of the union member.	Highest type	Lowest type	Sum of all members	none	A	<br>	<br>
+<br>	Which of the following operator used for accessing pointer to structure member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	<br>	<br>
+<br>	Which is the example for derived type?	Arrays	Structure	union	all	D	<br>	<br>
+<br>	Which is the example for Primitive data type?	Arrays	Structure	union	none	D	<br>	
+<br>	What is the keyword used for declaring structure?	struct	union	typedef	none	D	<br>	
+1<br>	What is the keyword used for declaring union?	struct	union	typedef	none	D	<br>	
+1<br>	which of the following statement is true.	Structure contains another structure	Structure contains union	Structures can be passed as a 
+parameter to function.	all	D	<br>	
+1<br>	________is a collection of different types of data types.	structure	union	both a and b	none	C	<br>	
+1<br>	_______is a collection of similar types of data types	structure	union	array	none	C	<br>	
+1<br>	The accessing of structure member can be done through which operator.	dot(.)	*	/	@	A	<br>	
+1<br>	Typedef int eee<br>; eee<br>   a,b;    printf(“%d%d”,a,b);outout-----------------	Zunk value Zunk value	<br> <br>0	<br> <br>0	none	A	<br>	
+1<br>	enum day{a=<br>,b,c); The value of b is----------------------	<br>	<br>	1<br>	none	A	<br>	
+1<br>	What is the operator used for  accessing pointer to union member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	<br>	
+<br>0	Which of the following is valid?	eee int a,b ;	struct student s1;	student struct s1;	none	B	<br>	
+<br>1	which  of the following is invalid?	int a,b ;	struct student s1;	student struct s1;	none	C	<br>	
+<br><br>	which is the function used for allocation single block of memory.	malloc()	calloc()	free()	none	A	<br>	
+<br><br>	which is the function used for allocation multiple blocks of memory.	malloc()	calloc()	free()	none	B	<br>	
+<br><br>	which is the function used for reallocating the memory once we allocated.	malloc()	calloc()	realloc()	none	C	<br>	
+<br><br>	which is the function used for freeing the memory space.	malloc()	calloc()	free()	none	C	<br>	<br>
+<br><br>	typedef int eee<br>;eee<br> a,b,c;c=a+b; what is the value of c	garbage value	0	1	<br>	A	<br> <br>	
+<br><br>	User-defined data type can be created  by___________	struct	enum	union	none	B	<br>	<br>
+<br><br>	Which of the following cannot be a structure member?	 Another structure
+Function	Array	none	B	<br>	<br>
+<br><br>	struct test { int k;char c;};size of structure is------------	<br>	<br>	1	1<br>	A	<br>	<br>
+<br>0	Which of the following share a similarity in syntax?	union	structure	array	both a and b	D	<br>	<br>
+<br>1	Which of the following data types are accepted while declaring bit-fields?	char	float	double	int	D	<br>	<br>
+<br><br>	struct {int a:<br> ;int b:<br> }; size of strcture is	<br> bits	<br> bits	<br> bits	none	A	<br>	<br>
+<br><br>	Which of the following is not allowed?	Arrays of bit fields	Pointers to bit fields	. Functions returning bit fields	all	D	<br>	<br>
+<br><br>	Bit fields can only be declared as part of a structure.	FALSE	TRUE	nothing	none	A	<br>	<br>
+<br><br>	Can we declare function inside structure of C Programming?	yes	no	depends on compliler	runtime error	A	<br>	<br>
+<br><br>	int main() {struct xyz{    char * n;   int eos;};struct xyz x = {"cppbuzz", <br>01<br>};
+struct xyz y=x;printf("%d", printf("%s",y.n));return 0;output of the program------	cppbuzz	<br>cppbuzz	<br>cppbuzz	 cppbuzz<br>	D	<br>	<br>
+<br><br>	What is important difference between structure & union?	There is no difference	Union takes less memory	Union is faster	Structure is faster	B	<br>	<br>
+<br><br>	Is it necessary that all elements of structure should be different in size?	Yes	no	depends on compiler	none	B	<br>	<br>
+<br><br>	Are self referential structures are possible in C? 	Yes	no	depends on compiler	none	A	<br>	<br>
+<br>0	Can we compare two structures using any built in operator?	Yes	no	depends on compiler	none	A	<br>	
+<br>1	Which predefined function is used to write whole structure into a file ?	write()	fwrite()	 swrite()	none	B	1<br>	
+<br><br>	Which predefined function is used to read whole structure into a file ?	write()	fwrite()	 swrite()	fread()	D	1<br>	
+<br><br>	Which of the following accesses a variable in structure b?	b.var	b->var	.b>var	none	A	1<br>	
+<br><br>	Which of the following accesses a variable in a pointer to a structure, *b?	b.var	b->var	.b>var	none	B	1<br>	
+<br><br>	Which of the following is a properly defined struct?	struct {int a;}	. struct a_struct {int a;}	struct a_struct int a;	struct a_struct {int a;};	A	1<br>	
+<br><br>	Which properly declares a variable of struct foo?	struct foo;	struct foo var;	foo;	int foo;	B	1<br>	
+<br><br>	A union can be nested in a structure.	TRUE	FALSE	depends on complier	none	A	1<br>	
+<br><br>	The elements of union and structure are always accessed using & operator.	&	Arrow Operator(->)	*	none	B	1<br>	
+<br><br>	struct employ  {    int ecode;     struct employ e;  };	Linked Error	Error: in structure declaration	No error	NONE	A	1<br>	
+<br>0	int main() { enum { GREAT, is=<br>, india };         printf("%d %d", GREAT, india);  output	0 1	0 <br>	0 <br>	none	C	1<br>	
+<br>1	The concept of structure within a  structure is known as __________	SelfReferential Structures	Nested Structures	Pointers within structures	structure arrays	B	1<br>	
+<br><br>	A member variable of a structure can be of any ___________	Datatype	variable	keyword	none	A	1<br>	
+<br><br>	What is the difference between a normal variable and a pointer variable declaration	*	&	(	)	A	1<br>	
+<br><br>	int a=<br>; int *p; p=&a;printf("p=%d",p); output	address of a	address of p	garbage value	0	A	1<br>	
+<br><br>	Which of the following operation is illegal in structures?	Typecasting of structure	Pointer to a variable of the same structure	 Dynamic allocation of memory for structure	All of the mentioned	A	1<br>	<br>
+<br><br>	#include <stdio.h>  struct temp {     int m[<br>0];     char p;   }; What will be the size of the following structure?	<br>	<br>	<br>1	<br><br>	C	1<br>	<br>
+<br><br>	//Let P be a structure    //Let Q be a union Which among the following is never possible in C when members in a structure are same as that in a union?	Sizeof(P) is less than to sizeof(Q)	sizeof(P) is equal to sizeof(Q)	Sizeof(Q) is less than to sizeof(P)	None	A	1<br>	<br>
+<br><br>	Choose a correct statement about C structures.	A structure can contain same structure type member.	A structure size is limited by only physical memory of that PC.	You can define an unlimited number of members inside a structure.	All the above.	D	1<br>	<br>
+<br><br>	What are the uses of C Structures.?	structure is used to implement Linked Lists, Stack and Queue data structures	Structures are used in Operating System functionality like Display and Input taking.	Structure are used to exchange information with peripherals of PC	All the above	D	1<br>	<br>
+<br>0	A C Structure or User defined data type is also called.?	Derived data type	pointer type	address type	None	A	1<br>	<br>
+<br>1	What is the size of a C structure.?	C structure is always 1<br><br> bytes.	Size of C structure is the total bytes of all elements of structure.	Size of C structure is the size of largest element.	None	B	1<br>   <br>	
+<br><br>	int main() {    struct ship    {       };    return 0;  } Choose a correct statement about  this C structure.?	It is wrong to define an empty structure	Member variables can be added to a structure even after its first definition.	There is no use of defining an empty structure	None	C	1<br>	<br>
+<br><br>	Size of integer pointer	<br> Bytes	<br> Bytes	1 Byte	<br> Bytes	A	1<br>	<br>
+<br><br>	Size of character pointer	1 Byte	<br> bytes	<br> bytes	<br> Bytes	B	1<br>	<br>
+<br><br>	What is (void*)0?	Representation of void pointer	Representation null pointer	Error	NONE OF THE ABOVE	B	1<br>	<br>
+<br><br>	Are the expression *ptr++ and ++*ptr are same?	Compile error	TRUE	FALSE	system dependent	C	1<br>	<br>
+<br><br>	Is there any difference between the following two statements? char *p=0;   char *t=NULL;	Compile error	Yes	No	system dependent	C	1<br>	<br>
+<br><br>	Pointer is special kind of variable which is used to stored __________ of the variable.	value	variable	datatype	address	D	1<br>	<br>
+<br><br>	Pointer variable is declared using preceding _________ sign.	%	&	*	^	C	1<br>	
+<br>0	Address stored in the pointer variable is of type __________.	float	integer	character	array	B	1<br>	
   
   
   
   
-		Unit 6						
+		Unit <br>						
 s.no	QUESTIONS	A	B	C	D	ANSWERS	 	 
-141	Which of the following true about FILE *fp ?	FILE is a keyword in C for representing files and fp is a variable of FILE type	FILE is a structure and fp is a pointer to the structure of FILE type	FILE is a stream	FILE is a buffered stream	B	16	
-142	When fopen() is not able to open a file, it returns?	EOF	NULL	Runtime Error	Compiler Dependent	B	16	
-143	getc() returns EOF when	End of files is reache	When getc() fails to read a character	Both of the above	None of the above	C	16	 
-144	fseek() should be preferred over rewind() mainly because	rewind() doesn't work for empty files	rewind() may fail for large files	In rewind, there is no way to check if the operations completed successfully	All of the above	C	16	  
-145	What is the sequence for preprocessor to look for the file within <> ?	The predefined location then the current directory	The current directory then the predefined location	The predefined location only	The current directory location	A	16	  
-146	What would happen if you create a file stdio.h and use #include “stdio.h” ?	The predefined library file will be selected	The user-defined library file will be selected	Both the files will be included	The compiler won’t accept the program	B	16	  
-147	Can function definition be present in header files?	Yes	No	Depends on the compiler	Depends on the standard	A	16	  
-148	If the file name is enclosed in double quotation marks	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	A	16	  
-149	If the file name is enclosed in angle brackets	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	B	16	  
-150	The below two lines are equivalent to  #define C_IO_HEADER    #include C_IO_HEADER	#include	#include”printf”	#include”C_IO_HEADER”	#include	D	16	  
-151	The first and second arguments of fopen are?	A character string containing the name of the file & the second argument is the mode.	A character string containing the name of the user & the second argument is the mode.	A character string containing file poniter & the second argument is the mode.	None of the mentioned of the mentione	A	16	 
-152	For binary files, a ___ must be appended to the mode string.	Nothing	“b”	“binary”	“binary”	A	16	 
-153	If there is any error while opening a file, fopen will return?	Nothing	EOF	NULL	All of the above	C	16	 
-154	Which is true about getc.getc returns?	The next character from the stream referred to by file pointer B. EOF for end of file or error	 	BOTH A&B	Nothing	C	16	  
-155	When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?	Standard input	Standard output	Standard error	All of the mentioned	D	16	  
-156	What is the meant by ‘a’ in the following operation? fp = fopen(“Random.txt”, “a”);	Attach	Append	Apprehend	Add	B	16	  
-157	Which of the following mode argument is used to truncate?	a	f	w	t	C	16	  
-158	Which type of files can’t be opened using fopen()?	.txt	.bin	.c	NONE OF THEM	D	17	  
-159	Which of the following fopen statements are illegal?	fp = fopen(“abc.txt”, “r”);	fp = fopen(“/home/user1/abc.txt”, “w”);	fp = fopen(“abc”, “w”);	None of the mentione	D	17	  
-160	What does the following segment of code do? fprintf(fp, “Copying!”);	It writes “Copying!” into the file pointed by fp	It reads “Copying!” from the file and prints on display	It writes as well as reads “Copying!” to and from the file and prints it	None of the mentioned	A	17	  
-161	FILE reserved word is?	A structure tag declared in stdio.h	One of the basic datatypes in c	Pointer to the structure defined in stdio.h	It is a type name defined in stdio.h	D	17	 
-162	stdout, stdin and stderr are?	File pointer	File desciptors	Both connected to screen by default.	stdout is line buffered but stderr is unbuffere	C	17	 
-163	In context to file handling, Which of the following are file handling operations ?	opening	closing	read/write	all of above	D	17	 
-164	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	17	  
-165	what does fclose() returns on success	1	NULL	0	EOF	C	17	  
-166	what does fclose() returns if there are errors	1	NULL	0	EOF	D	17	  
-167	Number of aruments that fputc() takes is	1	2	3	4	B	17	  
-168	The function of fputc() is	writes a character	writes a string	Botha A&B	Reads a character	A	17	  
-169	Number of arguments that fgetc() takes is	1	2	0	4	A	17	  
-170	Number of arguments that fread() takes is	1	2	3	4	D	17	  
-171	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	17	 
-172	Which is not a function related to files	fputc()	fgetc()	gets()	fgets()	C	17	 
-173	Types of files that C supports	text files	binary files	both A&B	header files	C	17	 
-174	rb mode In fopen() specifies	reading mode	writing mode	read and write mode	reading in binary mode	D	17	  
-175	The formal fseek() function takes ___no of arguments	1	2	3	4	C	17	  
-176	File *f;  Here File is	data type	variable	pointer	All of the above	B	17	  
-177	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	18	  
-178	ftell() returns ?	0	EOF	1	current position of pointer	D	18	  
-179	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	18	  
-180	____ type variable is used to specify file pointer	integer	File	Double	Char	B	18	  
-181	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	18	 
-182	whic oh the following is not a file operation	read	write	sort	read and write	C	18	 
-183	remove() function	removes a file	removes a character	removes a stirng	B&C	A	18	 
-184	Seek_set() function	sets pointer to beginning	sets pointer to end	Disables pointer	enables pointer	A	18	  
-185	Seek_cur() function	sets pointer to specifies position	sets pointer to end of the file	enables  the pointer	diables the pointer	A	18	  
-186	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	18	  
-187	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	18	  
-188	is it possible to pass an array into a file in C	yes	No	depends on compilers	A&C	A	18	  
-189	Formal way of declaring a file header in C	#include<file>	#include<files>	#include<file.h>	#include<files.h>	D	18	  
-190	file ponter is	a pointer to variable	a pointer to structure of file	location of file	Information of file	B	18	  
-191	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	18	 
-192	Types of files that C supports	text files	binary files	both A&B	header files	C	18	 
-193	The formal fseek() function takes ___no of arguments	1	2	3	4	C	18	 
-194	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	19	  
-195	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	19	  
-196	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	19	  
-197	whic oh the following is not a file operation	read	write	sort	read and write	C	19	  
-198	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	19	  
-199	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	19	  
-200	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	19	  
+1<br>1	Which of the following true about FILE *fp ?	FILE is a keyword in C for representing files and fp is a variable of FILE type	FILE is a structure and fp is a pointer to the structure of FILE type	FILE is a stream	FILE is a buffered stream	B	1<br>	
+1<br><br>	When fopen() is not able to open a file, it returns?	EOF	NULL	Runtime Error	Compiler Dependent	B	1<br>	
+1<br><br>	getc() returns EOF when	End of files is reache	When getc() fails to read a character	Both of the above	None of the above	C	1<br>	 
+1<br><br>	fseek() should be preferred over rewind() mainly because	rewind() doesn't work for empty files	rewind() may fail for large files	In rewind, there is no way to check if the operations completed successfully	All of the above	C	1<br>	  
+1<br><br>	What is the sequence for preprocessor to look for the file within <> ?	The predefined location then the current directory	The current directory then the predefined location	The predefined location only	The current directory location	A	1<br>	  
+1<br><br>	What would happen if you create a file stdio.h and use #include “stdio.h” ?	The predefined library file will be selected	The user-defined library file will be selected	Both the files will be included	The compiler won’t accept the program	B	1<br>	  
+1<br><br>	Can function definition be present in header files?	Yes	No	Depends on the compiler	Depends on the standard	A	1<br>	  
+1<br><br>	If the file name is enclosed in double quotation marks	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	A	1<br>	  
+1<br><br>	If the file name is enclosed in angle brackets	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	B	1<br>	  
+1<br>0	The below two lines are equivalent to  #define C_IO_HEADER    #include C_IO_HEADER <br>	#include	#include”printf”	#include”C_IO_HEADER”	#include	D	1<br>	   <br>
+1<br>1	The first and second arguments of fopen are?	A character string containing the name of the file & the second argument is the mode.	A character string containing the name of the user & the second argument is the mode.	A character string containing file poniter & the second argument is the mode.	None of the mentioned of the mentione	A	1<br>	  <br>
+1<br><br>	For binary files, a ___ must be appended to the mode string.	Nothing	“b”	“binary”	“binary”	A	1<br>	<br> 
+1<br><br>	If there is any error while opening a file, fopen will return?	Nothing	EOF	NULL	All of the above	C	1<br>	  <br>
+1<br><br>	Which is true about getc.getc returns?	The next character from the stream referred to by file pointer B. EOF for end of file or error	 	BOTH A&B	Nothing	C	1<br>	<br>  
+1<br><br>	When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?	Standard input	Standard output	Standard error	All of the mentioned	D	1<br>	   <br>
+1<br><br>	What is the meant by ‘a’ in the following operation? fp = fopen(“Random.txt”, “a”);	Attach	Append	Apprehend	Add	B	1<br>	   <br>
+1<br><br>	Which of the following mode argument is used to truncate?	a	f	w	t	C	1<br>	   <br>
+1<br><br>	Which type of files can’t be opened using fopen()?	.txt	.bin	.c	NONE OF THEM	D 	1<br>	<br>  
+1<br><br>	Which of the following fopen statements are illegal?	fp = fopen(“abc.txt”, “r”);	fp = fopen(“/home/user1/abc.txt”, “w”);	fp = fopen(“abc”, “w”);	None of the mentione	D	1<br>	<br>  
+1<br>0	What does the following segment of code do? fprintf(fp, “Copying!”);	It writes “Copying!” into the file pointed by fp	It reads “Copying!” from the file and prints on display	It writes as well as reads “Copying!” to and from the file and prints it	None of the mentioned	A	1<br>	   <br>
+1<br>1	FILE reserved word is?	A structure tag declared in stdio.h	One of the basic datatypes in c	Pointer to the structure defined in stdio.h	It is a type name defined in stdio.h	D 	1<br>	<br> 
+1<br><br>	stdout, stdin and stderr are?	File pointer	File desciptors	Both connected to screen by default.	stdout is line buffered but stderr is unbuffere	C	1<br>	 
+1<br><br>	In context to file handling, Which of the following are file handling operations ?	opening	closing	read/write	all of above	D	1<br>	 
+1<br><br>	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	1<br>	  
+1<br><br>	what does fclose() returns on success	1	NULL	0	EOF	C	1<br>	  
+1<br><br>	what does fclose() returns if there are errors	1	NULL	0	EOF	D	1<br>	  
+1<br><br>	Number of aruments that fputc() takes is	1	<br>	<br>	<br>	B	1<br>	  
+1<br><br>	The function of fputc() is	writes a character	writes a string	Botha A&B	Reads a character	A	1<br>	  
+1<br><br>	Number of arguments that fgetc() takes is	1	<br>	0	<br>	A	1<br>	  
+1<br>0	Number of arguments that fread() takes is	1	<br>	<br>	<br>	D	1<br>	  
+1<br>1	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	1<br>	 
+1<br><br>	Which is not a function related to files	fputc()	fgetc()	gets()	fgets()	C	1<br>	 
+1<br><br>	Types of files that C supports	text files	binary files	both A&B	header files	C	1<br>	 
+1<br><br>	rb mode In fopen() specifies	reading mode	writing mode	read and write mode	reading in binary mode	D	1<br>	  
+1<br><br>	The formal fseek() function takes ___no of arguments	1	<br>	<br>	<br>	C	1<br>	  
+1<br><br>	File *f;  Here File is	data type	variable	pointer	All of the above	B	1<br>	  
+1<br><br>	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	1<br>	  
+1<br><br>	ftell() returns ?	0	EOF	1	current position of pointer	D	1<br>	  
+1<br><br>	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	1<br>	  
+1<br>0	____ type variable is used to specify file pointer	integer	File	Double	Char	B	1<br>	  
+1<br>1	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	1<br> <br>	 
+1<br><br>	whic oh the following is not a file operation	read	write	sort	read and write	C	1<br>	  <br>
+1<br><br>	remove() function	removes a file	removes a character	removes a stirng	B&C	A	1<br>	  <br>
+1<br><br>	Seek_set() function	sets pointer to beginning	sets pointer to end	Disables pointer	enables pointer	A	1<br>	   <br>
+1<br><br>	Seek_cur() function	sets pointer to specifies position	sets pointer to end of the file	enables  the pointer	diables the pointer	A	1<br>	<br>  
+1<br><br>	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	1<br>	   <br>
+1<br><br>	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	1<br>	<br>  
+1<br><br>	is it possible to pass an array into a file in C	yes	No	depends on compilers	A&C	A	1<br>	   <br>
+1<br><br>	Formal way of declaring a file header in C	#include<file>	#include<files>	#include<file.h>	#include<files.h>	D	1<br>	   <br>
+1<br>0	file ponter is	a pointer to variable	a pointer to structure of file	location of file	Information of file	B	1<br>	   <br>
+1<br>1	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	1<br>	  <br>
+1<br><br>	Types of files that C supports	text files	binary files	both A&B	header files	C	1<br>	<br> 
+1<br><br>	The formal fseek() function takes ___no of arguments	1	<br>	<br>	<br>	C	1<br>	  <br>
+1<br><br>	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	1<br>	 <br>
+ 
+1<br><br>	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	1<br>	  <br>
 
+1<br><br>	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	1<br>	  
+1<br><br>	whic oh the following is not a file operation	read	write	sort	read and write	C	1<br>	  
+1<br><br>	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	1<br>	  
+1<br><br>	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	1<br>	  
+<br>00	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	1<br>	  
+
+
+
+
+1<br>	What is the problem in the following declarations?     
+int func(int);
+double func(int); 
+int func(float);	    A function with same name cannot have different signatures	A function with same name cannot have different return types	A function with same name cannot have different number of parameters	   All of the mentioned	D	<br>	
+1<br>	What is the return-type of the function sqrt()	int	float	double	depends on data type of the parameter	D	<br>	
+1<br>	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	<br>	
+1<br>	Will the program compile?  #include<stdio.h> 
+int main() { 
+char str[<br>] = "ASTIWZ"; 
+return 0; }	Compile error	Runtime Error	yes	No	C	<br>	
+<br>0	What is the output of this C code?
+void m() { 
+printf("hi"); } 
+void main(){ 
+m();
+}	hi	Runtime Error	Compile time error	none of the above	A	<br>	
+<br>1	What will happen after running the code ?   
+Main() {
+ printf("%u",main); }	Error	Will make an infinite loop	Some address will be printed	none of the above	C	<br>	
+<br><br>	Use of functions	Enhances logical clarity	reduces repeated programming	makes debugging easy	All of the above	D	<br>	
+<br><br>	Any C program   must contain	at least one function	need not contain any  function	needs input data	none of the above	A	<br>	
+<br><br>	What is a function	A block of statements that performs a task	fundamental modular unit	block of code that can be reusable	All of the ABOVE	D	<br>	
+<br><br>	The default parameter passing mechanism is	Call by value	Call by reference	Call by value result	none of the above	A	<br>	
+<br><br>	Find output 
+main() { 
+int i=<br>; 
+printf("%d %d %d %d %d",i++,i--,++I,--I,i);}	<br> <br> <br> <br> <br>	<br> <br> <br> <br> <br>	<br> <br> <br> <br>  <br>	<br> <br> <br> <br> <br>	D	<br>	
+<br><br>	Pick the correct statement	Function may have one return statement	Function may have many return statements	a function can return multiple values	with out return function returns  value	B	<br>	
+<br><br>	Guess the output  
+main(){ 
+static int i=<br>; 
+ printf("%d",i--); 
+if(i) 
+main(); }	<br> <br> <br>	<br> <br> 1	infinite loop	Compile error	B	<br>	
+<br><br>	which of the following is a complete function?	int f();	int f(int x) { return x+1;}	void f(int) { printf("hi"); }	void f(x){ return printf("hi"); }	B	<br>	
+<br>0	recursive functions are executed in	Parallel order	First in first out order	last in Fistout order	sequential order	C	<br>	
+<br>1	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	<br>	
+<br><br>	The function printf() returns	The actual values write for each argument	1	The number of charecters written	0	C	<br>	
+<br><br>	Functions have	local scope	Function scope	File scope	block scope	C	<br>	
+<br><br>	Which of the following functions calculates square of x in C	sqr(x)	pow(<br>,x)	pow(x,<br>)	power(<br>,x)	C	<br>	
+<br><br>	When a function is recursively called all automatic variables are stored in	Stack	queue	Array	Register	A	<br>	
+<br><br>	find the error in 
+f(int a,int b) 
+{ int a; a=<br>0; }	missing paranthesis in return	redeclaration of a	the function should be defined as int f(int,int)	none of the above	B	<br>	
+<br><br>	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	<br>	
+<br><br>	A function canot be defined inside another function	Error	yes	no	none of the above	B	<br>	
+<br><br>	Functions cannot return a floating point number	Error	Yes	No	none of the above	C	<br>	
+<br>0	Functions cannot return more than one value	Error	Yes	No	None of the above	B	<br>	
+<br>1	Every function must return a value	Yes	Error	No	none of the above	C	<br>	
+<br><br>	If return type for a function is not specified, it defaults to 	void	int	nothing	Compile error	B	<br>	
+<br><br>	If a function contains two return statements successively, the compiler will generate 	eRROR	Warnings	No error	No warnings	B	<br>	
+<br><br>	Maximum number of arguments that a function can take is	<br>	<br>0	1<br>	none of the above	D	<br>	
+<br><br>	Maximum number of arguments that a function can take is	1<br><br>	<br><br><br>	<br><br><br>	<br>	A	<br>	
+<br><br>	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	<br>	
+<br><br>	What is the output of this C code? 
+Void m(){ 
+printf("hi");} 
+void main()
+{
+m();
+}	Error	nothing	hi	Varies	C	<br>	
+<br><br>	What is the output of this C code?
+ void main()
+{
+m(); 
+void m() 
+{ 
+printf("hi");}
+ }	Error	nothing	hi	Varies	A	<br>	
+<br><br>	 Which of the following is a correct format for declaration of function?	return type functionname(argument type){ }	return type functionname(argument type);	returntype (argumenttype) function name;	Both a and b	B	<br>	
+<br>0	Which of the following function declaration is illegal?	int 1bhk(int);	int 1bhk(int a);	int <br>bhk(int*, int []);	All of the ABOVE	D	<br>	
+<br>1	Can we use a function as a parameter of another function? [ Eg: void wow(int func()) ]	Yes, and we can use the function value conveniently	Yes, but we call the function again to get the value, not as convenient as in using variable	No, C does not support it.	This case is compiler dependent	C	<br>	
+<br><br>	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	<br>	
+<br><br>	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	<br>	
+<br><br>	Global variables are:	Internal	External	both	none of the above	B	<br>	
+<br><br>	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	<br>	
+<br><br>	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	<br>	
+<br><br>	Maximum number of arguments that a function can take is	<br>	<br>0	<br>0	none of the above	D	<br>	
+<br><br>	A function canot be defined inside another function	Error	yes	no	none of the above	B	<br>	
+ 	 	
+<br>0	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	<br>	
+<br>1	The function printf() returns	The actual values write for each argument	0	The number of charecters written	1	C	<br>	
+<br><br>	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	<br>	
+<br><br>	The keyword used to transfer control from a function back to the calling function is	goto	switch	break	return	D	<br>	
+<br><br>	Point out the error in the program
+
+
+f(int a, int b)
+{
+    int a;
+    a = <br>0;
+    return a;
+}	Missing parenthesis in return statement	The function should be defined as int f(int a, int b)	Redeclaration of a	None of the above	C	<br>	
+<br><br>	Point out the error in the program
+
+#include<stdio.h>
+
+int main()
+{
+    int a=<br>;
+    void f();
+    a = f();
+    printf("%d\n", a);
+    return 0;
+}
+void f()
+{
+    printf("Hi");
+}	Error: Not allowed assignment	Error: Doesn't print anything	No error	None of the above	A	<br>	
+<br><br>	A function cannot be defined inside another function	TRUE	FALSE	None of the above	 	A	<br>	
+<br><br>	In C all functions except main() can be called recursively.	TRUE	FALSE	None of the above	 	B	<br>	
+<br><br>	#include<stdio.h>
+
+int main()
+{
+    int fun();
+    int i;
+    i = fun();
+    printf("%d\n", i);
+    return 0;
+}
+int fun()
+{
+    _AX = 1<br><br>0;
+}	Garbage value	0 (Zero)	1<br><br>0	No output	C	<br>	
+<br><br>	#include<stdio.h>
+void fun(int*, int*);
+int main()
+{
+    int i=<br>, j=<br>;
+    fun(&i, &j);
+    printf("%d, %d", i, j);
+    return 0;
+}
+void fun(int *i, int *j)
+{
+    *i = *i**i;
+    *j = *j**j;
+}	<br><br>,<br>	<br>,1	<br>,<br>	none	A	<br>	
+<br>0	#include<stdio.h>
+int i;
+int fun();
+
+int main()
+{
+    while(i)
+    {
+        fun();
+        main();
+    }
+    printf("Hello\n");
+    return 0;
+}
+int fun()
+{
+    printf("Hi");
+}	Hello	HiHello	error	none	A	<br>	
+<br>1	#include<stdio.h>
+
+int main()
+{
+    void fun(char*);
+    char a[<br>0];
+    a[0] = 'A'; a[1] = 'B';
+    a[<br>] = 'C'; a[<br>] = 'D';
+    fun(&a[0]);
+    return 0;
+}
+void fun(char *a)
+{
+    a++;
+    printf("%c", *a);
+    a++;
+    printf("%c", *a);
+}	BC	AB	BA	NONE	A	<br>	
+
+
+ 	UNIT - V	 	 	 	 	
+SNO	QUESTION	A	B	C	D	CORRECT ANSWER	Topic No	
+1	#include <stdio.h>  struct temp {      int a[<br>];      char p; };	<br>	<br>	<br>1	<br><br>	B	<br>	
+<br>	Structure holds __________ variables at a time	all	single	two lines at atime	none	A	<br>	<br>
+<br>	Which operator is used for accessing  members of the structure?	dot(.)operator	Arrow Operator(->)	* operator	none	A	<br>	<br>
+<br>	Union holds __________ variables at a time	all	single	two lines at atime	none	B	<br>	<br>
+<br>	Structure is a -------------	primitive data type	derived type	both	none	B	<br>	
+<br>	Which operator is used for accessing members of the union?	dot(.)operator	Arrow Operator(->)	* operator	none	A	<br>	<br>
+<br>	The size of union is -----------of the union member.	Highest type	Lowest type	Sum of all members	none	A	<br>	<br>
+<br>	Which of the following operator used for accessing pointer to structure member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	<br>	<br>
+<br>	Which is the example for derived type?	Arrays	Structure	union	all	D	<br>	<br>
+<br>	Which is the example for Primitive data type?	Arrays	Structure	union	none	D	<br>	
+<br>	What is the keyword used for declaring structure?	struct	union	typedef	none	D	<br>	
+1<br>	What is the keyword used for declaring union?	struct	union	typedef	none	D	<br>	
+1<br>	which of the following statement is true.	Structure contains another structure	Structure contains union	Structures can be passed as a 
+parameter to function.	all	D	<br>	
+1<br>	________is a collection of different types of data types.	structure	union	both a and b	none	C	<br>	
+1<br>	_______is a collection of similar types of data types	structure	union	array	none	C	<br>	
+1<br>	The accessing of structure member can be done through which operator.	dot(.)	*	/	@	A	<br>	
+1<br>	Typedef int eee<br>; eee<br>   a,b;    printf(“%d%d”,a,b);outout-----------------	Zunk value Zunk value	<br> <br>0	<br> <br>0	none	A	<br>	
+1<br>	enum day{a=<br>,b,c); The value of b is----------------------	<br>	<br>	1<br>	none	A	<br>	
+1<br>	What is the operator used for  accessing pointer to union member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	<br>	
+<br>0	Which of the following is valid?	eee int a,b ;	struct student s1;	student struct s1;	none	B	<br>	
+<br>1	which  of the following is invalid?	int a,b ;	struct student s1;	student struct s1;	none	C	<br>	
+<br><br>	which is the function used for allocation single block of memory.	malloc()	calloc()	free()	none	A	<br>	
+<br><br>	which is the function used for allocation multiple blocks of memory.	malloc()	calloc()	free()	none	B	<br>	
+<br><br>	which is the function used for reallocating the memory once we allocated.	malloc()	calloc()	realloc()	none	C	<br>	
+<br><br>	which is the function used for freeing the memory space.	malloc()	calloc()	free()	none	C	<br>	<br>
+<br><br>	typedef int eee<br>;eee<br> a,b,c;c=a+b; what is the value of c	garbage value	0	1	<br>	A	<br> <br>	
+<br><br>	User-defined data type can be created  by___________	struct	enum	union	none	B	<br>	<br>
+<br><br>	Which of the following cannot be a structure member?	 Another structure
+Function	Array	none	B	<br>	<br>
+<br><br>	struct test { int k;char c;};size of structure is------------	<br>	<br>	1	1<br>	A	<br>	<br>
+<br>0	Which of the following share a similarity in syntax?	union	structure	array	both a and b	D	<br>	<br>
+<br>1	Which of the following data types are accepted while declaring bit-fields?	char	float	double	int	D	<br>	<br>
+<br><br>	struct {int a:<br> ;int b:<br> }; size of strcture is	<br> bits	<br> bits	<br> bits	none	A	<br>	<br>
+<br><br>	Which of the following is not allowed?	Arrays of bit fields	Pointers to bit fields	. Functions returning bit fields	all	D	<br>	<br>
+<br><br>	Bit fields can only be declared as part of a structure.	FALSE	TRUE	nothing	none	A	<br>	<br>
+<br><br>	Can we declare function inside structure of C Programming?	yes	no	depends on compliler	runtime error	A	<br>	<br>
+<br><br>	int main() {struct xyz{    char * n;   int eos;};struct xyz x = {"cppbuzz", <br>01<br>};
+struct xyz y=x;printf("%d", printf("%s",y.n));return 0;output of the program------	cppbuzz	<br>cppbuzz	<br>cppbuzz	 cppbuzz<br>	D	<br>	<br>
+<br><br>	What is important difference between structure & union?	There is no difference	Union takes less memory	Union is faster	Structure is faster	B	<br>	<br>
+<br><br>	Is it necessary that all elements of structure should be different in size?	Yes	no	depends on compiler	none	B	<br>	<br>
+<br><br>	Are self referential structures are possible in C? 	Yes	no	depends on compiler	none	A	<br>	<br>
+<br>0	Can we compare two structures using any built in operator?	Yes	no	depends on compiler	none	A	<br>	
+<br>1	Which predefined function is used to write whole structure into a file ?	write()	fwrite()	 swrite()	none	B	1<br>	
+<br><br>	Which predefined function is used to read whole structure into a file ?	write()	fwrite()	 swrite()	fread()	D	1<br>	
+<br><br>	Which of the following accesses a variable in structure b?	b.var	b->var	.b>var	none	A	1<br>	
+<br><br>	Which of the following accesses a variable in a pointer to a structure, *b?	b.var	b->var	.b>var	none	B	1<br>	
+<br><br>	Which of the following is a properly defined struct?	struct {int a;}	. struct a_struct {int a;}	struct a_struct int a;	struct a_struct {int a;};	A	1<br>	
+<br><br>	Which properly declares a variable of struct foo?	struct foo;	struct foo var;	foo;	int foo;	B	1<br>	
+<br><br>	A union can be nested in a structure.	TRUE	FALSE	depends on complier	none	A	1<br>	
+<br><br>	The elements of union and structure are always accessed using & operator.	&	Arrow Operator(->)	*	none	B	1<br>	
+<br><br>	struct employ  {    int ecode;     struct employ e;  };	Linked Error	Error: in structure declaration	No error	NONE	A	1<br>	
+<br>0	int main() { enum { GREAT, is=<br>, india };         printf("%d %d", GREAT, india);  output	0 1	0 <br>	0 <br>	none	C	1<br>	
+<br>1	The concept of structure within a  structure is known as __________	SelfReferential Structures	Nested Structures	Pointers within structures	structure arrays	B	1<br>	
+<br><br>	A member variable of a structure can be of any ___________	Datatype	variable	keyword	none	A	1<br>	
+<br><br>	What is the difference between a normal variable and a pointer variable declaration	*	&	(	)	A	1<br>	
+<br><br>	int a=<br>; int *p; p=&a;printf("p=%d",p); output	address of a	address of p	garbage value	0	A	1<br>	
+<br><br>	Which of the following operation is illegal in structures?	Typecasting of structure	Pointer to a variable of the same structure	 Dynamic allocation of memory for structure	All of the mentioned	A	1<br>	<br>
+<br><br>	#include <stdio.h>  struct temp {     int m[<br>0];     char p;   }; What will be the size of the following structure?	<br>	<br>	<br>1	<br><br>	C	1<br>	<br>
+<br><br>	//Let P be a structure    //Let Q be a union Which among the following is never possible in C when members in a structure are same as that in a union?	Sizeof(P) is less than to sizeof(Q)	sizeof(P) is equal to sizeof(Q)	Sizeof(Q) is less than to sizeof(P)	None	A	1<br>	<br>
+<br><br>	Choose a correct statement about C structures.	A structure can contain same structure type member.	A structure size is limited by only physical memory of that PC.	You can define an unlimited number of members inside a structure.	All the above.	D	1<br>	<br>
+<br><br>	What are the uses of C Structures.?	structure is used to implement Linked Lists, Stack and Queue data structures	Structures are used in Operating System functionality like Display and Input taking.	Structure are used to exchange information with peripherals of PC	All the above	D	1<br>	<br>
+<br>0	A C Structure or User defined data type is also called.?	Derived data type	pointer type	address type	None	A	1<br>	<br>
+<br>1	What is the size of a C structure.?	C structure is always 1<br><br> bytes.	Size of C structure is the total bytes of all elements of structure.	Size of C structure is the size of largest element.	None	B	1<br>   <br>	
+<br><br>	int main() {    struct ship    {       };    return 0;  } Choose a correct statement about  this C structure.?	It is wrong to define an empty structure	Member variables can be added to a structure even after its first definition.	There is no use of defining an empty structure	None	C	1<br>	<br>
+<br><br>	Size of integer pointer	<br> Bytes	<br> Bytes	1 Byte	<br> Bytes	A	1<br>	<br>
+<br><br>	Size of character pointer	1 Byte	<br> bytes	<br> bytes	<br> Bytes	B	1<br>	<br>
+<br><br>	What is (void*)0?	Representation of void pointer	Representation null pointer	Error	NONE OF THE ABOVE	B	1<br>	<br>
+<br><br>	Are the expression *ptr++ and ++*ptr are same?	Compile error	TRUE	FALSE	system dependent	C	1<br>	<br>
+<br><br>	Is there any difference between the following two statements? char *p=0;   char *t=NULL;	Compile error	Yes	No	system dependent	C	1<br>	<br>
+<br><br>	Pointer is special kind of variable which is used to stored __________ of the variable.	value	variable	datatype	address	D	1<br>	<br>
+<br><br>	Pointer variable is declared using preceding _________ sign.	%	&	*	^	C	1<br>	
+<br>0	Address stored in the pointer variable is of type __________.	float	integer	character	array	B	1<br>	
+  
+  
+  
+  
+		Unit <br>						
+s.no	QUESTIONS	A	B	C	D	ANSWERS	 	 
+1<br>1	Which of the following true about FILE *fp ?	FILE is a keyword in C for representing files and fp is a variable of FILE type	FILE is a structure and fp is a pointer to the structure of FILE type	FILE is a stream	FILE is a buffered stream	B	1<br>	
+1<br><br>	When fopen() is not able to open a file, it returns?	EOF	NULL	Runtime Error	Compiler Dependent	B	1<br>	
+1<br><br>	getc() returns EOF when	End of files is reache	When getc() fails to read a character	Both of the above	None of the above	C	1<br>	 
+1<br><br>	fseek() should be preferred over rewind() mainly because	rewind() doesn't work for empty files	rewind() may fail for large files	In rewind, there is no way to check if the operations completed successfully	All of the above	C	1<br>	  
+1<br><br>	What is the sequence for preprocessor to look for the file within <> ?	The predefined location then the current directory	The current directory then the predefined location	The predefined location only	The current directory location	A	1<br>	  
+1<br><br>	What would happen if you create a file stdio.h and use #include “stdio.h” ?	The predefined library file will be selected	The user-defined library file will be selected	Both the files will be included	The compiler won’t accept the program	B	1<br>	  
+1<br><br>	Can function definition be present in header files?	Yes	No	Depends on the compiler	Depends on the standard	A	1<br>	  
+1<br><br>	If the file name is enclosed in double quotation marks	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	A	1<br>	  
+1<br><br>	If the file name is enclosed in angle brackets	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	B	1<br>	  
+1<br>0	The below two lines are equivalent to  #define C_IO_HEADER    #include C_IO_HEADER <br>	#include	#include”printf”	#include”C_IO_HEADER”	#include	D	1<br>	   <br>
+1<br>1	The first and second arguments of fopen are?	A character string containing the name of the file & the second argument is the mode.	A character string containing the name of the user & the second argument is the mode.	A character string containing file poniter & the second argument is the mode.	None of the mentioned of the mentione	A	1<br>	  <br>
+1<br><br>	For binary files, a ___ must be appended to the mode string.	Nothing	“b”	“binary”	“binary”	A	1<br>	<br> 
+1<br><br>	If there is any error while opening a file, fopen will return?	Nothing	EOF	NULL	All of the above	C	1<br>	  <br>
+1<br><br>	Which is true about getc.getc returns?	The next character from the stream referred to by file pointer B. EOF for end of file or error	 	BOTH A&B	Nothing	C	1<br>	<br>  
+1<br><br>	When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?	Standard input	Standard output	Standard error	All of the mentioned	D	1<br>	   <br>
+1<br><br>	What is the meant by ‘a’ in the following operation? fp = fopen(“Random.txt”, “a”);	Attach	Append	Apprehend	Add	B	1<br>	   <br>
+1<br><br>	Which of the following mode argument is used to truncate?	a	f	w	t	C	1<br>	   <br>
+1<br><br>	Which type of files can’t be opened using fopen()?	.txt	.bin	.c	NONE OF THEM	D 	1<br>	<br>  
+1<br><br>	Which of the following fopen statements are illegal?	fp = fopen(“abc.txt”, “r”);	fp = fopen(“/home/user1/abc.txt”, “w”);	fp = fopen(“abc”, “w”);	None of the mentione	D	1<br>	<br>  
+1<br>0	What does the following segment of code do? fprintf(fp, “Copying!”);	It writes “Copying!” into the file pointed by fp	It reads “Copying!” from the file and prints on display	It writes as well as reads “Copying!” to and from the file and prints it	None of the mentioned	A	1<br>	   <br>
+1<br>1	FILE reserved word is?	A structure tag declared in stdio.h	One of the basic datatypes in c	Pointer to the structure defined in stdio.h	It is a type name defined in stdio.h	D 	1<br>	<br> 
+1<br><br>	stdout, stdin and stderr are?	File pointer	File desciptors	Both connected to screen by default.	stdout is line buffered but stderr is unbuffere	C	1<br>	 
+1<br><br>	In context to file handling, Which of the following are file handling operations ?	opening	closing	read/write	all of above	D	1<br>	 
+1<br><br>	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	1<br>	  
+1<br><br>	what does fclose() returns on success	1	NULL	0	EOF	C	1<br>	  
+1<br><br>	what does fclose() returns if there are errors	1	NULL	0	EOF	D	1<br>	  
+1<br><br>	Number of aruments that fputc() takes is	1	<br>	<br>	<br>	B	1<br>	  
+1<br><br>	The function of fputc() is	writes a character	writes a string	Botha A&B	Reads a character	A	1<br>	  
+1<br><br>	Number of arguments that fgetc() takes is	1	<br>	0	<br>	A	1<br>	  
+1<br>0	Number of arguments that fread() takes is	1	<br>	<br>	<br>	D	1<br>	  
+1<br>1	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	1<br>	 
+1<br><br>	Which is not a function related to files	fputc()	fgetc()	gets()	fgets()	C	1<br>	 
+1<br><br>	Types of files that C supports	text files	binary files	both A&B	header files	C	1<br>	 
+1<br><br>	rb mode In fopen() specifies	reading mode	writing mode	read and write mode	reading in binary mode	D	1<br>	  
+1<br><br>	The formal fseek() function takes ___no of arguments	1	<br>	<br>	<br>	C	1<br>	  
+1<br><br>	File *f;  Here File is	data type	variable	pointer	All of the above	B	1<br>	  
+1<br><br>	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	1<br>	  
+1<br><br>	ftell() returns ?	0	EOF	1	current position of pointer	D	1<br>	  
+1<br><br>	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	1<br>	  
+1<br>0	____ type variable is used to specify file pointer	integer	File	Double	Char	B	1<br>	  
+1<br>1	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	1<br> <br>	 
+1<br><br>	whic oh the following is not a file operation	read	write	sort	read and write	C	1<br>	  <br>
+1<br><br>	remove() function	removes a file	removes a character	removes a stirng	B&C	A	1<br>	  <br>
+1<br><br>	Seek_set() function	sets pointer to beginning	sets pointer to end	Disables pointer	enables pointer	A	1<br>	   <br>
+1<br><br>	Seek_cur() function	sets pointer to specifies position	sets pointer to end of the file	enables  the pointer	diables the pointer	A	1<br>	<br>  
+1<br><br>	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	1<br>	   <br>
+1<br><br>	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	1<br>	<br>  
+1<br><br>	is it possible to pass an array into a file in C	yes	No	depends on compilers	A&C	A	1<br>	   <br>
+1<br><br>	Formal way of declaring a file header in C	#include<file>	#include<files>	#include<file.h>	#include<files.h>	D	1<br>	   <br>
+1<br>0	file ponter is	a pointer to variable	a pointer to structure of file	location of file	Information of file	B	1<br>	   <br>
+1<br>1	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	1<br>	  <br>
+1<br><br>	Types of files that C supports	text files	binary files	both A&B	header files	C	1<br>	<br> 
+1<br><br>	The formal fseek() function takes ___no of arguments	1	<br>	<br>	<br>	C	1<br>	  <br>
+1<br><br>	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	1<br>	 <br>
+ 
+1<br><br>	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	1<br>	  <br>
+
+1<br><br>	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	1<br>	  
+1<br><br>	whic oh the following is not a file operation	read	write	sort	read and write	C	1<br>	  
+1<br><br>	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	1<br>	  
+1<br><br>	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	1<br>	  
+<br>00	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	1<br>	  
+
+
+
+	
 
 
 
