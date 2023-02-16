@@ -12,952 +12,209 @@
 <h1>HI </h1>
 
 <blockquote>
-  Unit IV	 	
-S.NO	QUESTION	A	B	C	D	ANSWER	 	
-1	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	1	
-2	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	1	
-3	Global variables are:	Internal	external	both	none of the above	B	1	
-4	Every executable C programme must contain	printf()	printf() and scanf()	main()	all the above	C	1	
-5	The keyword used to transfer control from a function back to the calling function is	break	return	goto	continue	B	1	
-6	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	1	
-7	How many valu1es a function can return at a time	only one	depends on system	any no of values	2	A	1	
-8	The function is used to reverse a string	revstr()	strrev()	reverse()	strreverse()	B	1	
-9	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	1	
-10	When compared to call by value, the call by reference is_________in execution	faster	slow	neither fast nor slow	nocomparision	A	1	
-11	The statement used to terminate program function is	return	continue	exit	break	C	2	
-12	What is the output of this C code?       
-int main()  {
-void foo(), f();
-f(); }
-void foo() {
-printf("2 ");}
-void f() {
-printf("1 ");
-foo(); }	 Compile time error as foo is local to main	 1   2	2  1	Compile time error due to declaration of functions inside main	B	2	
-13	What is the output of this C code?
- int main()
-{ void foo(); 
-void f() {
- foo(); }
-f(); }
-void foo() {
-printf("2 ");  }	2 2	2	   Compile time error	 Depends on the compiler	B	2	
-14	functions can return structure in c?	FALSE	TRUE	system dependent	compiler dependent	B	2	
-15	What is the default return type if it is not specified in function definition?	VOID	int	char	double	B	2	
-16	What is the problem in the following declarations?     
-int func(int);
-double func(int); 
-int func(float);	    A function with same name cannot have different signatures	A function with same name cannot have different return types	A function with same name cannot have different number of parameters	   All of the mentioned	D	2	
-17	What is the return-type of the function sqrt()	int	float	double	depends on data type of the parameter	D	2	
-18	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	2	
-19	Will the program compile?  #include<stdio.h> 
-int main() { 
-char str[5] = "ASTIWZ"; 
-return 0; }	Compile error	Runtime Error	yes	No	C	2	
-20	What is the output of this C code?
-void m() { 
-printf("hi"); } 
-void main(){ 
-m();
-}	hi	Runtime Error	Compile time error	none of the above	A	2	
-21	What will happen after running the code ?   
-Main() {
- printf("%u",main); }	Error	Will make an infinite loop	Some address will be printed	none of the above	C	3	
-22	Use of functions	Enhances logical clarity	reduces repeated programming	makes debugging easy	All of the above	D	3	
-23	Any C program   must contain	at least one function	need not contain any  function	needs input data	none of the above	A	3	
-24	What is a function	A block of statements that performs a task	fundamental modular unit	block of code that can be reusable	All of the ABOVE	D	3	
-25	The default parameter passing mechanism is	Call by value	Call by reference	Call by value result	none of the above	A	3	
-26	Find output 
-main() { 
-int i=5; 
-printf("%d %d %d %d %d",i++,i--,++I,--I,i);}	5 4 5 4 4	4 5 4 4 5	5 4 5 5  4	4 5 5 4 5	D	3	
-27	Pick the correct statement	Function may have one return statement	Function may have many return statements	a function can return multiple values	with out return function returns  value	B	3	
-28	Guess the output  
-main(){ 
-static int i=3; 
- printf("%d",i--); 
-if(i) 
-main(); }	3 3 3	3 2 1	infinite loop	Compile error	B	3	
-29	which of the following is a complete function?	int f();	int f(int x) { return x+1;}	void f(int) { printf("hi"); }	void f(x){ return printf("hi"); }	B	3	
-30	recursive functions are executed in	Parallel order	First in first out order	last in Fistout order	sequential order	C	3	
-31	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	4	
-32	The function printf() returns	The actual values write for each argument	1	The number of charecters written	0	C	4	
-33	Functions have	local scope	Function scope	File scope	block scope	C	4	
-34	Which of the following functions calculates square of x in C	sqr(x)	pow(2,x)	pow(x,2)	power(2,x)	C	4	
-35	When a function is recursively called all automatic variables are stored in	Stack	queue	Array	Register	A	4	
-36	find the error in 
-f(int a,int b) 
-{ int a; a=20; }	missing paranthesis in return	redeclaration of a	the function should be defined as int f(int,int)	none of the above	B	4	
-37	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	4	
-38	A function canot be defined inside another function	Error	yes	no	none of the above	B	4	
-39	Functions cannot return a floating point number	Error	Yes	No	none of the above	C	4	
-40	Functions cannot return more than one value	Error	Yes	No	None of the above	B	4	
-41	Every function must return a value	Yes	Error	No	none of the above	C	5	
-42	If return type for a function is not specified, it defaults to 	void	int	nothing	Compile error	B	5	
-43	If a function contains two return statements successively, the compiler will generate 	eRROR	Warnings	No error	No warnings	B	5	
-44	Maximum number of arguments that a function can take is	10	20	12	none of the above	D	5	
-45	Maximum number of arguments that a function can take is	127	255	256	2	A	5	
-46	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	5	
-47	What is the output of this C code? 
-Void m(){ 
-printf("hi");} 
-void main()
-{
-m();
-}	Error	nothing	hi	Varies	C	5	
-48	What is the output of this C code?
- void main()
-{
-m(); 
-void m() 
-{ 
-printf("hi");}
- }	Error	nothing	hi	Varies	A	5	
-49	 Which of the following is a correct format for declaration of function?	return type functionname(argument type){ }	return type functionname(argument type);	returntype (argumenttype) function name;	Both a and b	B	5	
-50	Which of the following function declaration is illegal?	int 1bhk(int);	int 1bhk(int a);	int 2bhk(int*, int []);	All of the ABOVE	D	5	
-51	Can we use a function as a parameter of another function? [ Eg: void wow(int func()) ]	Yes, and we can use the function value conveniently	Yes, but we call the function again to get the value, not as convenient as in using variable	No, C does not support it.	This case is compiler dependent	C	6	
-53	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	6	
-54	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	6	
-55	Global variables are:	Internal	External	both	none of the above	B	6	
-56	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	6	
-57	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	6	
-58	Maximum number of arguments that a function can take is	10	50	100	none of the above	D	6	
-59	A function canot be defined inside another function	Error	yes	no	none of the above	B	6	
- 	 	
-60	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	6	
-61	The function printf() returns	The actual values write for each argument	0	The number of charecters written	1	C	6	
-62	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	7	
-63	The keyword used to transfer control from a function back to the calling function is	goto	switch	break	return	D	7	
-64	Point out the error in the program
-
-
-f(int a, int b)
-{
-    int a;
-    a = 20;
-    return a;
-}	Missing parenthesis in return statement	The function should be defined as int f(int a, int b)	Redeclaration of a	None of the above	C	7	
-65	Point out the error in the program
-
-#include<stdio.h>
-
-int main()
-{
-    int a=10;
-    void f();
-    a = f();
-    printf("%d\n", a);
-    return 0;
-}
-void f()
-{
-    printf("Hi");
-}	Error: Not allowed assignment	Error: Doesn't print anything	No error	None of the above	A	7	
-66	A function cannot be defined inside another function	TRUE	FALSE	None of the above	 	A	7	
-67	In C all functions except main() can be called recursively.	TRUE	FALSE	None of the above	 	B	7	
-68	#include<stdio.h>
-
-int main()
-{
-    int fun();
-    int i;
-    i = fun();
-    printf("%d\n", i);
-    return 0;
-}
-int fun()
-{
-    _AX = 1990;
-}	Garbage value	0 (Zero)	1990	No output	C	7	
-69	#include<stdio.h>
-void fun(int*, int*);
-int main()
-{
-    int i=5, j=2;
-    fun(&i, &j);
-    printf("%d, %d", i, j);
-    return 0;
-}
-void fun(int *i, int *j)
-{
-    *i = *i**i;
-    *j = *j**j;
-}	25,4	10,1	2,4	none	A	7	
-70	#include<stdio.h>
-int i;
-int fun();
-
-int main()
-{
-    while(i)
-    {
-        fun();
-        main();
-    }
-    printf("Hello\n");
-    return 0;
-}
-int fun()
-{
-    printf("Hi");
-}	Hello	HiHello	error	none	A	7	
-71	#include<stdio.h>
-
-int main()
-{
-    void fun(char*);
-    char a[100];
-    a[0] = 'A'; a[1] = 'B';
-    a[2] = 'C'; a[3] = 'D';
-    fun(&a[0]);
-    return 0;
-}
-void fun(char *a)
-{
-    a++;
-    printf("%c", *a);
-    a++;
-    printf("%c", *a);
-}	BC	AB	BA	NONE	A	7	
-
-
-Unit IV	 	
-S.NO	QUESTION	A	B	C	D	ANSWER	 	
-1	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	1	<br>
-<br>	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	1	<br>
-
-<br>	Global variables are:	Internal	external	both	none of the above	B	<br>	
-<br>	Every executable C programme must contain	printf()	printf() and scanf()	main()	all the above	C	<br>
-
-<br>	The keyword used to transfer control from a function back to the calling function is	break	return	goto	continue	B	1	<br>
-
-<br>	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	1	<br>
-
-<br>	How many valu1es a function can return at a time	only one	depends on system	any no of values	<br>	A	1	<br>
-
-<br>	The function is used to reverse a string	revstr()	strrev()	reverse()	strreverse()	B	1	<br>
-
-<br>	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	1	<br>
-
-<br>	When compared to call by value, the call by reference is_________in execution	faster	slow	neither fast nor slow	nocomparision	A	1	<br>
-
-<br>	The statement used to terminate program function is	return	continue	exit	break	C	<br>	<br>
-
-1<br>	What is the output of this C code?       
-int main()  {
-void foo(), f();
-f(); }
-void foo() {
-printf("<br> ");}
-void f() {
-printf("1 ");
-foo(); }	 Compile time error as foo is local to main	 1   <br>	<br>  1	Compile time error due to declaration of functions inside main	B	<br>	<br>
-
-1<br>	What is the output of this C code?
- int main()
-{ void foo(); 
-void f() {
- foo(); }
-f(); }
-void foo() {
-printf("<br> ");  }	<br> <br>	<br>	   Compile time error	 Depends on the compiler	B	<br>	<br>
-
-1<br>	functions can return structure in c?	FALSE	TRUE	system dependent	compiler dependent	B	<br><br>
-	
-1<br>	What is the default return type if it is not specified in function definition?	VOID	int	char	double	B	<br>	Unit IV	 	
-S.NO	QUESTION	A	B	C	D	ANSWER	 	
-1	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	1	<br>
-<br>	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	1	<br>
-
-<br>	Global variables are:	Internal	external	both	none of the above	B	<br>	
-<br>	Every executable C programme must contain	printf()	printf() and scanf()	main()	all the above	C	<br>
-
-<br>	The keyword used to transfer control from a function back to the calling function is	break	return	goto	continue	B	1	<br>
-
-<br>	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	1	<br>
-
-<br>	How many valu1es a function can return at a time	only one	depends on system	any no of values	<br>	A	1	<br>
-
-<br>	The function is used to reverse a string	revstr()	strrev()	reverse()	strreverse()	B	1	<br>
-
-<br>	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	1	<br>
-
-<br>	When compared to call by value, the call by reference is_________in execution	faster	slow	neither fast nor slow	nocomparision	A	1	<br>
-
-<br>	The statement used to terminate program function is	return	continue	exit	break	C	<br>	<br>
-
-1<br>	What is the output of this C code?       
-int main()  {
-void foo(), f();
-f(); }
-void foo() {
-printf("<br> ");}
-void f() {
-printf("1 ");
-foo(); }	 Compile time error as foo is local to main	 1   <br>	<br>  1	Compile time error due to declaration of functions inside main	B	<br>	<br>
-
-1<br>	What is the output of this C code?
- int main()
-{ void foo(); 
-void f() {
- foo(); }
-f(); }
-void foo() {
-printf("<br> ");  }	<br> <br>	<br>	   Compile time error	 Depends on the compiler	B	<br>	<br>
-
-1<br>	functions can return structure in c?	FALSE	TRUE	system dependent	compiler dependent	B	<br><br>
-	
-1<br>	What is the default return type if it is not specified in function definition?	VOID	int	char	double	B	<br>	
-1<br>	What is the problem in the following declarations?     
-int func(int);
-double func(int); 
-int func(float);	    A function with same name cannot have different signatures	A function with same name cannot have different return types	A function with same name cannot have different number of parameters	   All of the mentioned	D	<br>	
-1<br>	What is the return-type of the function sqrt()	int	float	double	depends on data type of the parameter	D	<br>	
-1<br>	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	<br>	
-1<br>	Will the program compile?  #include<stdio.h> 
-int main() { 
-char str[<br>] = "ASTIWZ"; 
-return 0; }	Compile error	Runtime Error	yes	No	C	<br>	
-<br>0	What is the output of this C code?
-void m() { 
-printf("hi"); } 
-void main(){ 
-m();
-}	hi	Runtime Error	Compile time error	none of the above	A	<br>	
-<br>1	What will happen after running the code ?   
-Main() {
- printf("%u",main); }	Error	Will make an infinite loop	Some address will be printed	none of the above	C	<br>	
-<br><br>	Use of functions	Enhances logical clarity	reduces repeated programming	makes debugging easy	All of the above	D	<br>	
-<br><br>	Any C program   must contain	at least one function	need not contain any  function	needs input data	none of the above	A	<br>	
-<br><br>	What is a function	A block of statements that performs a task	fundamental modular unit	block of code that can be reusable	All of the ABOVE	D	<br>	
-<br><br>	The default parameter passing mechanism is	Call by value	Call by reference	Call by value result	none of the above	A	<br>	
-<br><br>	Find output 
-main() { 
-int i=<br>; 
-printf("%d %d %d %d %d",i++,i--,++I,--I,i);}	<br> <br> <br> <br> <br>	<br> <br> <br> <br> <br>	<br> <br> <br> <br>  <br>	<br> <br> <br> <br> <br>	D	<br>	
-<br><br>	Pick the correct statement	Function may have one return statement	Function may have many return statements	a function can return multiple values	with out return function returns  value	B	<br>	
-<br><br>	Guess the output  
-main(){ 
-static int i=<br>; 
- printf("%d",i--); 
-if(i) 
-main(); }	<br> <br> <br>	<br> <br> 1	infinite loop	Compile error	B	<br>	
-<br><br>	which of the following is a complete function?	int f();	int f(int x) { return x+1;}	void f(int) { printf("hi"); }	void f(x){ return printf("hi"); }	B	<br>	
-<br>0	recursive functions are executed in	Parallel order	First in first out order	last in Fistout order	sequential order	C	<br>	
-<br>1	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	<br>	
-<br><br>	The function printf() returns	The actual values write for each argument	1	The number of charecters written	0	C	<br>	
-<br><br>	Functions have	local scope	Function scope	File scope	block scope	C	<br>	
-<br><br>	Which of the following functions calculates square of x in C	sqr(x)	pow(<br>,x)	pow(x,<br>)	power(<br>,x)	C	<br>	
-<br><br>	When a function is recursively called all automatic variables are stored in	Stack	queue	Array	Register	A	<br>	
-<br><br>	find the error in 
-f(int a,int b) 
-{ int a; a=<br>0; }	missing paranthesis in return	redeclaration of a	the function should be defined as int f(int,int)	none of the above	B	<br>	
-<br><br>	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	<br>	
-<br><br>	A function canot be defined inside another function	Error	yes	no	none of the above	B	<br>	
-<br><br>	Functions cannot return a floating point number	Error	Yes	No	none of the above	C	<br>	
-<br>0	Functions cannot return more than one value	Error	Yes	No	None of the above	B	<br>	
-<br>1	Every function must return a value	Yes	Error	No	none of the above	C	<br>	
-<br><br>	If return type for a function is not specified, it defaults to 	void	int	nothing	Compile error	B	<br>	
-<br><br>	If a function contains two return statements successively, the compiler will generate 	eRROR	Warnings	No error	No warnings	B	<br>	
-<br><br>	Maximum number of arguments that a function can take is	<br>	<br>0	1<br>	none of the above	D	<br>	
-<br><br>	Maximum number of arguments that a function can take is	1<br><br>	<br><br><br>	<br><br><br>	<br>	A	<br>	
-<br><br>	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	<br>	
-<br><br>	What is the output of this C code? 
-Void m(){ 
-printf("hi");} 
-void main()
-{
-m();
-}	Error	nothing	hi	Varies	C	<br>	
-<br><br>	What is the output of this C code?
- void main()
-{
-m(); 
-void m() 
-{ 
-printf("hi");}
- }	Error	nothing	hi	Varies	A	<br>	
-<br><br>	 Which of the following is a correct format for declaration of function?	return type functionname(argument type){ }	return type functionname(argument type);	returntype (argumenttype) function name;	Both a and b	B	<br>	
-<br>0	Which of the following function declaration is illegal?	int 1bhk(int);	int 1bhk(int a);	int <br>bhk(int*, int []);	All of the ABOVE	D	<br>	
-<br>1	Can we use a function as a parameter of another function? [ Eg: void wow(int func()) ]	Yes, and we can use the function value conveniently	Yes, but we call the function again to get the value, not as convenient as in using variable	No, C does not support it.	This case is compiler dependent	C	<br>	
-<br><br>	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	<br>	
-<br><br>	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	<br>	
-<br><br>	Global variables are:	Internal	External	both	none of the above	B	<br>	
-<br><br>	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	<br>	
-<br><br>	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	<br>	
-<br><br>	Maximum number of arguments that a function can take is	<br>	<br>0	<br>0	none of the above	D	<br>	
-<br><br>	A function canot be defined inside another function	Error	yes	no	none of the above	B	<br>	
- 	 	
-<br>0	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	<br>	
-<br>1	The function printf() returns	The actual values write for each argument	0	The number of charecters written	1	C	<br>	
-<br><br>	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	<br>	
-<br><br>	The keyword used to transfer control from a function back to the calling function is	goto	switch	break	return	D	<br>	
-<br><br>	Point out the error in the program
-
-
-f(int a, int b)
-{
-    int a;
-    a = <br>0;
-    return a;
-}	Missing parenthesis in return statement	The function should be defined as int f(int a, int b)	Redeclaration of a	None of the above	C	<br>	
-<br><br>	Point out the error in the program
-
-#include<stdio.h>
-
-int main()
-{
-    int a=<br>;
-    void f();
-    a = f();
-    printf("%d\n", a);
-    return 0;
-}
-void f()
-{
-    printf("Hi");
-}	Error: Not allowed assignment	Error: Doesn't print anything	No error	None of the above	A	<br>	
-<br><br>	A function cannot be defined inside another function	TRUE	FALSE	None of the above	 	A	<br>	
-<br><br>	In C all functions except main() can be called recursively.	TRUE	FALSE	None of the above	 	B	<br>	
-<br><br>	#include<stdio.h>
-
-int main()
-{
-    int fun();
-    int i;
-    i = fun();
-    printf("%d\n", i);
-    return 0;
-}
-int fun()
-{
-    _AX = 1<br><br>0;
-}	Garbage value	0 (Zero)	1<br><br>0	No output	C	<br>	
-<br><br>	#include<stdio.h>
-void fun(int*, int*);
-int main()
-{
-    int i=<br>, j=<br>;
-    fun(&i, &j);
-    printf("%d, %d", i, j);
-    return 0;
-}
-void fun(int *i, int *j)
-{
-    *i = *i**i;
-    *j = *j**j;
-}	<br><br>,<br>	<br>,1	<br>,<br>	none	A	<br>	
-<br>0	#include<stdio.h>
-int i;
-int fun();
-
-int main()
-{
-    while(i)
-    {
-        fun();
-        main();
-    }
-    printf("Hello\n");
-    return 0;
-}
-int fun()
-{
-    printf("Hi");
-}	Hello	HiHello	error	none	A	<br>	
-<br>1	#include<stdio.h>
-
-int main()
-{
-    void fun(char*);
-    char a[<br>0];
-    a[0] = 'A'; a[1] = 'B';
-    a[<br>] = 'C'; a[<br>] = 'D';
-    fun(&a[0]);
-    return 0;
-}
-void fun(char *a)
-{
-    a++;
-    printf("%c", *a);
-    a++;
-    printf("%c", *a);
-}	BC	AB	BA	NONE	A	<br>	
-
-
- 	UNIT - V	 	 	 	 	
-SNO	QUESTION	A	B	C	D	CORRECT ANSWER	Topic No	
-1	#include <stdio.h>  struct temp {      int a[<br>];      char p; };	<br>	<br>	<br>1	<br><br>	B	<br>	
-<br>	Structure holds __________ variables at a time	all	single	two lines at atime	none	A	<br>	<br>
-<br>	Which operator is used for accessing  members of the structure?	dot(.)operator	Arrow Operator(->)	* operator	none	A	<br>	<br>
-<br>	Union holds __________ variables at a time	all	single	two lines at atime	none	B	<br>	<br>
-<br>	Structure is a -------------	primitive data type	derived type	both	none	B	<br>	
-<br>	Which operator is used for accessing members of the union?	dot(.)operator	Arrow Operator(->)	* operator	none	A	<br>	<br>
-<br>	The size of union is -----------of the union member.	Highest type	Lowest type	Sum of all members	none	A	<br>	<br>
-<br>	Which of the following operator used for accessing pointer to structure member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	<br>	<br>
-<br>	Which is the example for derived type?	Arrays	Structure	union	all	D	<br>	<br>
-<br>	Which is the example for Primitive data type?	Arrays	Structure	union	none	D	<br>	
-<br>	What is the keyword used for declaring structure?	struct	union	typedef	none	D	<br>	
-1<br>	What is the keyword used for declaring union?	struct	union	typedef	none	D	<br>	
-1<br>	which of the following statement is true.	Structure contains another structure	Structure contains union	Structures can be passed as a 
-parameter to function.	all	D	<br>	
-1<br>	________is a collection of different types of data types.	structure	union	both a and b	none	C	<br>	
-1<br>	_______is a collection of similar types of data types	structure	union	array	none	C	<br>	
-1<br>	The accessing of structure member can be done through which operator.	dot(.)	*	/	@	A	<br>	
-1<br>	Typedef int eee<br>; eee<br>   a,b;    printf(“%d%d”,a,b);outout-----------------	Zunk value Zunk value	<br> <br>0	<br> <br>0	none	A	<br>	
-1<br>	enum day{a=<br>,b,c); The value of b is----------------------	<br>	<br>	1<br>	none	A	<br>	
-1<br>	What is the operator used for  accessing pointer to union member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	<br>	
-<br>0	Which of the following is valid?	eee int a,b ;	struct student s1;	student struct s1;	none	B	<br>	
-<br>1	which  of the following is invalid?	int a,b ;	struct student s1;	student struct s1;	none	C	<br>	
-<br><br>	which is the function used for allocation single block of memory.	malloc()	calloc()	free()	none	A	<br>	
-<br><br>	which is the function used for allocation multiple blocks of memory.	malloc()	calloc()	free()	none	B	<br>	
-<br><br>	which is the function used for reallocating the memory once we allocated.	malloc()	calloc()	realloc()	none	C	<br>	
-<br><br>	which is the function used for freeing the memory space.	malloc()	calloc()	free()	none	C	<br>	<br>
-<br><br>	typedef int eee<br>;eee<br> a,b,c;c=a+b; what is the value of c	garbage value	0	1	<br>	A	<br> <br>	
-<br><br>	User-defined data type can be created  by___________	struct	enum	union	none	B	<br>	<br>
-<br><br>	Which of the following cannot be a structure member?	 Another structure
-Function	Array	none	B	<br>	<br>
-<br><br>	struct test { int k;char c;};size of structure is------------	<br>	<br>	1	1<br>	A	<br>	<br>
-<br>0	Which of the following share a similarity in syntax?	union	structure	array	both a and b	D	<br>	<br>
-<br>1	Which of the following data types are accepted while declaring bit-fields?	char	float	double	int	D	<br>	<br>
-<br><br>	struct {int a:<br> ;int b:<br> }; size of strcture is	<br> bits	<br> bits	<br> bits	none	A	<br>	<br>
-<br><br>	Which of the following is not allowed?	Arrays of bit fields	Pointers to bit fields	. Functions returning bit fields	all	D	<br>	<br>
-<br><br>	Bit fields can only be declared as part of a structure.	FALSE	TRUE	nothing	none	A	<br>	<br>
-<br><br>	Can we declare function inside structure of C Programming?	yes	no	depends on compliler	runtime error	A	<br>	<br>
-<br><br>	int main() {struct xyz{    char * n;   int eos;};struct xyz x = {"cppbuzz", <br>01<br>};
-struct xyz y=x;printf("%d", printf("%s",y.n));return 0;output of the program------	cppbuzz	<br>cppbuzz	<br>cppbuzz	 cppbuzz<br>	D	<br>	<br>
-<br><br>	What is important difference between structure & union?	There is no difference	Union takes less memory	Union is faster	Structure is faster	B	<br>	<br>
-<br><br>	Is it necessary that all elements of structure should be different in size?	Yes	no	depends on compiler	none	B	<br>	<br>
-<br><br>	Are self referential structures are possible in C? 	Yes	no	depends on compiler	none	A	<br>	<br>
-<br>0	Can we compare two structures using any built in operator?	Yes	no	depends on compiler	none	A	<br>	
-<br>1	Which predefined function is used to write whole structure into a file ?	write()	fwrite()	 swrite()	none	B	1<br>	
-<br><br>	Which predefined function is used to read whole structure into a file ?	write()	fwrite()	 swrite()	fread()	D	1<br>	
-<br><br>	Which of the following accesses a variable in structure b?	b.var	b->var	.b>var	none	A	1<br>	
-<br><br>	Which of the following accesses a variable in a pointer to a structure, *b?	b.var	b->var	.b>var	none	B	1<br>	
-<br><br>	Which of the following is a properly defined struct?	struct {int a;}	. struct a_struct {int a;}	struct a_struct int a;	struct a_struct {int a;};	A	1<br>	
-<br><br>	Which properly declares a variable of struct foo?	struct foo;	struct foo var;	foo;	int foo;	B	1<br>	
-<br><br>	A union can be nested in a structure.	TRUE	FALSE	depends on complier	none	A	1<br>	
-<br><br>	The elements of union and structure are always accessed using & operator.	&	Arrow Operator(->)	*	none	B	1<br>	
-<br><br>	struct employ  {    int ecode;     struct employ e;  };	Linked Error	Error: in structure declaration	No error	NONE	A	1<br>	
-<br>0	int main() { enum { GREAT, is=<br>, india };         printf("%d %d", GREAT, india);  output	0 1	0 <br>	0 <br>	none	C	1<br>	
-<br>1	The concept of structure within a  structure is known as __________	SelfReferential Structures	Nested Structures	Pointers within structures	structure arrays	B	1<br>	
-<br><br>	A member variable of a structure can be of any ___________	Datatype	variable	keyword	none	A	1<br>	
-<br><br>	What is the difference between a normal variable and a pointer variable declaration	*	&	(	)	A	1<br>	
-<br><br>	int a=<br>; int *p; p=&a;printf("p=%d",p); output	address of a	address of p	garbage value	0	A	1<br>	
-<br><br>	Which of the following operation is illegal in structures?	Typecasting of structure	Pointer to a variable of the same structure	 Dynamic allocation of memory for structure	All of the mentioned	A	1<br>	<br>
-<br><br>	#include <stdio.h>  struct temp {     int m[<br>0];     char p;   }; What will be the size of the following structure?	<br>	<br>	<br>1	<br><br>	C	1<br>	<br>
-<br><br>	//Let P be a structure    //Let Q be a union Which among the following is never possible in C when members in a structure are same as that in a union?	Sizeof(P) is less than to sizeof(Q)	sizeof(P) is equal to sizeof(Q)	Sizeof(Q) is less than to sizeof(P)	None	A	1<br>	<br>
-<br><br>	Choose a correct statement about C structures.	A structure can contain same structure type member.	A structure size is limited by only physical memory of that PC.	You can define an unlimited number of members inside a structure.	All the above.	D	1<br>	<br>
-<br><br>	What are the uses of C Structures.?	structure is used to implement Linked Lists, Stack and Queue data structures	Structures are used in Operating System functionality like Display and Input taking.	Structure are used to exchange information with peripherals of PC	All the above	D	1<br>	<br>
-<br>0	A C Structure or User defined data type is also called.?	Derived data type	pointer type	address type	None	A	1<br>	<br>
-<br>1	What is the size of a C structure.?	C structure is always 1<br><br> bytes.	Size of C structure is the total bytes of all elements of structure.	Size of C structure is the size of largest element.	None	B	1<br>   <br>	
-<br><br>	int main() {    struct ship    {       };    return 0;  } Choose a correct statement about  this C structure.?	It is wrong to define an empty structure	Member variables can be added to a structure even after its first definition.	There is no use of defining an empty structure	None	C	1<br>	<br>
-<br><br>	Size of integer pointer	<br> Bytes	<br> Bytes	1 Byte	<br> Bytes	A	1<br>	<br>
-<br><br>	Size of character pointer	1 Byte	<br> bytes	<br> bytes	<br> Bytes	B	1<br>	<br>
-<br><br>	What is (void*)0?	Representation of void pointer	Representation null pointer	Error	NONE OF THE ABOVE	B	1<br>	<br>
-<br><br>	Are the expression *ptr++ and ++*ptr are same?	Compile error	TRUE	FALSE	system dependent	C	1<br>	<br>
-<br><br>	Is there any difference between the following two statements? char *p=0;   char *t=NULL;	Compile error	Yes	No	system dependent	C	1<br>	<br>
-<br><br>	Pointer is special kind of variable which is used to stored __________ of the variable.	value	variable	datatype	address	D	1<br>	<br>
-<br><br>	Pointer variable is declared using preceding _________ sign.	%	&	*	^	C	1<br>	
-<br>0	Address stored in the pointer variable is of type __________.	float	integer	character	array	B	1<br>	
-  
-  
-  
-  
-		Unit <br>						
-s.no	QUESTIONS	A	B	C	D	ANSWERS	 	 
-1<br>1	Which of the following true about FILE *fp ?	FILE is a keyword in C for representing files and fp is a variable of FILE type	FILE is a structure and fp is a pointer to the structure of FILE type	FILE is a stream	FILE is a buffered stream	B	1<br>	
-1<br><br>	When fopen() is not able to open a file, it returns?	EOF	NULL	Runtime Error	Compiler Dependent	B	1<br>	
-1<br><br>	getc() returns EOF when	End of files is reache	When getc() fails to read a character	Both of the above	None of the above	C	1<br>	 
-1<br><br>	fseek() should be preferred over rewind() mainly because	rewind() doesn't work for empty files	rewind() may fail for large files	In rewind, there is no way to check if the operations completed successfully	All of the above	C	1<br>	  
-1<br><br>	What is the sequence for preprocessor to look for the file within <> ?	The predefined location then the current directory	The current directory then the predefined location	The predefined location only	The current directory location	A	1<br>	  
-1<br><br>	What would happen if you create a file stdio.h and use #include “stdio.h” ?	The predefined library file will be selected	The user-defined library file will be selected	Both the files will be included	The compiler won’t accept the program	B	1<br>	  
-1<br><br>	Can function definition be present in header files?	Yes	No	Depends on the compiler	Depends on the standard	A	1<br>	  
-1<br><br>	If the file name is enclosed in double quotation marks	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	A	1<br>	  
-1<br><br>	If the file name is enclosed in angle brackets	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	B	1<br>	  
-1<br>0	The below two lines are equivalent to  #define C_IO_HEADER    #include C_IO_HEADER <br>	#include	#include”printf”	#include”C_IO_HEADER”	#include	D	1<br>	   <br>
-1<br>1	The first and second arguments of fopen are?	A character string containing the name of the file & the second argument is the mode.	A character string containing the name of the user & the second argument is the mode.	A character string containing file poniter & the second argument is the mode.	None of the mentioned of the mentione	A	1<br>	  <br>
-1<br><br>	For binary files, a ___ must be appended to the mode string.	Nothing	“b”	“binary”	“binary”	A	1<br>	<br> 
-1<br><br>	If there is any error while opening a file, fopen will return?	Nothing	EOF	NULL	All of the above	C	1<br>	  <br>
-1<br><br>	Which is true about getc.getc returns?	The next character from the stream referred to by file pointer B. EOF for end of file or error	 	BOTH A&B	Nothing	C	1<br>	<br>  
-1<br><br>	When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?	Standard input	Standard output	Standard error	All of the mentioned	D	1<br>	   <br>
-1<br><br>	What is the meant by ‘a’ in the following operation? fp = fopen(“Random.txt”, “a”);	Attach	Append	Apprehend	Add	B	1<br>	   <br>
-1<br><br>	Which of the following mode argument is used to truncate?	a	f	w	t	C	1<br>	   <br>
-1<br><br>	Which type of files can’t be opened using fopen()?	.txt	.bin	.c	NONE OF THEM	D 	1<br>	<br>  
-1<br><br>	Which of the following fopen statements are illegal?	fp = fopen(“abc.txt”, “r”);	fp = fopen(“/home/user1/abc.txt”, “w”);	fp = fopen(“abc”, “w”);	None of the mentione	D	1<br>	<br>  
-1<br>0	What does the following segment of code do? fprintf(fp, “Copying!”);	It writes “Copying!” into the file pointed by fp	It reads “Copying!” from the file and prints on display	It writes as well as reads “Copying!” to and from the file and prints it	None of the mentioned	A	1<br>	   <br>
-1<br>1	FILE reserved word is?	A structure tag declared in stdio.h	One of the basic datatypes in c	Pointer to the structure defined in stdio.h	It is a type name defined in stdio.h	D 	1<br>	<br> 
-1<br><br>	stdout, stdin and stderr are?	File pointer	File desciptors	Both connected to screen by default.	stdout is line buffered but stderr is unbuffere	C	1<br>	 
-1<br><br>	In context to file handling, Which of the following are file handling operations ?	opening	closing	read/write	all of above	D	1<br>	 
-1<br><br>	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	1<br>	  
-1<br><br>	what does fclose() returns on success	1	NULL	0	EOF	C	1<br>	  
-1<br><br>	what does fclose() returns if there are errors	1	NULL	0	EOF	D	1<br>	  
-1<br><br>	Number of aruments that fputc() takes is	1	<br>	<br>	<br>	B	1<br>	  
-1<br><br>	The function of fputc() is	writes a character	writes a string	Botha A&B	Reads a character	A	1<br>	  
-1<br><br>	Number of arguments that fgetc() takes is	1	<br>	0	<br>	A	1<br>	  
-1<br>0	Number of arguments that fread() takes is	1	<br>	<br>	<br>	D	1<br>	  
-1<br>1	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	1<br>	 
-1<br><br>	Which is not a function related to files	fputc()	fgetc()	gets()	fgets()	C	1<br>	 
-1<br><br>	Types of files that C supports	text files	binary files	both A&B	header files	C	1<br>	 
-1<br><br>	rb mode In fopen() specifies	reading mode	writing mode	read and write mode	reading in binary mode	D	1<br>	  
-1<br><br>	The formal fseek() function takes ___no of arguments	1	<br>	<br>	<br>	C	1<br>	  
-1<br><br>	File *f;  Here File is	data type	variable	pointer	All of the above	B	1<br>	  
-1<br><br>	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	1<br>	  
-1<br><br>	ftell() returns ?	0	EOF	1	current position of pointer	D	1<br>	  
-1<br><br>	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	1<br>	  
-1<br>0	____ type variable is used to specify file pointer	integer	File	Double	Char	B	1<br>	  
-1<br>1	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	1<br> <br>	 
-1<br><br>	whic oh the following is not a file operation	read	write	sort	read and write	C	1<br>	  <br>
-1<br><br>	remove() function	removes a file	removes a character	removes a stirng	B&C	A	1<br>	  <br>
-1<br><br>	Seek_set() function	sets pointer to beginning	sets pointer to end	Disables pointer	enables pointer	A	1<br>	   <br>
-1<br><br>	Seek_cur() function	sets pointer to specifies position	sets pointer to end of the file	enables  the pointer	diables the pointer	A	1<br>	<br>  
-1<br><br>	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	1<br>	   <br>
-1<br><br>	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	1<br>	<br>  
-1<br><br>	is it possible to pass an array into a file in C	yes	No	depends on compilers	A&C	A	1<br>	   <br>
-1<br><br>	Formal way of declaring a file header in C	#include<file>	#include<files>	#include<file.h>	#include<files.h>	D	1<br>	   <br>
-1<br>0	file ponter is	a pointer to variable	a pointer to structure of file	location of file	Information of file	B	1<br>	   <br>
-1<br>1	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	1<br>	  <br>
-1<br><br>	Types of files that C supports	text files	binary files	both A&B	header files	C	1<br>	<br> 
-1<br><br>	The formal fseek() function takes ___no of arguments	1	<br>	<br>	<br>	C	1<br>	  <br>
-1<br><br>	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	1<br>	 <br>
- 
-1<br><br>	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	1<br>	  <br>
-
-1<br><br>	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	1<br>	  
-1<br><br>	whic oh the following is not a file operation	read	write	sort	read and write	C	1<br>	  
-1<br><br>	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	1<br>	  
-1<br><br>	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	1<br>	  
-<br>00	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	1<br>	  
-
-
-
-
-1<br>	What is the problem in the following declarations?     
-int func(int);
-double func(int); 
-int func(float);	    A function with same name cannot have different signatures	A function with same name cannot have different return types	A function with same name cannot have different number of parameters	   All of the mentioned	D	<br>	
-1<br>	What is the return-type of the function sqrt()	int	float	double	depends on data type of the parameter	D	<br>	
-1<br>	A user defined function can be executed if it	is defined	is implemented	is called in main	All of the ABOVE	D	<br>	
-1<br>	Will the program compile?  #include<stdio.h> 
-int main() { 
-char str[<br>] = "ASTIWZ"; 
-return 0; }	Compile error	Runtime Error	yes	No	C	<br>	
-<br>0	What is the output of this C code?
-void m() { 
-printf("hi"); } 
-void main(){ 
-m();
-}	hi	Runtime Error	Compile time error	none of the above	A	<br>	
-<br>1	What will happen after running the code ?   
-Main() {
- printf("%u",main); }	Error	Will make an infinite loop	Some address will be printed	none of the above	C	<br>	
-<br><br>	Use of functions	Enhances logical clarity	reduces repeated programming	makes debugging easy	All of the above	D	<br>	
-<br><br>	Any C program   must contain	at least one function	need not contain any  function	needs input data	none of the above	A	<br>	
-<br><br>	What is a function	A block of statements that performs a task	fundamental modular unit	block of code that can be reusable	All of the ABOVE	D	<br>	
-<br><br>	The default parameter passing mechanism is	Call by value	Call by reference	Call by value result	none of the above	A	<br>	
-<br><br>	Find output 
-main() { 
-int i=<br>; 
-printf("%d %d %d %d %d",i++,i--,++I,--I,i);}	<br> <br> <br> <br> <br>	<br> <br> <br> <br> <br>	<br> <br> <br> <br>  <br>	<br> <br> <br> <br> <br>	D	<br>	
-<br><br>	Pick the correct statement	Function may have one return statement	Function may have many return statements	a function can return multiple values	with out return function returns  value	B	<br>	
-<br><br>	Guess the output  
-main(){ 
-static int i=<br>; 
- printf("%d",i--); 
-if(i) 
-main(); }	<br> <br> <br>	<br> <br> 1	infinite loop	Compile error	B	<br>	
-<br><br>	which of the following is a complete function?	int f();	int f(int x) { return x+1;}	void f(int) { printf("hi"); }	void f(x){ return printf("hi"); }	B	<br>	
-<br>0	recursive functions are executed in	Parallel order	First in first out order	last in Fistout order	sequential order	C	<br>	
-<br>1	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	<br>	
-<br><br>	The function printf() returns	The actual values write for each argument	1	The number of charecters written	0	C	<br>	
-<br><br>	Functions have	local scope	Function scope	File scope	block scope	C	<br>	
-<br><br>	Which of the following functions calculates square of x in C	sqr(x)	pow(<br>,x)	pow(x,<br>)	power(<br>,x)	C	<br>	
-<br><br>	When a function is recursively called all automatic variables are stored in	Stack	queue	Array	Register	A	<br>	
-<br><br>	find the error in 
-f(int a,int b) 
-{ int a; a=<br>0; }	missing paranthesis in return	redeclaration of a	the function should be defined as int f(int,int)	none of the above	B	<br>	
-<br><br>	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	<br>	
-<br><br>	A function canot be defined inside another function	Error	yes	no	none of the above	B	<br>	
-<br><br>	Functions cannot return a floating point number	Error	Yes	No	none of the above	C	<br>	
-<br>0	Functions cannot return more than one value	Error	Yes	No	None of the above	B	<br>	
-<br>1	Every function must return a value	Yes	Error	No	none of the above	C	<br>	
-<br><br>	If return type for a function is not specified, it defaults to 	void	int	nothing	Compile error	B	<br>	
-<br><br>	If a function contains two return statements successively, the compiler will generate 	eRROR	Warnings	No error	No warnings	B	<br>	
-<br><br>	Maximum number of arguments that a function can take is	<br>	<br>0	1<br>	none of the above	D	<br>	
-<br><br>	Maximum number of arguments that a function can take is	1<br><br>	<br><br><br>	<br><br><br>	<br>	A	<br>	
-<br><br>	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	<br>	
-<br><br>	What is the output of this C code? 
-Void m(){ 
-printf("hi");} 
-void main()
-{
-m();
-}	Error	nothing	hi	Varies	C	<br>	
-<br><br>	What is the output of this C code?
- void main()
-{
-m(); 
-void m() 
-{ 
-printf("hi");}
- }	Error	nothing	hi	Varies	A	<br>	
-<br><br>	 Which of the following is a correct format for declaration of function?	return type functionname(argument type){ }	return type functionname(argument type);	returntype (argumenttype) function name;	Both a and b	B	<br>	
-<br>0	Which of the following function declaration is illegal?	int 1bhk(int);	int 1bhk(int a);	int <br>bhk(int*, int []);	All of the ABOVE	D	<br>	
-<br>1	Can we use a function as a parameter of another function? [ Eg: void wow(int func()) ]	Yes, and we can use the function value conveniently	Yes, but we call the function again to get the value, not as convenient as in using variable	No, C does not support it.	This case is compiler dependent	C	<br>	
-<br><br>	The purpose of return statement is	To return control back to the calling function	To return control and value to calling function	to return from block	to return from program	B	<br>	
-<br><br>	Which function definition will run correctly?	int sum(int a, int b)     return (a + b);	int sum(int a, int b)     {return (a + b);}	int sum(a, b)     return (a + b);	1.     Both (a) and   (b)	B	<br>	
-<br><br>	Global variables are:	Internal	External	both	none of the above	B	<br>	
-<br><br>	Time taken for recursion when compared with loops is	same	more	less	compiler dependent	B	<br>	
-<br><br>	The purpose of main function is	to stop program execution	to stop algorithm	to start algorithm	to start program execution	D	<br>	
-<br><br>	Maximum number of arguments that a function can take is	<br>	<br>0	<br>0	none of the above	D	<br>	
-<br><br>	A function canot be defined inside another function	Error	yes	no	none of the above	B	<br>	
- 	 	
-<br>0	the function scanf() returns	The actual values read for each argument	1	0	The number of read input values	D	<br>	
-<br>1	The function printf() returns	The actual values write for each argument	0	The number of charecters written	1	C	<br>	
-<br><br>	which is true for following code void main() { printf("%p",main());}	It prints garbage values infinitely	runs infinetely without printing anything	error	No error and no output	B	<br>	
-<br><br>	The keyword used to transfer control from a function back to the calling function is	goto	switch	break	return	D	<br>	
-<br><br>	Point out the error in the program
-
-
-f(int a, int b)
-{
-    int a;
-    a = <br>0;
-    return a;
-}	Missing parenthesis in return statement	The function should be defined as int f(int a, int b)	Redeclaration of a	None of the above	C	<br>	
-<br><br>	Point out the error in the program
-
-#include<stdio.h>
-
-int main()
-{
-    int a=<br>;
-    void f();
-    a = f();
-    printf("%d\n", a);
-    return 0;
-}
-void f()
-{
-    printf("Hi");
-}	Error: Not allowed assignment	Error: Doesn't print anything	No error	None of the above	A	<br>	
-<br><br>	A function cannot be defined inside another function	TRUE	FALSE	None of the above	 	A	<br>	
-<br><br>	In C all functions except main() can be called recursively.	TRUE	FALSE	None of the above	 	B	<br>	
-<br><br>	#include<stdio.h>
-
-int main()
-{
-    int fun();
-    int i;
-    i = fun();
-    printf("%d\n", i);
-    return 0;
-}
-int fun()
-{
-    _AX = 1<br><br>0;
-}	Garbage value	0 (Zero)	1<br><br>0	No output	C	<br>	
-<br><br>	#include<stdio.h>
-void fun(int*, int*);
-int main()
-{
-    int i=<br>, j=<br>;
-    fun(&i, &j);
-    printf("%d, %d", i, j);
-    return 0;
-}
-void fun(int *i, int *j)
-{
-    *i = *i**i;
-    *j = *j**j;
-}	<br><br>,<br>	<br>,1	<br>,<br>	none	A	<br>	
-<br>0	#include<stdio.h>
-int i;
-int fun();
-
-int main()
-{
-    while(i)
-    {
-        fun();
-        main();
-    }
-    printf("Hello\n");
-    return 0;
-}
-int fun()
-{
-    printf("Hi");
-}	Hello	HiHello	error	none	A	<br>	
-<br>1	#include<stdio.h>
-
-int main()
-{
-    void fun(char*);
-    char a[<br>0];
-    a[0] = 'A'; a[1] = 'B';
-    a[<br>] = 'C'; a[<br>] = 'D';
-    fun(&a[0]);
-    return 0;
-}
-void fun(char *a)
-{
-    a++;
-    printf("%c", *a);
-    a++;
-    printf("%c", *a);
-}	BC	AB	BA	NONE	A	<br>	
-
-
- 	UNIT - V	 	 	 	 	
-SNO	QUESTION	A	B	C	D	CORRECT ANSWER	Topic No	
-1	#include <stdio.h>  struct temp {      int a[<br>];      char p; };	<br>	<br>	<br>1	<br><br>	B	<br>	
-<br>	Structure holds __________ variables at a time	all	single	two lines at atime	none	A	<br>	<br>
-<br>	Which operator is used for accessing  members of the structure?	dot(.)operator	Arrow Operator(->)	* operator	none	A	<br>	<br>
-<br>	Union holds __________ variables at a time	all	single	two lines at atime	none	B	<br>	<br>
-<br>	Structure is a -------------	primitive data type	derived type	both	none	B	<br>	
-<br>	Which operator is used for accessing members of the union?	dot(.)operator	Arrow Operator(->)	* operator	none	A	<br>	<br>
-<br>	The size of union is -----------of the union member.	Highest type	Lowest type	Sum of all members	none	A	<br>	<br>
-<br>	Which of the following operator used for accessing pointer to structure member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	<br>	<br>
-<br>	Which is the example for derived type?	Arrays	Structure	union	all	D	<br>	<br>
-<br>	Which is the example for Primitive data type?	Arrays	Structure	union	none	D	<br>	
-<br>	What is the keyword used for declaring structure?	struct	union	typedef	none	D	<br>	
-1<br>	What is the keyword used for declaring union?	struct	union	typedef	none	D	<br>	
-1<br>	which of the following statement is true.	Structure contains another structure	Structure contains union	Structures can be passed as a 
-parameter to function.	all	D	<br>	
-1<br>	________is a collection of different types of data types.	structure	union	both a and b	none	C	<br>	
-1<br>	_______is a collection of similar types of data types	structure	union	array	none	C	<br>	
-1<br>	The accessing of structure member can be done through which operator.	dot(.)	*	/	@	A	<br>	
-1<br>	Typedef int eee<br>; eee<br>   a,b;    printf(“%d%d”,a,b);outout-----------------	Zunk value Zunk value	<br> <br>0	<br> <br>0	none	A	<br>	
-1<br>	enum day{a=<br>,b,c); The value of b is----------------------	<br>	<br>	1<br>	none	A	<br>	
-1<br>	What is the operator used for  accessing pointer to union member.	dot(.)operator	Arrow Operator(->)	* operator	none	B	<br>	
-<br>0	Which of the following is valid?	eee int a,b ;	struct student s1;	student struct s1;	none	B	<br>	
-<br>1	which  of the following is invalid?	int a,b ;	struct student s1;	student struct s1;	none	C	<br>	
-<br><br>	which is the function used for allocation single block of memory.	malloc()	calloc()	free()	none	A	<br>	
-<br><br>	which is the function used for allocation multiple blocks of memory.	malloc()	calloc()	free()	none	B	<br>	
-<br><br>	which is the function used for reallocating the memory once we allocated.	malloc()	calloc()	realloc()	none	C	<br>	
-<br><br>	which is the function used for freeing the memory space.	malloc()	calloc()	free()	none	C	<br>	<br>
-<br><br>	typedef int eee<br>;eee<br> a,b,c;c=a+b; what is the value of c	garbage value	0	1	<br>	A	<br> <br>	
-<br><br>	User-defined data type can be created  by___________	struct	enum	union	none	B	<br>	<br>
-<br><br>	Which of the following cannot be a structure member?	 Another structure
-Function	Array	none	B	<br>	<br>
-<br><br>	struct test { int k;char c;};size of structure is------------	<br>	<br>	1	1<br>	A	<br>	<br>
-<br>0	Which of the following share a similarity in syntax?	union	structure	array	both a and b	D	<br>	<br>
-<br>1	Which of the following data types are accepted while declaring bit-fields?	char	float	double	int	D	<br>	<br>
-<br><br>	struct {int a:<br> ;int b:<br> }; size of strcture is	<br> bits	<br> bits	<br> bits	none	A	<br>	<br>
-<br><br>	Which of the following is not allowed?	Arrays of bit fields	Pointers to bit fields	. Functions returning bit fields	all	D	<br>	<br>
-<br><br>	Bit fields can only be declared as part of a structure.	FALSE	TRUE	nothing	none	A	<br>	<br>
-<br><br>	Can we declare function inside structure of C Programming?	yes	no	depends on compliler	runtime error	A	<br>	<br>
-<br><br>	int main() {struct xyz{    char * n;   int eos;};struct xyz x = {"cppbuzz", <br>01<br>};
-struct xyz y=x;printf("%d", printf("%s",y.n));return 0;output of the program------	cppbuzz	<br>cppbuzz	<br>cppbuzz	 cppbuzz<br>	D	<br>	<br>
-<br><br>	What is important difference between structure & union?	There is no difference	Union takes less memory	Union is faster	Structure is faster	B	<br>	<br>
-<br><br>	Is it necessary that all elements of structure should be different in size?	Yes	no	depends on compiler	none	B	<br>	<br>
-<br><br>	Are self referential structures are possible in C? 	Yes	no	depends on compiler	none	A	<br>	<br>
-<br>0	Can we compare two structures using any built in operator?	Yes	no	depends on compiler	none	A	<br>	
-<br>1	Which predefined function is used to write whole structure into a file ?	write()	fwrite()	 swrite()	none	B	1<br>	
-<br><br>	Which predefined function is used to read whole structure into a file ?	write()	fwrite()	 swrite()	fread()	D	1<br>	
-<br><br>	Which of the following accesses a variable in structure b?	b.var	b->var	.b>var	none	A	1<br>	
-<br><br>	Which of the following accesses a variable in a pointer to a structure, *b?	b.var	b->var	.b>var	none	B	1<br>	
-<br><br>	Which of the following is a properly defined struct?	struct {int a;}	. struct a_struct {int a;}	struct a_struct int a;	struct a_struct {int a;};	A	1<br>	
-<br><br>	Which properly declares a variable of struct foo?	struct foo;	struct foo var;	foo;	int foo;	B	1<br>	
-<br><br>	A union can be nested in a structure.	TRUE	FALSE	depends on complier	none	A	1<br>	
-<br><br>	The elements of union and structure are always accessed using & operator.	&	Arrow Operator(->)	*	none	B	1<br>	
-<br><br>	struct employ  {    int ecode;     struct employ e;  };	Linked Error	Error: in structure declaration	No error	NONE	A	1<br>	
-<br>0	int main() { enum { GREAT, is=<br>, india };         printf("%d %d", GREAT, india);  output	0 1	0 <br>	0 <br>	none	C	1<br>	
-<br>1	The concept of structure within a  structure is known as __________	SelfReferential Structures	Nested Structures	Pointers within structures	structure arrays	B	1<br>	
-<br><br>	A member variable of a structure can be of any ___________	Datatype	variable	keyword	none	A	1<br>	
-<br><br>	What is the difference between a normal variable and a pointer variable declaration	*	&	(	)	A	1<br>	
-<br><br>	int a=<br>; int *p; p=&a;printf("p=%d",p); output	address of a	address of p	garbage value	0	A	1<br>	
-<br><br>	Which of the following operation is illegal in structures?	Typecasting of structure	Pointer to a variable of the same structure	 Dynamic allocation of memory for structure	All of the mentioned	A	1<br>	<br>
-<br><br>	#include <stdio.h>  struct temp {     int m[<br>0];     char p;   }; What will be the size of the following structure?	<br>	<br>	<br>1	<br><br>	C	1<br>	<br>
-<br><br>	//Let P be a structure    //Let Q be a union Which among the following is never possible in C when members in a structure are same as that in a union?	Sizeof(P) is less than to sizeof(Q)	sizeof(P) is equal to sizeof(Q)	Sizeof(Q) is less than to sizeof(P)	None	A	1<br>	<br>
-<br><br>	Choose a correct statement about C structures.	A structure can contain same structure type member.	A structure size is limited by only physical memory of that PC.	You can define an unlimited number of members inside a structure.	All the above.	D	1<br>	<br>
-<br><br>	What are the uses of C Structures.?	structure is used to implement Linked Lists, Stack and Queue data structures	Structures are used in Operating System functionality like Display and Input taking.	Structure are used to exchange information with peripherals of PC	All the above	D	1<br>	<br>
-<br>0	A C Structure or User defined data type is also called.?	Derived data type	pointer type	address type	None	A	1<br>	<br>
-<br>1	What is the size of a C structure.?	C structure is always 1<br><br> bytes.	Size of C structure is the total bytes of all elements of structure.	Size of C structure is the size of largest element.	None	B	1<br>   <br>	
-<br><br>	int main() {    struct ship    {       };    return 0;  } Choose a correct statement about  this C structure.?	It is wrong to define an empty structure	Member variables can be added to a structure even after its first definition.	There is no use of defining an empty structure	None	C	1<br>	<br>
-<br><br>	Size of integer pointer	<br> Bytes	<br> Bytes	1 Byte	<br> Bytes	A	1<br>	<br>
-<br><br>	Size of character pointer	1 Byte	<br> bytes	<br> bytes	<br> Bytes	B	1<br>	<br>
-<br><br>	What is (void*)0?	Representation of void pointer	Representation null pointer	Error	NONE OF THE ABOVE	B	1<br>	<br>
-<br><br>	Are the expression *ptr++ and ++*ptr are same?	Compile error	TRUE	FALSE	system dependent	C	1<br>	<br>
-<br><br>	Is there any difference between the following two statements? char *p=0;   char *t=NULL;	Compile error	Yes	No	system dependent	C	1<br>	<br>
-<br><br>	Pointer is special kind of variable which is used to stored __________ of the variable.	value	variable	datatype	address	D	1<br>	<br>
-<br><br>	Pointer variable is declared using preceding _________ sign.	%	&	*	^	C	1<br>	
-<br>0	Address stored in the pointer variable is of type __________.	float	integer	character	array	B	1<br>	
-  
-  
-  
-  
-		Unit <br>						
-s.no	QUESTIONS	A	B	C	D	ANSWERS	 	 
-1<br>1	Which of the following true about FILE *fp ?	FILE is a keyword in C for representing files and fp is a variable of FILE type	FILE is a structure and fp is a pointer to the structure of FILE type	FILE is a stream	FILE is a buffered stream	B	1<br>	
-1<br><br>	When fopen() is not able to open a file, it returns?	EOF	NULL	Runtime Error	Compiler Dependent	B	1<br>	
-1<br><br>	getc() returns EOF when	End of files is reache	When getc() fails to read a character	Both of the above	None of the above	C	1<br>	 
-1<br><br>	fseek() should be preferred over rewind() mainly because	rewind() doesn't work for empty files	rewind() may fail for large files	In rewind, there is no way to check if the operations completed successfully	All of the above	C	1<br>	  
-1<br><br>	What is the sequence for preprocessor to look for the file within <> ?	The predefined location then the current directory	The current directory then the predefined location	The predefined location only	The current directory location	A	1<br>	  
-1<br><br>	What would happen if you create a file stdio.h and use #include “stdio.h” ?	The predefined library file will be selected	The user-defined library file will be selected	Both the files will be included	The compiler won’t accept the program	B	1<br>	  
-1<br><br>	Can function definition be present in header files?	Yes	No	Depends on the compiler	Depends on the standard	A	1<br>	  
-1<br><br>	If the file name is enclosed in double quotation marks	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	A	1<br>	  
-1<br><br>	If the file name is enclosed in angle brackets	The preprocessor treats it as a user-defined file	The preprocessor treats it as a system-defined file	The preprocessor treats it as a user-defined file & system-defined file	None of the mentioned	B	1<br>	  
-1<br>0	The below two lines are equivalent to  #define C_IO_HEADER    #include C_IO_HEADER <br>	#include	#include”printf”	#include”C_IO_HEADER”	#include	D	1<br>	   <br>
-1<br>1	The first and second arguments of fopen are?	A character string containing the name of the file & the second argument is the mode.	A character string containing the name of the user & the second argument is the mode.	A character string containing file poniter & the second argument is the mode.	None of the mentioned of the mentione	A	1<br>	  <br>
-1<br><br>	For binary files, a ___ must be appended to the mode string.	Nothing	“b”	“binary”	“binary”	A	1<br>	<br> 
-1<br><br>	If there is any error while opening a file, fopen will return?	Nothing	EOF	NULL	All of the above	C	1<br>	  <br>
-1<br><br>	Which is true about getc.getc returns?	The next character from the stream referred to by file pointer B. EOF for end of file or error	 	BOTH A&B	Nothing	C	1<br>	<br>  
-1<br><br>	When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?	Standard input	Standard output	Standard error	All of the mentioned	D	1<br>	   <br>
-1<br><br>	What is the meant by ‘a’ in the following operation? fp = fopen(“Random.txt”, “a”);	Attach	Append	Apprehend	Add	B	1<br>	   <br>
-1<br><br>	Which of the following mode argument is used to truncate?	a	f	w	t	C	1<br>	   <br>
-1<br><br>	Which type of files can’t be opened using fopen()?	.txt	.bin	.c	NONE OF THEM	D 	1<br>	<br>  
-1<br><br>	Which of the following fopen statements are illegal?	fp = fopen(“abc.txt”, “r”);	fp = fopen(“/home/user1/abc.txt”, “w”);	fp = fopen(“abc”, “w”);	None of the mentione	D	1<br>	<br>  
-1<br>0	What does the following segment of code do? fprintf(fp, “Copying!”);	It writes “Copying!” into the file pointed by fp	It reads “Copying!” from the file and prints on display	It writes as well as reads “Copying!” to and from the file and prints it	None of the mentioned	A	1<br>	   <br>
-1<br>1	FILE reserved word is?	A structure tag declared in stdio.h	One of the basic datatypes in c	Pointer to the structure defined in stdio.h	It is a type name defined in stdio.h	D 	1<br>	<br> 
-1<br><br>	stdout, stdin and stderr are?	File pointer	File desciptors	Both connected to screen by default.	stdout is line buffered but stderr is unbuffere	C	1<br>	 
-1<br><br>	In context to file handling, Which of the following are file handling operations ?	opening	closing	read/write	all of above	D	1<br>	 
-1<br><br>	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	1<br>	  
-1<br><br>	what does fclose() returns on success	1	NULL	0	EOF	C	1<br>	  
-1<br><br>	what does fclose() returns if there are errors	1	NULL	0	EOF	D	1<br>	  
-1<br><br>	Number of aruments that fputc() takes is	1	<br>	<br>	<br>	B	1<br>	  
-1<br><br>	The function of fputc() is	writes a character	writes a string	Botha A&B	Reads a character	A	1<br>	  
-1<br><br>	Number of arguments that fgetc() takes is	1	<br>	0	<br>	A	1<br>	  
-1<br>0	Number of arguments that fread() takes is	1	<br>	<br>	<br>	D	1<br>	  
-1<br>1	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	1<br>	 
-1<br><br>	Which is not a function related to files	fputc()	fgetc()	gets()	fgets()	C	1<br>	 
-1<br><br>	Types of files that C supports	text files	binary files	both A&B	header files	C	1<br>	 
-1<br><br>	rb mode In fopen() specifies	reading mode	writing mode	read and write mode	reading in binary mode	D	1<br>	  
-1<br><br>	The formal fseek() function takes ___no of arguments	1	<br>	<br>	<br>	C	1<br>	  
-1<br><br>	File *f;  Here File is	data type	variable	pointer	All of the above	B	1<br>	  
-1<br><br>	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	1<br>	  
-1<br><br>	ftell() returns ?	0	EOF	1	current position of pointer	D	1<br>	  
-1<br><br>	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	1<br>	  
-1<br>0	____ type variable is used to specify file pointer	integer	File	Double	Char	B	1<br>	  
-1<br>1	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	1<br> <br>	 
-1<br><br>	whic oh the following is not a file operation	read	write	sort	read and write	C	1<br>	  <br>
-1<br><br>	remove() function	removes a file	removes a character	removes a stirng	B&C	A	1<br>	  <br>
-1<br><br>	Seek_set() function	sets pointer to beginning	sets pointer to end	Disables pointer	enables pointer	A	1<br>	   <br>
-1<br><br>	Seek_cur() function	sets pointer to specifies position	sets pointer to end of the file	enables  the pointer	diables the pointer	A	1<br>	<br>  
-1<br><br>	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	1<br>	   <br>
-1<br><br>	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	1<br>	<br>  
-1<br><br>	is it possible to pass an array into a file in C	yes	No	depends on compilers	A&C	A	1<br>	   <br>
-1<br><br>	Formal way of declaring a file header in C	#include<file>	#include<files>	#include<file.h>	#include<files.h>	D	1<br>	   <br>
-1<br>0	file ponter is	a pointer to variable	a pointer to structure of file	location of file	Information of file	B	1<br>	   <br>
-1<br>1	r+ mode in fopen() specifies	Reading a file	Writing a file	Reading and Writing a file	None of the above	C	1<br>	  <br>
-1<br><br>	Types of files that C supports	text files	binary files	both A&B	header files	C	1<br>	<br> 
-1<br><br>	The formal fseek() function takes ___no of arguments	1	<br>	<br>	<br>	C	1<br>	  <br>
-1<br><br>	what does a rewind() do	reads file	writes file	Both A&B	set the position to the begining point	D	1<br>	 <br>
- 
-1<br><br>	a header file that is necessary to work on files in C  is	files.h	stdio.h	conio.h	all of the above	A	1<br>	  <br>
-
-1<br><br>	text files contains	only alphabets	only digis	ascii codes of digits and aphabets	A&B	C	1<br>	  
-1<br><br>	whic oh the following is not a file operation	read	write	sort	read and write	C	1<br>	  
-1<br><br>	getche() function	reads a character	writes a character	reads and echoes on screen	writes from existing file	C	1<br>	  
-1<br><br>	a+ mode  in fopen()	deletes existing file	create a duplicate file	opens the file by creating if does not exist	all of the above	C	1<br>	  
-<br>00	File manipulation functions in C are available in which header file?	streams.h	files.h	io.h	stdio.h	B	1<br>	  
-
-
-
-	
-
-
+ S.No	Questions	Option A	Option B	Option C	Option D	Correct Answer	
+1	Transformer transforms 	 frequency	voltage	 current	current and voltage	d	<br>
+2	The main purpose of using core in a transformer is to 	 decrease iron losses	 prevent eddy current loss	 eliminate magnetic hysteresis	decrease reluctance of the conman magnetic circuit	d	<br>
+3	A step up transformer increases 	a) voltage	current	power	frequency	a	<br>
+4	Transformer core are laminated in order to	 simplify it's construction	 minimize eddy current loss	 reduce cost	 reduce hysteresis loss	b	<br>
+5	Which winding in a transformer has more number of turns.	low voltage winding	high voltage winding	primary winding	secondary winding	b	<br>
+6	 Auto transformer is used because	it is simple in construction	It has more efficiency	csaving in copper is more	none	c	<br>
+7	Rating of transformer is given in 	KVA	KW	KVAR	KWH	a	<br>
+8	Transformer works on 	a.c	 d.c	both a.c and d.c	none	a	<br>
+9	The short circuit test on a transformer is used to determine 	the iron loss at any load	  the copper loss at any load or full load	the eddy current loss	the hysteresis loss	b	<br>
+10	Transformer is a 	 static device	 rotating device	direct current device	 electrostatic device	a	<br>
+11	 A certain transformer has 400 turns in the primary winding and 2,000 turns in the secondary winding. The turns ratio is	0.2	0.4	5	25	c	<br>
+12	When the turns ratio of a transformer is 20 and the primary ac voltage is 12 V, the secondary voltage is	12V	120V	240v	2400v	c	<br>
+13	If a transformer has 50 turns in the primary winding and 10 turns in the secondary winding, what is the reflective resistance if the secondary load resistance is 250 ?	250ohms	25ohms	6250ohms	62500ohms	c	<br>
+14	"
+In a certain loaded transformer, the secondary voltage is one-fourth the primary voltage. The secondary current is"	one-fourth the primary current	four times the primary current	equal to the primary current	d)one-fourth the primary current and equal to the primary current	b	<br>
+15	"The full load copper loss of a transformer is 1600W. At half-load the copper loss will be
+"	6400W	 1600W	800W	400W	d	<br>
+16	During open circuit test of a transformer	Primary is supplied rated voltage	Primary is supplied full load current	Primary is supplied current at reduced voltage	 Primary is supplied rated kVA	a	<br>
+17	The no-load current drawn by the transformer is usually what percent of the full-load current ?	0.2 to 0.5 per cent 	2 to 5 per cent 	 12 to 15 percent 	20 to 30 per cent 	b	<br>
+18	Efficiency of a power transformer is of the order of 	100 per cent 	 98 per cent 	50 per cent 	25 per cent 	b	<br>
+19	The purpose of providing iron core in a step-up transformer is 	 to provide coupling between primary and secondary 	 to increase the magnitude of mutual flux 	to decrease the magnitude of magnetizing current 	 to provide all above features	c	<br>
+20	The thickness of laminations used in a transformer is usually 	 0.4 mm to 0.5 mm	 4 mm to 5 mm 	 14 mm to 15 mm 	25 mm to 40 mm 	a	<br>
+21	Star/star transformers work satisfactorily when 	load is unbalanced only 	load is balanced only 	on balanced as well as unbalanced loads 	none of the above 	b	<br>
+22	The magnetising current of a transformer is usually small because it has 	small air gap 	large leakage flux 	laminated silicon steel core	fewer rotating parts 	a	<br>
+23	The leakage flux in a transformer depends upon 	 load current 	 load current and voltage 	load current, voltage and frequency 	load current, voltage, frequency and power factor	a	<br>
+24	A transformer can have zero voltage regulation at 	 leading power factor 	lagging power factor 	Unity power factor 	zero power factor 	a	<br>
+25	If the supply frequency to the transformer is increased,”the iron loss will 	 not change 	 decrease 	increase 	 any of the above 	c	<br>
+26	The size of a transformer core will depend on 	frequency 	 area of the core 	 flux density of the core material	(a) and (b) both 	a	<br>
+27	A shell-type transformer has 	 high eddy current losses 	 reduced magnetic leakage 	negligibly hysteresis losses 	(none of the above 	b	<br>
+28	In an Auto Transformer, The Primary and Secondary are__________Coupled.	Magnetically as well as Electrically	Only Electrically	None of the above	Only Magnetically	a	<br>
+29	A Step Up transformer _____________.	 Step down the level of current	Step up level the power	ctep up the level of Frequency	1 and 2 only	d	<br>
+30	No-load on a transformer is carried out to determine	copper loss	magnetising current	magnetising current and loss	efficiency of the transformer	c	<br>
+31	The core used in high frequency transformer is usually	 copper core 	cost iron core 	air core 	 mild steel core	c	<br>
+32	If the supply frequency to the transformer is increased,”the iron loss will	not change 	decrease 	ncrease 	any of the above	c	<br>
+33	The Condition for maximum efficiency is	variable losses = constant losses	variable losses is not equal to constant losses	variable losses = constant losses/2	All of the mentioned	d	<br>
+34	Minimum voltage regulation occurs when the power factor of the load is 	 unity 	lagging 	 leading 	 zero 	c	<br>
+35	The voltage transformation ratio of a transformer is equal to the ratio of 	 primary turns to secondary turns 	secondary current to primary current 	secondary induced e.m.f. to primary induced e.m.f. 	secondary terminal voltage to primary applied voltage	c	<br>
+36	Transformer core is made of	 Silicon sheet steel	Chromel steel	Low carbon steel	 High content silicon steel	a	<br>
+37	Transformers are rated in KVA instead of KW because	Load power factor is often not known	KVA is fixed whereas KW depends on load power factor	Total transformer loss depends on volt-ampere	It has become customary	c	<br>
+38	Which of the following is not a basic element of transformer?	A.Core	B.Primary Winding	C.Secondary Winding	D.Mutual Flux	d	<br>
+39	A relatively light loads,transformer efficiency is low because	 A.Second output is low	B.Transformer losses are high	C.Fixed loss is high in proportion to the output	D.Cu loss is small	c	<br>
+40	Delta/star transformer works satisfactorily when	A.Load is balanced only	B.Load is unbalanced only	C.On balanced as well as unbalanced loads	D.None of the above	c	<br>
+41	What will happen if DC shunt motor is connected across AC supply?	 Will run at normal speed	Will not run	Will Run at lower speed	Burn due to heat produced in the field winding	D	<br>
+42	What will happen if the back emf of a DC motor vanishes suddenly?	The motor will stop	The motor will continue to run	The armature may burn	The motor will run noisy	C	<br>
+43	 What will happen, with the increase in speed of a DC motor	Back emf increase but line current falls	Back emf falls and line current increase	 Both back emf as well as line current increase.	Both back emf as well as line current fall.	A	<br>
+44	Direction of rotation of motor is determined by	Faraday’s law	Lenz’s law	Coulomb’s law	Fleming’s left-hand rule	D	<br>
+45	The current drawn by the armature of DC motor is directly proportional to 	Torque	Speed	The voltage across the terminals	Cannot be determined	A	<br>
+46	An electric motor is having constant output power. So, motor will have a torque speed characteristic 	Circle about the origin.	Straight line parallel to the speed axis	Straight line through the origin.	Rectangular hyperbola	D	<br>
+47	Which of the following quantity will decrease if supply voltage is increased	Starting torque	Operating speed	Full-load current	Cannot be determined	C	<br>
+48	Which D.C. motor is preferred for elevators 	Shunt motor 	Series motor 	Differential compound motor 	Cumulative compound motor 	D	<br>
+49	Which part will surely tell that given motor is DC motor and not an AC type?	Winding	Shaft	Commutator	Stator	C	<br>
+50	Which power is mentioned on a name plate of a motor?	Gross power	Power drawn in kVA	Power drawn in kW	Output power available at the shaft	D	<br>
+51	Which of the following quantity will decrease if supply voltage is increased?	Starting torque	Operating speed	Full-load current	Cannot be determined	C	<br>
+52	The armature shaft of a DC motor must be able to withstand	Bending moment due to weight of the armature.	b) Any unbalanced magnetic pull on the armature core.	c) Twisting stains due to transmission of torque.	d) Bending moment, unbalanced magnetic pull and twisting stains	D	<br>
+53	What will happen to the speed of a series motor if the temperature of armature resistance is increased?	 Not change	b) Decreases	c) Increases	d) Cannot be determined	B	<br>
+54	No load speed of which of the following motor is highest?	Differentially compound motor	Cumulative compound motor	Series Motor	Shunt Motor	C	<br>
+55	The number of pole in Small Dc Motor Up to 5 H.P are	2 poles	4 poles	8 poles	10 poles	A	<br>
+56	The efficiency of DC motor at maximum power is	90%	100%	Around 80 %	Less than 50 %	D	<br>
+57	A three point starter is suitable for	Shunt Motor	Series Motor	Shunt & Compound Motor	Shunt, Series, and compound motor	C	<br>
+58	Nowadays DC motor is widely used in	Electric Traction	Air compressor	Centrifugal Pump	Machine shop	A	<br>
+59	Counter EMF of the DC motor is	less than the applied voltage	More than the applied voltage	Equal to the applied voltage	None of the above	A	<br>
+60	The reason of using starter while starting of DC motor is	To restrict armature current as there is no back E.M.F at starting	Motors are not self-starting	Restrict starting torque	None of the above	A	<br>
+61	The induced emf in the aramature conductors of a dc motor	Sinusoidal	Trapezoidal	Rectangular	Alternating	A	<br>
+62	The current drawn by a 12V dc motor of armature resistance 0.5 ohms and back emf of 110V. Calculate the armature current	20A	240A	220A	5A	A	<br>
+63	As a load is increased, the speed of a dc shunt motor	Increases proportinately	Remains constant	Increases slightly	Reduces slightly	D	<br>
+64	 Where is field winding mounted in a DC machine?	Stator	 Rotor	Absent	Anywhere on stator or rotor	A	<br>
+65	What are the materials used for brushes in dc machines?	 Iron	Carbon	 Aluminum	 Steel	B	<br>
+66	n a DC machine, rectification process is carried out in order to get unidirectional output (DC). This rectification process is carried out by ______________	Half wave rectifier	Full wave rectifier	Mechanical rectification	 Centre tapped rectifier	C	<br>
+67	Which of the following part is used in construction of DC machine but not in AC machine?	 Armature Winding	 Field winding	 Commutator	Shaft	C	<br>
+68	Armature winding is mounted on a __________	Stator	 Rotor	 Can be mounted anywhere on stator or rotor	 Not required	B	<br>
+69	The armature of a DC generator is laminated to	   Reduce the bulk	  Provide the bulk	   Insulate Thakur	   Reduce the eddy current loss	D	<br>
+70	The field coils of DC generator are usually made of	  .Mica	   Copper	   Cast iron	   Carbon	B	<br>
+71	A single-phase full wave rectifier is a	single pulse rectifier	 multiple pulse rectifier	 two pulse rectifier	 three pulse rectifier	C	<br>
+72	During positive half cycle of total secondary voltage of bridge rectifier, number of diodes forward biased are	 One	Two	Three	Four	B	<br>
+73	Bridge rectifier consist of	 2 diodes	 3 diodes	 4 diodes	5 diodes	C	<br>
+74	Rectifier allows unidirectional current through load during entire 360° of input cycle is	 halfwave rectifier	fullwave rectifier	multiwave rectifier	 regulator	B	<br>
+75	Component that eliminates fluctuations in rectified voltage and produces arelatively smooth DC voltage is	rectifier	modulator	filter	amplifier	C	<br>
+76	If peak voltage of fullwave rectifier is 15 V then average voltage of rectifier will be	10 V	9.55 V	10.55 V	32 V	B	<br>
+77	In a single-phase half wave inverter ________ SCR(s) are/is gated at a time.	one	 two	 three	 none of the mentioned	A	<br>
+78	In a half-wave rectifier, the	current & voltage both are bi-directional	current & voltage both are uni-directional	current is always uni-directional but the voltage can be bi-directional or uni-directional	current can be bi-directional or uni-directional but the voltage is always uni-directional	C	<br>
+79	For a single phase half wave rectifier, with R load, the diode is reversed biased from ωt =	 0 to π, 2π to 2π/3	π to 2π, 2π/3 to 3π	 π to 2π, 2π to 2π/3	0 to π, π to 2π	B	<br>
+80	For a single phase half wave rectifier, the rectifier efficiency is always constant & it is	4/π2	8/π2	100	2/π2	A	<br>
+81	In practice the output from the diode rectifier has	 AC component only	 DC component only	AC + DC component	 None of the mentioned	C	<br>
+82	An L filter is connected ________	 in series	 in parallel	 in both series and parallel	 none of the mentioned	A	<br>
+83	In case of a C filter, the AC is not allowed to pass to the load by	 offering it high impedance	offering it low impedance	 short circuiting the AC component	open circuiting the AC component	C	<br>
+84	An ideal diode has _________ &__________	 some forward voltage drop, some reverse recovery time	 high switching losses, high reverse voltage drop	 no forward voltage drop, negligible reverse recovery time	no reverse recovery time, high leakage current	C	<br>
+85	 A thyristor (SCR) is a	P-N-P device	 N-P-N device	 P-N-P-N device	P-N device	C	<br>
+86	Which terminal does not belong to the SCR?	Anode	Gate	Base	 Cathode	C	<br>
+87	 An SCR is a	 four layer, four junction device	 four layer, three junction device	 four layer, two junction device	three layer, single junction device	B	<br>
+88	Choose the false statement.	SCR is a bidirectional device	 SCR is a controlled device	 In SCR the gate is the controlling terminal	 SCR are used for high-power applications	A	<br>
+89	In the SCR structure the gate terminal is located	near the anode terminal	near the athode terminal	 in between the anode & cathode terminal	 none of the mentioned	B	<br>
+90	The static V-I curve for the SCR is plotted for	 Ia (anode current) vs Ig (gate current), Va (anode – cathode voltage) as a parameter	 Ia vs Va with Ig as a parameter	 Va vs Ig with Ia as a parameter	Ig vs Vg with Ia as a parameter	B	<br>
+91	If the cathode of an SCR is made positive with respect to the anode & no gate current is applied then	 all the junctions are reversed biased	 all the junctions are forward biased	 only the middle junction is forward biased	 only the middle junction is reversed biased	C	<br>
+92	For an SCR in the reverse blocking mode, (practically)	leakage current does not flow	 leakage current flows from anode to cathode	Leakage current flows from cathode to anode	 leakage current flows from gate to anode	C	<br>
+93	With the anode positive with respect to the cathode & the gate circuit open, the SCR is said to be in the	reverse blocking mode	reverse conduction mode	 forward blocking mode	forward conduction mode	C	<br>
+94	BJT stands for __________	Bi-Junction Transfer	 Blue Junction Transistor	Bipolar Junction Transistor	Base Junction Transistor	C	<br>
+95	The doped region in a transistor are ________	Emitter and Collector	Emitter and Base	Collector and Base	Emitter, Collector and Base	D	<br>
+96	 Which region of the transistor is highly doped?	 Emitter	Base	 Collector	Both Emitter and Collector	A	<br>
+97	Which junction is forward biased when transistor is used as an amplifier?	 Emitter-Base	Emitter-Collector	Collector-Base	No junction is forward biased	A	<br>
+98	If Ie is the current entering the emitter, Ib is the current leaving the base and Ic is the current leaving the collector in a p-n-p transistor used for amplification, what is the relation between Ie, Ib and Ic?	Ie < Ic	 Ic < Ib	 Ib < Ic	 Ie < Ib + Ic	C	<br>
+99	A low input to the transistor gives __________	Low output	High Output	Normal Output	 No Output	B	<br>
+100	 From the output characteristics of a transistor, one cannot calculate __________	 IB	VBE	 Ic	VCE	B	<br>
+101	The AC current gain in a common base configuration is_________	 -∆IC/∆IE	 ∆IC/∆IE	 ∆IE/∆IC	-∆IE/∆IC	A	<br>
+102	A transistor has an IC of 100mA and IB of 0.5mA. What is the value of αdc?	0.787	0.995	0.543	0.659	B	<br>
+103	The negative sign in the formula of amplification factor indicates_________	that IE flows into transistor while IC flows out it	 that IC flows into transistor while IE flows out it	 that IB flows into transistor while IC flows out it	 that IC flows into transistor while IB flows out it	A	<br>
+104	The relation between α and β is _________	 β=α/(1-α)	 α= β/(1+β)	β=α/(1+α)	α= β/(1- β)	B	<br>
+105	The base current amplification factor β is given by_________	 IC/IB	IB/IC	 IE/IB	IB/IE	A	<br>
+106	In an NPN silicon transistor, α=0.995, IE=10mA and leakage current ICBO=0.5µA. Determine ICEO.	10µA	100µA	 90µA	500µA	B	<br>
+107	The relation between α and β is_________	β = α/ (1-α)	 α = β/(1+β)	 β = α/ (1+α)	α = β/(1- β)	B	<br>
+108	In ICEO, wt does the subscript ‘CEO’ mean?	 collector to base emitter open	 emitter to base collector open	 collector to emitter base open	 emitter to collector base open	C	<br>
+109	When the signal is applied, the ratio of change of collector current to the ratio of change of base current is called_________	dc current gain	base current amplification factor	 emitter current amplification factor	 ac current gain	D	<br>
+110	The range of β is _________	20 to 500	 50 to 300	30 to 400	 10 to 20	A	<br>
+111	The current amplification factor ϒdc is given by_________	 IE/IB	 IB/IE	 IC/IE	 IE/IC	A	<br>
+112	The relation between α and β is given by _________	1/(1-α)=1- β	 1/(1+α)=1+ β	1/(1-α)=1+ β	 1/(1+α)=1- β	C	<br>
+113	The CC configuration has an input resistance_________	 500kΩ	 750kΩ	 600kΩ	400kΩ	B	<br>
+114	The application of a CC configured transistor is_________	avoltage multiplier	 level shifter	rectification	 impedance matching	D	<br>
+115	 What is the output resistance of CC transistor?	25 Ω	 50 Ω	 100 Ω	 150 Ω	A	<br>
+116	When is the transistor said to be saturated?	when VCE is very low	when VCE is very high	when VBE is very low	when VBE is very high	A	<br>
+117	The input resistance is given by _________	 ∆VCE/∆IB	 ∆VBE/∆IB	 ∆VBE/∆IC	∆VBE/∆IE	B	<br>
+118	 What is the semiconductor diode used as?	 Oscillator	Amplifier	 Rectifier	 Modulator	C	<br>
+119	When a junction diode is reverse biased, what causes current across the junction?	Diffusion of charges	Nature of material	Drift of charges	Both drift and diffusion of charges	C	<br>
+120	How many junction/s do a diode consist?	0	1	2	3	B	<br>
+121	 If the positive terminal of the battery is connected to the anode of the diode, then it is known as	 Forward biased	 Reverse biased	 Equilibrium	Schottky barrier	A	<br>
+122	During reverse bias, a small current develops known as	 Forward current	 Reverse current	Reverse saturation current	Active current	C	<br>
+123	 If the voltage of the potential barrier is V0. A voltage V is applied to the input, at what moment will the barrier disappear?	 V< V0	V= V0	 V> V0	V<< V0	B	<br>
+124	When the diode is reverse biased with a voltage of 6V and Vbi=0.63V. Calculate the total potential.	 6V	6.63V	5.27V	 0.63V	B	<br>
+125	One eV is equal to ________ J.	6.02 × 1023	1.6 × 10–19	6.25 × 1018	1.66 × 10–2	B	<br>
+126	The knee voltage (cut in voltage) of Si diode is	0.2V	0.7 V	0.8 V	1.0 V	B	<br>
+127	When the diode is forward biased, it is equivalent to	An off switch	 An On switch	 A high resistance	None of the above	B	<br>
+128	Under normal reverse bias voltage applied to diode, the reverse current in Si diode	100 mA	 order of μA	1000 μA	None of these	B	<br>
+129	Avalanche breakdown in a diode occurs when	Potential barrier is reduced to zero.	 Forward current exceeds certain value.	Reverse bias exceeds a certain value.	None of these	C	<br>
+130	A forward potential of 10V is applied to a Si diode. A resistance of 1 KΩ is also in series with the diode. The current is	 10 mA	 9.3 mA	. 0.7 mA	0	B	<br>
+131	When a reverse bias is applied to a diode, it will	Raise the potential barrier	Lower the potential barrier	Increases the majority-carrier a current greatly	None of these	A	<br>
+132	Which of the following statement is true about FET?	 It has high output impedance	 It has high input impedance	 It has low input impedance	It does not offer any resistance	B	<br>
+133	Comparing the size of BJT and FET, choose the correct statement?	 BJT is larger than the FET	BJT is smaller than the FET	 Both are of same size	Depends on application	A	<br>
+134	What is the main advantage of FET which makes it more useful in industrial applications?	Voltage controlled operation	 Less cost	Small size	Semiconductor device	C	<br>
+135	For a FET when will maximum current flows?	Vgs = 0V	Vgs = 0v and Vds >= |Vp|	VDS >= |Vp|	Vp = 0	B	<br>
+136	What is the value of current when the gate to source voltage is less than the pinch off voltage?	 1A	 5A	100A	0	D	<br>
+137	 To use FET as a voltage controlled resistor, in which region it should operate?	a) Ohmic region	b) cut off	c) Saturation	d) cut off and saturation	A	<br>
+138	For an n-channel FET, What is the direction of current flow?	a) Source to drain	b) Drain to source	c) Gate to source	d) Gate to drain	B	<br>
+139	For a p-channel FET, What is the direction of current flow?	Source to drain	Drain to source	 Gate to source	 Gate to drain	A	<br>
+140	For a fixed bias circuit the drain current was 1mA, VDD=12V, determine drain resistance required if VDS=10V?	 1KΩ	1.5KΩ	2KΩ	4KΩ	C	<br>
+141	Which type of lens is generally used in the PIR sensors?	Concave lens	 Convex lens	 Bifocal lens	 Fresnel Lens	D	<br>
+142	PIR stands for ____	Passive Infrared	Pulsating Infrared	 Pulsating ratio	 Pulse is radiation	A	<br>
+143	 The distance range of detection of the PIR sensor is ________	5-10 cm	5-7 m	 Up to 12 m	5-12 cm	C	<br>
+144	 Which sensor can detect nearby objects?	Proximity sensor	Humidity sensor	Touch sensor	Pressure sensor	A	<br>
+145	Thermocouple is a ______________	Primary device	Secondary transducer	Tertiary transducer	 None of the mentioned	A	<br>
+146	Operation of thermocouple is governed by _______________	 Peltier effect	Seebeck effect	Thomson effect	All of the mentioned	D	<br>
+147	Thermo couple cannot be used to measure ____________	 Temperature of gas	Temperature of liquid	IR radiation	None of the mentioned	D	<br>
+148	The algebraic sum of e.m.f.s in a circuit containing thermocouples is __________	infinite	 hundred	zero	 ten	C	<br>
+149	 Thermocouple must provide ________	 small thermo e.m.f	sufficient thermo e.m.f	no thermo e.m.f	infinite thermo e.m.f	C	<br>
+150	Most suitable material for a thermocouple is ________	brass	 gold	 platinum	silve	C	<br>
+151	Which of the following should satisfy for measuring higher temperatures using a thermocouple?	no wire is required	wire must be small	 wire must be thin	wire must be heavy	D	<br>
+152	For accurate temperature measurement in a thermocouple the __________	cold compensation is needed	 hot compensation is needed	no compensation is needed	 hot and cold compensations are needed	D	<br>
+153	Thermistor is a contraction _________	thermal resistor	laser resistor	 electric resistor	mechanical resistor	A	<br>
+154	Thermistors have ________	positive temperature coefficient	positive temperature coefficient	 infinite temperature coefficient	zero temperature coefficient	B	<br>
+155	Thermistors ________	sense large changes in temperature	 cannot sense any change in temperature	sense small changes in temperature	 have a positive temperature coefficient of resistance	C	<br>
+156	Thermistor has a resistance of ________	250 ῼ to 500 kῼ	 50 ῼ to 10 kῼ	1 ῼ to 1 kῼ	100 ῼ to 100 kῼ	D	<br>
+157	Change in resistance is measured using a ________	 Anderson’s bridge	Wheatstone’s bridge	Hay’s bridge	Maxwell’s bridge	B	<br>
+158	Thermistor material is pressed ________	 under zero pressure	under low pressure	under high pressure	under low volume	C	<br>
+159	Thermistor follows which law for small variations ________	 Charle’s law	 KVL	 KCL	Ohm’s law	D	<br>
+160	 At small values of voltage, a thermistor ________	 reaches peak current slowly	 reaches peak current immediately	does not reaches peak current	 reaches peak current intermediately	A	<br>
+161	 Resistance temperature detector is ___________	 a electrical transducer	 a mechanical transducer	a chemical transducer	a physical transduce	A	<br>
+162	Relation between temperature and resistance of a conductor is ________	Rt = Rref [1+t]	Rt = Rref [1+α∆t]	 Rt = Rref [1-αt]	Rt = Rref [1-t]	B	<br>
+163	 Sensing element in the thermometer must provide ________	small change in resistance	no change in resistance	large change in resistance	infinite change in resistance	C	<br>
+164	How can corrosion be prevented in a resistance thermometer?	by immersing the setup in oil	 by enclosing the elements in a glass tube	by using guard rings	by painting the elements	B	<br>
+165	Infra red radiation sources may be _______________	Thermal source	Non-thermal source	Thermal or non-thermal source	None of the mentioned	C	<br>
+166	What is a thermopile?	single thermocouple	 series-parallel connection of thermocouples	parallel connection of thermocouples	series of thermocouples	D	<br>
+167	What is the use of Thermostat in Nest Thermostat E?	Save energy	Show the use of energy	 Supports in some devices only	Won’t work at some condition	A	<br>
+168	Semiconductor used in sensors will be _____________	Pure form	Doped form	Pure or doped form	None of the mentioned	C	<br>
+169	Analogous quantities of heat flow and temperature in electrical are _____________ and _______________	Potential and current	Current and potential	Power and potential	Current and power	B	<br>
+170	 Which of the following can be used for measuring temperature?	Metallic diaphragm	 Fluid expansion system	Capsule	Bourdon tube	B	<br>
+171	Which sensor is LM35?	Pressure sensor	Humidity sensor	Temperature sensor	Touch sensor	C	<br>
+172	How many pins does temperature sensor have?	 5 legs	2 legs	 4 legs	3 legs	D	<br>
+173	Which of the following is the Wireless battery-free sensor?	LM35	RFM3200	ESP8266	DHT11	B	<br>
+174	Which sensor is used for monitor electric distribution and switching equipment temperature?	LM35	ESP8266	 DHT11	RFM3200	D	<br>
+175	Electric motor protection has which sensor?	Pressure sensor	Touch sensor	Temperature sensor	 Humidity sensor	C	<br>
+176	What is DS18B20?	Pressure sensor	Touch sensor	 Humidity sensor	Temperature senso	D	<br>
+177	DS1621 sensor has how many pins	4	8	2	3	B	<br>
+178	 DHT11 is __________ sensor.	Proximity sensor	Humidity sensor	Touch sensor	Pressure sensor	B	<br>
+179	What is humidity sensor?	 Hygrometer	 Gyroscope	 Sesimoscope	Sundial	A	<br>
+180	Relative humidity is a function of ________	Ambient temperature	 Water vapor pressure	Ambient temperature and Water vapor pressure	Dryness	C	<br>
+181	Which sensors measure the moisture level using humidity?	Capacitive Sensor	Resistive Sensor	Thermal Conductivity	Both resistive and conductive	A	<br>
+182	________ sensors measure the electrical change in devices such as conductive polymers.	Capacitive Sensor	 Resistive Sensor	Thermal Conductivity	Both resistive and conductive	D	<br>
+183	_____ sensors are suitable for environments that have high temperatures.	Capacitive Sensor	 Resistive Sensor	Thermal Conductivity	Both resistive and conductive	C	<br>
+184	Capacitive RH sensors dominate __________ measurements.	Atmospheric	 Process	Both atmospheric and process	Neither atmospheric nor process	C	<br>
+185	Active transducers are classified into ____________	4 types	2 types	6 types	8 types	A	<br>
+186	Active transducers develops ______________	mechanical parameter	 electrical parameter	chemical parameter	physical parameter	B	<br>
+187	 How do passive transducers develop electrical signals?	using a transformer	 using internal source	using external source	 using a diode	C	<br>
+188	Capacitive transduction involves ___________	change in resistance	 change in inductance	change in resistance	change in capacitance	D	<br>
+189	 Inductive transduction involves ___________	change in self inductance	change in capacitance	 change in mutual inductance	 change in resistance	A	<br>
+190	 In electromagnetic based transduction measurand is ___________	 converted into mechanical force	 converted into electromotive force	converted into chemical force	converted into physical force	B	<br>
+191	photovoltaic transduction involves ___________	 voltage generation heat	voltage generation through sound	voltage generation through light	voltage generation current	C	<br>
+192	Analog transducers convert input into ___________	voltage	current	digital	analog	D	<br>
+193	What are transducers?	They convert power from one form to another	They convert work from one form to another	They convert work to power	They convert energy from one form to another	D	<br>
+194	What is the principle of operation of LVDT?	Mutual inductance	Self-inductance	Permanence	Reluctance	A	<br>
+195	What is the full form of LVDT with respect to displacement transducer?	Linear variable differential temperature	Linear variable differential transformer	Liquid visible differential transforme	Liquified visible differential transformer	B	<br>
+196	The linear variable differential transformer transducer is	Inductive transducer	Non - inductive transducer	Capacitive transducer	Resistive transducer	A	<br>
+197	A Transducer is a device that converts from 	one form to another form	constant frequency device	constant voltage device	constant current device	A	<br>
+198	Strain gauge, LVDT and thermocouple are examples of	Active transducers	Passive transducers	Analog transducers	Primary transducers	C	<br>
+199	 LVDT windings are wound on	Steel sheets	Aluminium	 Ferrite	Copper	C	<br>
+200	In a LVDT, the two secondary voltages	Are independent of the core position	Vary unequally depending on the core position	Vary equally depending on the core position	Are always in phase quadrature	B	<br>
 
   
 </blockquote>
