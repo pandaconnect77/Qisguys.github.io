@@ -1,232 +1,85 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
+  <title>project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" src="">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    label{
+      color: white;
+      text-orientation: bold;
+      cursor: pointer;
+      font-size: 25px;
+     
 
-<title>Hello guys</title>
+    }
+    label:hover{
+      color: black;
+    }
+    h2,h1,h3{
+      color: white;
+      text-orientation: bold;
+      cursor: pointer;
+    }
+    h2:hover{
+      color: black;
+    }
+     h1:hover{
+      color: black;
+    }
+    h3{
+      text-align: center;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+     h3:hover{
+      color: black;
+    }
+  </style>
 </head>
+<body style="background-color:#6c757d">
 
-<body>
+<div class="container mt-3 ">
+  <h1><center><u>Project-1</u></center></h1><br>
+  <h3 id="sai"></h3><br>
+  <h2>**Registration form**</h2>
+  <form onsubmit="takevalue()">
+    <div class="col-sm-4">
+      <label for="email">First name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name" required>
+    </div>
+    
+    <div class="col-sm-4">
+      <label for="pwd">mobile:</label>
+      <input type="mobile" class="form-control" id="mobile" placeholder="Enter mobile" name="mobile" required>
+    </div>
+     <div class="col-sm-4">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="password" placeholder="Enter password" name="pswd" required>
+    </div><br>
+     <button type="submit" id="onsubmit"class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<br>
 
-<h1>HI </h1>
+<script>
+  window.alert("HI guys")
+  document.getElementById("sai").innerHTML=Date();
+        function takevalue(){
+        var name=document.getElementById("name").value;
+        var mobile=document.getElementById("mobile").value;
+        var password=document.getElementById("password").value;
 
-<blockquote>
-											
-S.NO	QUESTION			1		2		3		4	CORRECT ANSWER	
-1	In binary number system the base is 	<br>	<b>1)</b>	8	<b>2)</b>	2	<b>3)</b>	16	<b>4)</b>	10	2	<br>
-2	In binary number system used digits are 	<br>	<b>1)</b>	0&1	<b>2)</b>	8	<b>3)</b>	16	<b>4)</b>	10	1	<br>
-3	In octal number system used digits are 	<br>	<b>1)</b>	0 to 8	<b>2)</b>	0 to 15	<b>3)</b>	0to7	<b>4)</b>	0 to 10	3	<br>
-4	In octal the base of a number system is 	<br>	<b>1)</b>	2	<b>2)</b>	8	<b>3)</b>	10	<b>4)</b>	16	2	<br>
-5	 In decimal number system the base is 	<br>	<b>1)</b>	8	<b>2)</b>	2	<b>3)</b>	16	<b>4)</b>	10	4	<br>
-6	 In decimal number system the range of a number system is 	<br>	<b>1)</b>	0 to 8	<b>2)</b>	0 to 15	<b>3)</b>	0 to 9	<b>4)</b>	0 to 10	3	<br>
-7	In hexa decimal the base of a number system is 	<br>	<b>1)</b>	16	<b>2)</b>	15	<b>3)</b>	8	<b>4)</b>	14	1	<br>
-8	In hexa decimal number system the range is 	<br>	<b>1)</b>	0 to 8	<b>2)</b>	0 to 15	<b>3)</b>	0 to 9	<b>4)</b>	0 to 10	2	<br>
-9	Convert decimal number 200 into Octal	<br>	<b>1)</b>	310	<b>2)</b>	280	<b>3)</b>	300	<b>4)</b>	320	1	<br>
-10	Convert octal number 234 into binary	<br>	<b>1)</b>	101011000	<b>2)</b>	10011100	<b>3)</b>	101010101	<b>4)</b>	1100110	2	<br>
-11	Convert octal number 543 into binary	<br>	<b>1)</b>	111000111	<b>2)</b>	101010101	<b>3)</b>	101100011	<b>4)</b>	110000110	3	<br>
-12	Convert binary number 001010011 into octal	<br>	<b>1)</b>	112	<b>2)</b>	123	<b>3)</b>	132	<b>4)</b>	121	2	<br>
-13	Convert binary number 101110111 into octal	<br>	<b>1)</b>	567	<b>2)</b>	566	<b>3)</b>	568	<b>4)</b>	576	1	<br>
-14	Convert hexadecimal EFE into octal	<br>	<b>1)</b>	7376	<b>2)</b>	7673	<b>3)</b>	7372	<b>4)</b>	7273	1	<br>
-15	Convert hexadecimal ABC into octal	<br>	<b>1)</b>	5267	<b>2)</b>	5274	<b>3)</b>	5325	<b>4)</b>	5252	2	<br>
-16	Convert octal 342 into hexa decimal	<br>	<b>1)</b>	E1	<b>2)</b>	E2	<b>3)</b>	EE	<b>4)</b>	FF	2	<br>
-17	Convert octal 1234 into hexa decimal	<br>	<b>1)</b>	28B	<b>2)</b>	29B	<b>3)</b>	29C	<b>4)</b>	29A	3	<br>
-18	Convert decimal number 3248 into hexadecimal	<br>	<b>1)</b>	BAC	<b>2)</b>	ABD	<b>3)</b>	CA0	<b>4)</b>	DBO	3	<br>
-19	 Convert Hexadecimal CB into decimal	<br>	<b>1)</b>	203	<b>2)</b>	210	<b>3)</b>	201	<b>4)</b>	204	1	<br>
-20	Convert binary number 11111000110 into octal	<br>	<b>1)</b>	1345	<b>2)</b>	6786	<b>3)</b>	3706	<b>4)</b>	3705	3	<br>
-21	Convert hexadecimal number 627 into decimal	<br>	<b>1)</b>	11110010101	<b>2)</b>	11000100111	<b>3)</b>	10101100110	<b>4)</b>	110011011	2	<br>
-22	Convert octal number 310 into decimal	<br>	<b>1)</b>	201	<b>2)</b>	220	<b>3)</b>	202	<b>4)</b>	200	4	<br>
-23	Convert Hexadecimal number CA0 into decimal	<br>	<b>1)</b>	2167	<b>2)</b>	3248	<b>3)</b>	3247	<b>4)</b>	3254	2	<br>
-24	 Convert hexadecimal number 78.63 into binary	<br>	<b>1)</b>	1111000.011	<b>2)</b>	11101.11	<b>3)</b>	1101010.101	<b>4)</b>	11011.101	1	<br>
-25	 Convert hexadecimal number 76B into octal	<br>	<b>1)</b>	3552	<b>2)</b>	3557	<b>3)</b>	3553	<b>4)</b>	3322	3	<br>
-26	 Add 32 and 16 binary 	<br>	<b>1)</b>	110011	<b>2)</b>	1100	<b>3)</b>	101010	<b>4)</b>	110000	4	<br>
-27	The given hexadecimal number (1E.53)16 is equivalent to	<br>	<b>1)</b>	 (35.246)8	<b>2)</b>	 (36.246)8	<b>3)</b>	 (36.546)8	<b>4)</b>	 (34.246)8	2	<br>
-28	The octal number (651.124)8 is equivalent to	<br>	<b>1)</b>	(1A9.2A)16	<b>2)</b>	(1B9.2A)16	<b>3)</b>	(B9.2A)16	<b>4)</b>	(2A9.2A)16	1	<br>
-29	The octal equivalent of the decimal number (417)10 is	<br>	<b>1)</b>	(641)8	<b>2)</b>	(651)8	<b>3)</b>	(642)8	<b>4)</b>	(741)8	1	<br>
-30	 Convert the hexadecimal number (1E2)16 to decimal	<br>	<b>1)</b>	481	<b>2)</b>	482	<b>3)</b>	483	<b>4)</b>	484	2	<br>
-31	(170)10 is equivalent to	<br>	<b>1)</b>	(FD)16	<b>2)</b>	(AA)16	<b>3)</b>	(FA)16	<b>4)</b>	(FC)16	2	<br>
-32	Convert (214)8 into decimal	<br>	<b>1)</b>	(140)10	<b>2)</b>	 (141)10	<b>3)</b>	 (142)10	<b>4)</b>	(130)10	1	<br>
-33	Convert (0.345)10 into an octal number	<br>	<b>1)</b>	(0.16050)8	<b>2)</b>	(0.26050)8	<b>3)</b>	 (0.19450)8	<b>4)</b>	 (0.24040)8	2	<br>
-34	Convert the binary number (01011.1011)2 into decimal	<br>	<b>1)</b>	 (11.6875)10	<b>2)</b>	(11.5874)10	<b>3)</b>	(10.9876)10	<b>4)</b>	 (10.7893)10	1	<br>
-35	Octal to binary conversion: (24)8	<br>	<b>1)</b>	 (111101)2	<b>2)</b>	(010100)2	<b>3)</b>	 (111100)2	<b>4)</b>	 (101010)2	2	<br>
-36	Convert binary to octal: (110110001010)2 	<br>	<b>1)</b>	(5512)8	<b>2)</b>	(6612)8	<b>3)</b>	(4532)8	<b>4)</b>	 (6745)8	2	<br>
-37	What is the addition of the binary numbers 11011011010 and 010100101	<br>	<b>1)</b>	 0111001000	<b>2)</b>	1100110110	<b>3)</b>	11101111111	<b>4)</b>	10011010011	3	<br>
-38	Perform binary addition: 101101 + 011011	<br>	<b>1)</b>	11010	<b>2)</b>	1010100	<b>3)</b>	101110	<b>4)</b>	1001000	4	<br>
-39	Perform binary subtraction: 101111 – 010101	<br>	<b>1)</b>	100100	<b>2)</b>	10101	<b>3)</b>	11010	<b>4)</b>	11001	3	<br>
-40	Binary subtraction of 100101 – 011110 is	<br>	<b>1)</b>	111	<b>2)</b>	111000	<b>3)</b>	10101	<b>4)</b>	101010	1	<br>
-41	1’s complement can be easily obtained by using	<br>	<b>1)</b>	comparator	<b>2)</b>	inverter	<b>3)</b>	adder	<b>4)</b>	substractor	2	<br>
-42	The 1’s complements requires	<br>	<b>1)</b>	one operation	<b>2)</b>	two operation	<b>3)</b>	three operation	<b>4)</b>	combined operation	1	<br>
-43	1’s complement of 1011101 is 	<br>	<b>1)</b>	100010	<b>2)</b>	1010101	<b>3)</b>	11001	<b>4)</b>	1010111	1	<br>
-44	1’s complement of 0111001 is 	<br>	<b>1)</b>	1000110	<b>2)</b>	1101101	<b>3)</b>	101010	<b>4)</b>	1010101	1	<br>
-45	1’s complement of 00100011 is 	<br>	<b>1)</b>	10101010	<b>2)</b>	11011100	<b>3)</b>	1011111	<b>4)</b>	10101110	2	<br>
-46	2’s complement of 11001011 is	<br>	<b>1)</b>	11001100	<b>2)</b>	 00110101	<b>3)</b>	1010101	<b>4)</b>	10101010	2	<br>
-47	2’s complement of 85 is	<br>	<b>1)</b>	11001100	<b>2)</b>	10000110	<b>3)</b>	1010101	<b>4)</b>	10101010	2	<br>
-48	2’s complement of AB is	<br>	<b>1)</b>	11001100	<b>2)</b>	 00110101	<b>3)</b>	10101100	<b>4)</b>	10101010	3	<br>
-49	On subtracting (01010)2 from (11110)2 using 1’s complement, we get	<br>	<b>1)</b>	11111	<b>2)</b>	10101	<b>3)</b>	10100	<b>4)</b>	11001	3	<br>
-50	Code is a symbolic representation of 	<br>	<b>1)</b>	 Continuous	<b>2)</b>	Discrete	<b>3)</b>	Analog	<b>4)</b>	 Both continuous and discrete	2	<br>
-51	When numbers, letters or words are represented by a special group of symbols, this process is called	<br>	<b>1)</b>	Decoding	<b>2)</b>	Encoding	<b>3)</b>	Digitizing	<b>4)</b>	Inverting	2	<br>
-52	A three digit decimal number requires ________ for representation in the conventional BCD format	<br>	<b>1)</b>	3 bits	<b>2)</b>	 6 bits	<b>3)</b>	 12 bits	<b>4)</b>	24 bits	3	<br>
-53	Binary coded decimal is a combination of	<br>	<b>1)</b>	Two binary digits	<b>2)</b>	 Three binary digits	<b>3)</b>	Four binary digits	<b>4)</b>	 Five binary digits	3	<br>
-54	The decimal number 10 is represented in its BCD form as	<br>	<b>1)</b>	10100000	<b>2)</b>	1010111	<b>3)</b>	10000	<b>4)</b>	101011	3	<br>
-55	The excess-3 code for 366 is given by 	<br>	<b>1)</b>	11010011001	<b>2)</b>	10110010111	<b>3)</b>	11010011001	<b>4)</b>	10110101101	1	<br>
-56	Which of the following is not a weighted code?	<br>	<b>1)</b>	Decimal Number system	<b>2)</b>	Excess 3-code	<b>3)</b>	Binary number System	<b>4)</b>	None of these	2	<br>
-57	A code converter is a logic circuit that 	<br>	<b>1)</b>	Inverts the given input	<b>2)</b>	b) Converts into decimal number	<b>3)</b>	c) Converts data of one type into another type	<b>4)</b>	d) Converts to octal	3	<br>
-58	Convert 9 in Excess-3 code	<br>	<b>1)</b>	1100	<b>2)</b>	1010	<b>3)</b>	1011	<b>4)</b>	1101	1	<br>
-59	Convert 54 in Excess-3 code	<br>	<b>1)</b>	11010101	<b>2)</b>	10101010	<b>3)</b>	10000100	<b>4)</b>	11001100	3	<br>
-60	8421 code is	<br>	<b>1)</b>	weighted code	<b>2)</b>	non weighted code	<b>3)</b>	self complementing code	<b>4)</b>	alphanumeric code	1	<br>
-61	BCD code for 22	<br>	<b>1)</b>	11001100	<b>2)</b>	100010	<b>3)</b>	10101010	<b>4)</b>	11100011	2	<br>
-62	BCD code for FF	<br>	<b>1)</b>	11111111	<b>2)</b>	1111	<b>3)</b>	11110000	<b>4)</b>	11110011	1	<br>
-63	BCD code for FE	<br>	<b>1)</b>	11111110	<b>2)</b>	11001100	<b>3)</b>	10101010	<b>4)</b>	11111111	1	<br>
-64	Excess-3 code for 9	<br>	<b>1)</b>	1010	<b>2)</b>	1100	<b>3)</b>	1110	<b>4)</b>	1101	2	<br>
-65	Excess-3 code for 10	<br>	<b>1)</b>	1101	<b>2)</b>	1110	<b>3)</b>	1100	<b>4)</b>	1011	1	<br>
-66	Excess-3 code for 7	<br>	<b>1)</b>	1010	<b>2)</b>	1100	<b>3)</b>	1110	<b>4)</b>	1001	1	<br>
-67	Convert binay code 11001 into gray code	<br>	<b>1)</b>	10101	<b>2)</b>	1101	<b>3)</b>	10101	<b>4)</b>	11001	1	<br>
-68	Convert binay code 111000 into gray code	<br>	<b>1)</b>	100101	<b>2)</b>	100100	<b>3)</b>	110111	<b>4)</b>	101101	2	<br>
-69	Convert gray code 1010101 into binary code	<br>	<b>1)</b>	1100111	<b>2)</b>	1110001	<b>3)</b>	1100110	<b>4)</b>	1110010	3	<br>
-70	Convert gray code 101011 into binary code	<br>	<b>1)</b>	110011	<b>2)</b>	101010	<b>3)</b>	111011	<b>4)</b>	110010	4	<br>
-71	"The circuits that operate on one or more input signals to produce
-standard output _______ "	<br>	<b>1)</b>	a) Series circuits 	<b>2)</b>	b) Parallel Circuits 	<b>3)</b>	c) Logic Signals	<b>4)</b>	 d) Logic Gates	4	<br>
-72	 A __________ gate gives the output as 1 only if all the inputs signals are 1.	<br>	<b>1)</b>	a) AND	<b>2)</b>	b) OR	<b>3)</b>	c) NAND	<b>4)</b>	d) NOR	1	<br>
-73	 The boolean expression of an OR gate is _______	<br>	<b>1)</b>	a) A.B	<b>2)</b>	b) A’B+AB’	<b>3)</b>	c) A+B	<b>4)</b>	d) A’B’	3	<br>
-74	 The boolean expression of an AND gate is	<br>	<b>1)</b>	a) A+B	<b>2)</b>	b) A’B’	<b>3)</b>	c) A’B+AB’	<b>4)</b>	d) A.B	4	<br>
-75	The gate which is called an inverter is called _________	<br>	<b>1)</b>	a) NOR	<b>2)</b>	b) NAND	<b>3)</b>	c) EXOR	<b>4)</b>	d) NOT	4	<br>
-76	The universal gate is	<br>	<b>1)</b>	a) AND	<b>2)</b>	b) OR	<b>3)</b>	c) NAND	<b>4)</b>	d) None of the above	3	<br>
-77	The NOR gate is OR gate followed by ………………	<br>	<b>1)</b>	a) AND gate	<b>2)</b>	b) NAND gate	<b>3)</b>	c) NOT gate	<b>4)</b>	d) None of the above	3	<br>
-78	A __________ gate gives the output as 1, if any one of the inputs signals are 1.	<br>	<b>1)</b>	a) AND	<b>2)</b>	b) OR	<b>3)</b>	c) NAND	<b>4)</b>	d) EXOR	2	<br>
-79	The basic building block is	<br>	<b>1)</b>	a) AND gate	<b>2)</b>	b) Ex - OR gate	<b>3)</b>	c) NAND gate	<b>4)</b>	d) None of the above	1	<br>
-80	The only function of NOT gate is to ……………..	<br>	<b>1)</b>	a) Stop signal	<b>2)</b>	b) Invert input signal	<b>3)</b>	c) Act as a universal gate	<b>4)</b>	d) None of the above	2	<br>
-81	The NOR gate output will be high if the two inputs are __________	<br>	<b>1)</b>	a) 00	<b>2)</b>	b) 01	<b>3)</b>	c) 10	<b>4)</b>	d) 11	1	<br>
-82	Which of following are known as universal gates?	<br>	<b>1)</b>	a) NAND & NOR	<b>2)</b>	b) AND & OR	<b>3)</b>	c) XOR & OR	<b>4)</b>	d) EX-NOR & XOR	1	<br>
-83	The expression of an EX-OR gate is ____________	<br>	<b>1)</b>	a) A’B+AB’	<b>2)</b>	b) AB+A’B’	<b>3)</b>	c) A+A.B	<b>4)</b>	d) A’+B’	1	<br>
-84	In Boolean algebra AND is represented by	<br>	<b>1)</b>	a) +	<b>2)</b>	b) -	<b>3)</b>	c) /	<b>4)</b>	d) ×	4	<br>
-85	In Boolean algebra, the bar sign (-) indicates ………………..	<br>	<b>1)</b>	a) OR operation	<b>2)</b>	b) AND operation	<b>3)</b>	c) NOT operation	<b>4)</b>	d) None of the above	3	<br>
-86	In boolean algebra, the OR operation is performed by which properties?	<br>	<b>1)</b>	a) Associative properties	<b>2)</b>	b) Commutative properties	<b>3)</b>	c) Distributive properties	<b>4)</b>	d) All of the Mentioned	4	<br>
-87	A universal logic gate is one which can be used to generate any logic function. Which of the following is a universal logic gate?	<br>	<b>1)</b>	a) OR	<b>2)</b>	b) AND	<b>3)</b>	c) XOR	<b>4)</b>	d) NAND	4	<br>
-88	The inputs of a NAND gate are connected together the resulting circuit is	<br>	<b>1)</b>	a) OR gate	<b>2)</b>	b) AND gate	<b>3)</b>	c) NOT gate	<b>4)</b>	d) None of the above	3	<br>
-89	A NOR gate has …….. inputs and ……. output.	<br>	<b>1)</b>	a) LOW inputs and LOW output	<b>2)</b>	b) HIGH inputs and HIGH output	<b>3)</b>	c) LOW inputs and HIGH output	<b>4)</b>	d) None of these	3	<br>
-90	The one input of NOR and NAND gates behaves like a	<br>	<b>1)</b>	a) Converter	<b>2)</b>	b) Inverter	<b>3)</b>	c) Reflector	<b>4)</b>	d) Differentiator	2	<br>
-91	A small circle in a NOR circuit represents	<br>	<b>1)</b>	a) inputs	<b>2)</b>	b) bits	<b>3)</b>	c) outputs	<b>4)</b>	d) complement	4	<br>
-92	According to boolean theorem A(Ā+B)=	<br>	<b>1)</b>	a) A	<b>2)</b>	b) Ā	<b>3)</b>	c) AB	<b>4)</b>	d) 1	3	<br>
-93	According to boolean law: A . 1 = ?	<br>	<b>1)</b>	a) 1	<b>2)</b>	b) A	<b>3)</b>	c) 0	<b>4)</b>	d) A’	2	<br>
-94	According to commutative law A+B =	<br>	<b>1)</b>	a) B+A	<b>2)</b>	b) A.B	<b>3)</b>	c) A	<b>4)</b>	d) B	1	<br>
-95	Boolean algebra is also called as	<br>	<b>1)</b>	a) Switching algebra	<b>2)</b>	b) Arithmetic algebra	<b>3)</b>	c) Linear algebra	<b>4)</b>	d) Algebra	1	<br>
-96	In Boolean algebra A+A is equal to	<br>	<b>1)</b>	a) A	<b>2)</b>	b) A²	<b>3)</b>	c) 2A	<b>4)</b>	d) 1	1	<br>
-97	In Boolean algebra OR is represented by 	<br>	<b>1)</b>	a) +	<b>2)</b>	b) -	<b>3)</b>	c) /	<b>4)</b>	d) ×	1	<br>
-98	According to boolean law: A + 1 = ?	<br>	<b>1)</b>	a) 1	<b>2)</b>	b) A	<b>3)</b>	c) 0	<b>4)</b>	d) A’	1	<br>
-99	The involution(double inversion) of A is equal to _________	<br>	<b>1)</b>	a) A	<b>2)</b>	b) A’	<b>3)</b>	c) 1	<b>4)</b>	d) 0	1	<br>
-100	The logic gate that provides high output for same inputs ____________	<br>	<b>1)</b>	a) NOT	<b>2)</b>	b) X-NOR	<b>3)</b>	c) AND	<b>4)</b>	d) XOR	2	<br>
-101	 In Boolean algebra A.A is equal to	<br>	<b>1)</b>	a) A	<b>2)</b>	b) A²	<b>3)</b>	c) 2A	<b>4)</b>	d) 1	1	<br>
-102	In the boolean algebra, a variable has ________ different state(s)/value(s).	<br>	<b>1)</b>	a) 1	<b>2)</b>	b) 2	<b>3)</b>	c) 3	<b>4)</b>	d) 4	2	<br>
-103	According to boolean law: A +A = ?	<br>	<b>1)</b>	a) A	<b>2)</b>	b) 0	<b>3)</b>	c) 1	<b>4)</b>	d)2A	1	<br>
-104	According to boolean law: A .A' = ?	<br>	<b>1)</b>	a) A	<b>2)</b>	b) 1	<b>3)</b>	c) 2A	<b>4)</b>	d) 0	4	<br>
-105	According to boolean theorem A+AB=	<br>	<b>1)</b>	a) A+B	<b>2)</b>	b) B	<b>3)</b>	c) A	<b>4)</b>	d) 1	3	<br>
-106	According to boolean theorem A+ĀB=	<br>	<b>1)</b>	a) AB	<b>2)</b>	b)A+B	<b>3)</b>	c) B	<b>4)</b>	d) A	2	<br>
-107	DeMorgan’s theorem states that _________	<br>	<b>1)</b>	a) (AB)’ = A’ + B’	<b>2)</b>	b) (A + B)’ = A’ * B	<b>3)</b>	c) A’ + B’ = A’B’	<b>4)</b>	d) (AB)’ = A’ + B	1	<br>
-108	Complement of the expression A’B + CD’ is _________	<br>	<b>1)</b>	a) (A’ + B)(C’ + D)	<b>2)</b>	b) (A + B’)(C’ + D)	<b>3)</b>	c) (A’ + B)(C’ + D)	<b>4)</b>	d) (A + B’)(C + D’)	2	<br>
-109	 Complement of the expression X+X'Y = X+Y is _________	<br>	<b>1)</b>	a) x'(x + y') = x'y'	<b>2)</b>	b) x(x'y) = xy	<b>3)</b>	c) x'(xy') = x'y'	<b>4)</b>	d) x(x' + y) = xy	1	<br>
-110	Which of the following relationships represents the dual of the Boolean property of x + x'y = x + y?	<br>	<b>1)</b>	a) x'(x + y') = x'y'	<b>2)</b>	b) x(x'y) = xy	<b>3)</b>	c) x'(xy') = x'y'	<b>4)</b>	d) x(x' + y) = xy	4	<br>
-111	Find the dual of given expression A(B+C)=A.B+A.C	<br>	<b>1)</b>	a) A	<b>2)</b>	b) A+BC= A+B	<b>3)</b>	c) A+BC=(A+B)(A+C)	<b>4)</b>	d) A+(B+C)=(A+B)=C	3	<br>
-112	According to Demorgan's  theorem the complement of a product of variable is equal to	<br>	<b>1)</b>	a) The Complement of the sum	<b>2)</b>	b) The sum of the complement	<b>3)</b>	c) The product of complement	<b>4)</b>	d) None of the above	2	<br>
-113	Find the dual of A.A =A	<br>	<b>1)</b>	a) A+A =A	<b>2)</b>	b) A	<b>3)</b>	c) 1	<b>4)</b>	d) 0	1	<br>
-114	Simplify the given boolean expression using DeMorgan's theorem (A + B)(A’ . B’) = ?	<br>	<b>1)</b>	a) 1	<b>2)</b>	b) 0	<b>3)</b>	c) AB	<b>4)</b>	d) A	2	<br>
-115	Reduce the following expression AB+AB’	<br>	<b>1)</b>	a) A	<b>2)</b>	b) A²	<b>3)</b>	c) 2A	<b>4)</b>	d) 1	1	<br>
-116	Which among the below stated boolean expressions do not obey De-Morgan's theorem ?	<br>	<b>1)</b>	a)( X+Y )'= X' . Y'	<b>2)</b>	b) (X.Y)' = X' + Y'	<b>3)</b>	c)  X.Y = X+Y	<b>4)</b>	d) None of the above	3	<br>
-117	According to De morgans theorem (A+B)'= 	<br>	<b>1)</b>	a) A'+B'	<b>2)</b>	b) AB	<b>3)</b>	c) A'B'	<b>4)</b>	d) A	3	<br>
-118	X + X.Y = ?	<br>	<b>1)</b>	a) 1	<b>2)</b>	b) 0	<b>3)</b>	c) X	<b>4)</b>	d) Y	3	<br>
-119	A + Ā is equal to	<br>	<b>1)</b>	a) A	<b>2)</b>	b)  Ā	<b>3)</b>	c) 0	<b>4)</b>	d) 1	4	<br>
-120	A(A + B) = ?	<br>	<b>1)</b>	a) AB	<b>2)</b>	b) 1	<b>3)</b>	c) (1 + AB)	<b>4)</b>	d) A	4	<br>
-121	Find the simplified expression of A’BC’+AC’.	<br>	<b>1)</b>	a) B	<b>2)</b>	b) A+C	<b>3)</b>	c) (A+B)C’	<b>4)</b>	d) B’C	3	<br>
-122	What is the simplification value of MN(M + N’) + M(N + N’)?	<br>	<b>1)</b>	a) M	<b>2)</b>	b) MN+M’N’	<b>3)</b>	c) (1+M)	<b>4)</b>	d) M+N’	1	<br>
-123	Simplify the expression XZ’ + (Y + Y’Z) + XY.	<br>	<b>1)</b>	a) (1+XY’)	<b>2)</b>	b) YZ + XY’ + Z’	<b>3)</b>	c) (X + Y +Z)	<b>4)</b>	d) XY’+ Z’	3	<br>
-124	Simplify the expression: XY’ + X’ + Y’X’.	<br>	<b>1)</b>	a) X’ + Y	<b>2)</b>	b) XY’	<b>3)</b>	c) (XY)’	<b>4)</b>	d) Y’ + X	3	<br>
-125	Minimize the following Boolean expression using Boolean theorems.F(A,B,C) = (A+BC’)(AB’+C)	<br>	<b>1)</b>	a) A + B + C’	<b>2)</b>	b) AC’ + B	<b>3)</b>	c) B + AC	<b>4)</b>	d) A(B’ + C)	4	<br>
-126	Boolean algebra can be used to 	<br>	<b>1)</b>	a) Simplify any algebraic expressions	<b>2)</b>	b) Minimize the number of switches in a circuit	<b>3)</b>	c) Solve the mathematical problem	<b>4)</b>	d) Perform arithmetic calculation	1	<br>
-127	If an input A is given to an inverter, the output will be 	<br>	<b>1)</b>	a) A	<b>2)</b>	b) 1/A	<b>3)</b>	c) 1	<b>4)</b>	d) A'	4	<br>
-128	The output of two input OR gate is high 	<br>	<b>1)</b>	a) Only if both the inputs are high	<b>2)</b>	b) Only if both the inputs are low 	<b>3)</b>	c) Only if one input is high and other is low 	<b>4)</b>	d) If atleast one of the input is high	4	<br>
-129	The output of two input AND gate is high 	<br>	<b>1)</b>	a) Only if both the inputs are low 	<b>2)</b>	b) Only if both the inputs are high	<b>3)</b>	c) If atleast one of the input is low	<b>4)</b>	d) Only if one input is high and other is low 	2	<br>
-130	The output of two input NAND gate is high 	<br>	<b>1)</b>	a) Only if both the inputs are high	<b>2)</b>	b) Only if both the inputs are low 	<b>3)</b>	c) Only if one input is high and other is low 	<b>4)</b>	d) If atleast one of the input is low	4	<br>
-131	If A=1 , B=1 then A+B will be	<br>	<b>1)</b>	a) 1	<b>2)</b>	b) 0	<b>3)</b>	c) 2	<b>4)</b>	d) None of the above	1	<br>
-132	What are basic gates	<br>	<b>1)</b>	a) AND, OR NOT	<b>2)</b>	b) NAND, NOR	<b>3)</b>	c) EX-OR, EX-NOR	<b>4)</b>	d) None of the above	1	<br>
-133	Logic gates are classified into _______ types	<br>	<b>1)</b>	a) 1	<b>2)</b>	b) 7	<b>3)</b>	c) 3	<b>4)</b>	d) 2	4	<br>
-134	Total No.of logic gates	<br>	<b>1)</b>	a) 5	<b>2)</b>	b) 6	<b>3)</b>	c)7	<b>4)</b>	d) 3	3	<br>
-135	In NAND-NAND realization how many no.of NAND gates are used for NOT function	<br>	<b>1)</b>	a) 1	<b>2)</b>	b) 2	<b>3)</b>	c) 3	<b>4)</b>	d) 4	1	<br>
-136	In NOR-NOR realization how many no.of NOR gates are used for AND function 	<br>	<b>1)</b>	a) 2	<b>2)</b>	b) 3 	<b>3)</b>	c) 4	<b>4)</b>	d) 5 	3	<br>
-137	Bubbled OR gate is equivalent to ____________ gate 	<br>	<b>1)</b>	a) AND 	<b>2)</b>	b) OR	<b>3)</b>	c) NOT	<b>4)</b>	d) NAND	4	<br>
-138	Bubbled AND gate is equivalent to ____________ gate 	<br>	<b>1)</b>	a) AND 	<b>2)</b>	b) OR	<b>3)</b>	c) NOT	<b>4)</b>	d) NOR	4	<br>
-139	The relation between the input and output of each gate is represented in a table, that table is called as 	<br>	<b>1)</b>	a) Truth table	<b>2)</b>	b) Excitation table	<b>3)</b>	c) Characteristic table 	<b>4)</b>	d) None of the above	1	<br>
-140	How many outputs does a logic gate produce?	<br>	<b>1)</b>	a) 4	<b>2)</b>	b) 2	<b>3)</b>	c) 3	<b>4)</b>	d) 1	4	<br>
-141	 The terms in SOP are called _____	<br>	<b>1)</b>	max terms	<b>2)</b>	 min terms	<b>3)</b>	 mid terms	<b>4)</b>	sum terms	2	<br>
-142	Which of the following is an incorrect SOP expression?	<br>	<b>1)</b>	x+x.y	<b>2)</b>	 (x+y)(x+z)	<b>3)</b>	x	<b>4)</b>	x+y	2	<br>
-143	The corresponding min term when x=0, y=0 and z=1.	<br>	<b>1)</b>	x.y.z’	<b>2)</b>	X’+Y’+Z	<b>3)</b>	X+Y+Z’	<b>4)</b>	x’.y’.z	4	<br>
-144	 The output of AND gates in the SOP expression is connected using the ________ gate	<br>	<b>1)</b>	OR	<b>2)</b>	AND	<b>3)</b>	NAND	<b>4)</b>	NOR	1	<br>
-145	The sum of product terms can be implemented with a  is a group of	<br>	<b>1)</b>	AND gates	<b>2)</b>	OR gates	<b>3)</b>	NAND GATES	<b>4)</b>	NOR GATES	1	<br>
-146	Canonical form is a unique way of representing ___________	<br>	<b>1)</b>	SOP	<b>2)</b>	Boolean Expressions	<b>3)</b>	POS	<b>4)</b>	Minterms	2	<br>
-147	Which operation is shown in the following expression: AB+BC+DE	<br>	<b>1)</b>	 NOR	<b>2)</b>	NAND	<b>3)</b>	SOP	<b>4)</b>	POS	3	<br>
-148	The number of min terms for an expression comprising of 3 variables?	<br>	<b>1)</b>	8	<b>2)</b>	3	<b>3)</b>	0	<b>4)</b>	1	1	<br>
-149	Which of the following is an correct SOP expression?	<br>	<b>1)</b>	AB+CD	<b>2)</b>	(A+B)(C+D)	<b>3)</b>	(A+)C	<b>4)</b>	NONE	1	<br>
-150	The expression A+BC is the reduced form of ______________	<br>	<b>1)</b>	(A+B)(A+C)	<b>2)</b>	(A+B)A	<b>3)</b>	(A+B)(C)	<b>4)</b>	(AB)	1	<br>
-151	If 1's epresents minterms then 0's represents	<br>	<b>1)</b>	min terms	<b>2)</b>	mid term	<b>3)</b>	max terms	<b>4)</b>	medians	3	<br>
-152	 The terms in POS are called _____	<br>	<b>1)</b>	mid term	<b>2)</b>	max terms	<b>3)</b>	min terms	<b>4)</b>	medians	2	<br>
-153	POS standards for ___________	<br>	<b>1)</b>	Product of Sums 	<b>2)</b>	Product of source	<b>3)</b>	Product of surface	<b>4)</b>	All the above	1	<br>
-154	The another name for POS form is	<br>	<b>1)</b>	Dual of SOP form	<b>2)</b>	Dual of POS form	<b>3)</b>	Dual of ProductT form	<b>4)</b>	All the above	1	<br>
-155	Which of the following is an correct POS expression?	<br>	<b>1)</b>	A+B+C	<b>2)</b>	AB	<b>3)</b>	AB+C	<b>4)</b>	(A+B) * (A + B + C) * (C +D)	4	<br>
-156	Which operation is shown in the following expression: (X+Y’).(X+Z).(Z’+Y’)	<br>	<b>1)</b>	 NOR	<b>2)</b>	NAND	<b>3)</b>	SOP	<b>4)</b>	POS	4	<br>
-157	The Product of sum  terms can be implemented with a  is a group of	<br>	<b>1)</b>	AND gates	<b>2)</b>	OR gates	<b>3)</b>	NAND GATES	<b>4)</b>	NOR GATES	2	<br>
-158	Which of the following is an incorrect POS expression?	<br>	<b>1)</b>	AB+BC+CA	<b>2)</b>	A+B	<b>3)</b>	A	<b>4)</b>	(X+Y)(Y+Z)(X+Z)	4	<br>
-159	Which of the following correct statement regarding to the POS?	<br>	<b>1)</b>	POS is formed by considering all the maxterms, whose output is LOW(0)	<b>2)</b>	SOP is formed by considering all the maxterms, whose output is LOW(0)	<b>3)</b>	POS is formed by considering all the maxterms, whose output is 1.	<b>4)</b>	ALL the above	1	<br>
-160	Maxterms are represented by__________	<br>	<b>1)</b>	M	<b>2)</b>	m	<b>3)</b>	N	<b>4)</b>	All the above	1	<br>
-161	The number of cells in a K-map with n-variables	<br>	<b>1)</b>	2n	<b>2)</b>	n	<b>3)</b>	2	<b>4)</b>	None	1	<br>
-162	There are ______ cells in a 4-variable K-map.	<br>	<b>1)</b>	4	<b>2)</b>	16	<b>3)</b>	3	<b>4)</b>	12	2	<br>
-163	There are ______ cells in a 3-variable K-map.	<br>	<b>1)</b>	6	<b>2)</b>	3	<b>3)</b>	8	<b>4)</b>	4	3	<br>
-164	A Karnaugh map (K-map) is an abstract form of ____________ diagram organized as a matrix of squares.	<br>	<b>1)</b>	Venn Diagram	<b>2)</b>	Cycle Diagram	<b>3)</b>	Block diagram	<b>4)</b>	Triangular Diagram	1	<br>
-165	The K-map based Boolean reduction is based on the following Unifying Theorem: A + A’ = 1.	<br>	<b>1)</b>	Impact	<b>2)</b>	Force	<b>3)</b>	Non Impact	<b>4)</b>	None of the above	3	<br>
-166	There are ______ cells in a 2-variable K-map.	<br>	<b>1)</b>	4	<b>2)</b>	2	<b>3)</b>	5	<b>4)</b>	3	1	<br>
-167	The karnaugh map is made up of 	<br>	<b>1)</b>	diagonal	<b>2)</b>	 Squares	<b>3)</b>	triangle	<b>4)</b>	All the above	2	<br>
-168	Looping on a K-map always results in the elimination of __________	<br>	<b>1)</b>	Variables within the loop that appear only in their complemented form	<b>2)</b>	Variables that remain unchanged within the loop	<b>3)</b>	 Variables within the loop that appear in both complemented and uncomplemented form	<b>4)</b>	None of the above	3	<br>
-169	Each “1” entry in a K-map square represents:	<br>	<b>1)</b>	A HIGH for each input truth table condition that produces a HIGH output	<b>2)</b>	A HIGH output on the truth table for all LOW input combinations	<b>3)</b>	A LOW output for all possible HIGH input conditions	<b>4)</b>	All the above	1	<br>
-170	An 8-square is called	<br>	<b>1)</b>	a cube	<b>2)</b>	 a pair	<b>3)</b>	a quad	<b>4)</b>	an octet	4	<br>
-171	What is the final simplified logic statement?F = AA'B + 1	<br>	<b>1)</b>	F = 1	<b>2)</b>	F = 0	<b>3)</b>	F = A	<b>4)</b>	All the above	1	<br>
-172	Find the simplified expression A’BC’+AC’.	<br>	<b>1)</b>	(A+B)C	<b>2)</b>	(A+B)C’	<b>3)</b>	(A)C’	<b>4)</b>	C’	2	<br>
-173	The k map method of minimization is very easy and effective, if the number of variables in switching function are	<br>	<b>1)</b>	4	<b>2)</b>	5	<b>3)</b>	6	<b>4)</b>	8	1	<br>
-174	The total number fo cells in the k-map of switching function(A,B,C) consisting of only three variables are	<br>	<b>1)</b>	6	<b>2)</b>	3	<b>3)</b>	8	<b>4)</b>	4	3	<br>
-175	There are ______ cells in a 4-variable K-map.	<br>	<b>1)</b>	12	<b>2)</b>	16	<b>3)</b>	6	<b>4)</b>	8	4	<br>
-176	 A Karnaugh map (K-map) is an abstract form of ____________ diagram organized as a matrix of squares.	<br>	<b>1)</b>	"Venn Diagram
-"	<b>2)</b>	 Cycle Diagram	<b>3)</b>	Block diagram	<b>4)</b>	Triangular Diagram	1	<br>
-177	 Each product term of a group, w’.x.y’ and w.y, represents the ____________ in that group.	<br>	<b>1)</b>	"Input
-"	<b>2)</b>	" POS
-"	<b>3)</b>	" Sum-of-Minterms
-"	<b>4)</b>	 Sum of Maxterms	3	<br>
-178	Don’t care conditions can be used for simplifying Boolean expressions in ___________	<br>	<b>1)</b>	"Registers
-"	<b>2)</b>	" Terms
-"	<b>3)</b>	" K-maps
-"	<b>4)</b>	Latches	3	<br>
-179	Four adjacent ‘1’s in a Karnaugh map forms a	<br>	<b>1)</b>	"Octet
-"	<b>2)</b>	"Singlet
-"	<b>3)</b>	"Pair
-"	<b>4)</b>	Quad	4	<br>
-180	In the Karnaugh map, each cell represents ___________ minterm derived from the Boolean expression.	<br>	<b>1)</b>	1	<b>2)</b>	2	<b>3)</b>	3	<b>4)</b>	4	1	<br>
-181	 A variable on its own or in its complemented form is known as a _________	<br>	<b>1)</b>	 Literal	<b>2)</b>	Product Term	<b>3)</b>	 Sum Term	<b>4)</b>	None	1	<br>
-182	Maxterm is the sum of __________ of the corresponding Minterm with its literal complemented.	<br>	<b>1)</b>	Words	<b>2)</b>	Numbers	<b>3)</b>	Terms	<b>4)</b>	Nibble	3	<br>
-183	 _____________ expressions can be implemented using either (1) 2-level AND-OR logic circuits or (2) 2-level NAND logic circuits.	<br>	<b>1)</b>	POS	<b>2)</b>	SOP	<b>3)</b>	Lierals	<b>4)</b>	None	2	<br>
-184	When designing a circuit to emulate a truth table, both Product-of-Sums (POS) expressions and Sum-of-Products (SOP) expressions can be derived from?	<br>	<b>1)</b>	k-map	<b>2)</b>	SOP	<b>3)</b>	Lierals	<b>4)</b>	None	1	<br>
-185	Simplify the expression using K-maps: F(A,B,C,D)=Σ (1,3,5,6,7,11,13,14).	<br>	<b>1)</b>	A’D	<b>2)</b>	A’D+BCD+A’BC+AB’C’	<b>3)</b>	A’D+BCD+A’BC	<b>4)</b>	A’D+BCD	2	<br>
-186	Who has invented K-map?	<br>	<b>1)</b>	Maurice Karnaugh	<b>2)</b>	Edward Veitch	<b>3)</b>	George Boole	<b>4)</b>	Adam Smith	1	<br>
-187	Find the product of maxterms of the function F(A,B,C)=∑m(2,4,6,7)	<br>	<b>1)</b>	 F (A,B,C) =  πM(0,1,3,5)	<b>2)</b>	 F (A,B,C) =  πM(0,1)	<b>3)</b>	 F (A,B,C) =  πM(0,2)	<b>4)</b>	 F (A,B,C) =  πM(0,7)	1	<br>
-188	Express the following function as sum of minterms  F(A,B,C,D)=  πM(2,4,6,8,10,12,14)	<br>	<b>1)</b>	F(A,B,C,D)=  ∑m(0,1,2,9)	<b>2)</b>	F(A,B,C,D)=  ∑m(0,1,3,5,7,9,11,13,15)	<b>3)</b>	F(A,B,C,D)=  ∑m(0,1,3,5,7,9)	<b>4)</b>	F(A,B,C,D)=  ∑m(0,1,9)	2	<br>
-189	Simplify the expression using K-maps: F(A,B,C) = π(0,2,4,5,7).	<br>	<b>1)</b>	 (x+y)(y+z)(x+z)(x’+z’)	<b>2)</b>	 (x+y)(y+z)(x+z)	<b>3)</b>	 (x+y)(y+z)	<b>4)</b>	 (x+y)	1	<br>
-190	 Simplify the expression using K-maps: F(A,B,C) = Σ (1,3,5,6,7).	<br>	<b>1)</b>	C	<b>2)</b>	AB+C	<b>3)</b>	A+C	<b>4)</b>	A	2	<br>
-191	Each one  entry in a K-map square represents:	<br>	<b>1)</b>	A HIGH for each input truth table condition that produces a HIGH output	<b>2)</b>	A HIGH output on the truth table for all LOW input combinations	<b>3)</b>	A LOW output for all possible HIGH input conditions	<b>4)</b>	A DON’T CARE condition for all possible input truth table combinations	1	<br>
-192	Each “0” entry in a K-map square represents:	<br>	<b>1)</b>	A HIGH output on the truth table for all LOW input combinations	<b>2)</b>	A HIGH for each input truth table condition that produces a HIGH output	<b>3)</b>	A LOW output for all possible HIGH input conditions	<b>4)</b>	All the above	3	<br>
-193	Looping on a Karnuagh-map always results in the elimination of __________	<br>	<b>1)</b>	Variables within the loop that appear in both complemented and uncomplemented form	<b>2)</b>	Variables within the loop that appear only in their uncomplemented form	<b>3)</b>	Variables within the loop that appear only in their complemented form	<b>4)</b>	Variables that remain unchanged within the loop	1	<br>
-194	 Don’t care conditions can be used for simplifying Boolean expressions in ____	<br>	<b>1)</b>	Registers	<b>2)</b>	Terms	<b>3)</b>	K-maps	<b>4)</b>	 Latches	3	<br>
-195	It should be kept in mind that don’t care terms should be used along with the terms that are present in ___________	<br>	<b>1)</b>	Minterms	<b>2)</b>	Expressions	<b>3)</b>	K-Map	<b>4)</b>	Latches	1	<br>
-196	 The prime implicant which has at least one element that is not present in any other implicant is known as ___________	<br>	<b>1)</b>	Prime Implicant	<b>2)</b>	Implicant	<b>3)</b>	 Complement	<b>4)</b>	Essential Prime Implicant	4	<br>
-197	Don't care in map are distinguished from 0's and 1's y	<br>	<b>1)</b>	Z	<b>2)</b>	X	<b>3)</b>	Y	<b>4)</b>	None	2	<br>
-198	Don't care condition can be used to simplify Boolean expression in	<br>	<b>1)</b>	Registers	<b>2)</b>	terms	<b>3)</b>	k-maps	<b>4)</b>	latches	1	<br>
-199	The prime implicants for which each of its minterm is covered by some essential prime implicant are	<br>	<b>1)</b>	SPI	<b>2)</b>	redundant prime implicants.	<b>3)</b>	EPI	<b>4)</b>	PI	2	<br>
-200	A group of square or rectangle made up of bunch of adjacent minterms which is allowed by definition of K-Map are called	<br>	<b>1)</b>	PI	<b>2)</b>	SPI	<b>3)</b>	EPI	<b>4)</b>	None	1	<br>
-												
-</blockquote>
+        document.write("<h2>your name is = "+name+"</h2>");
+        document.write("<h2>your mobileis = "+mobile+"</h2>");
+        document.write("<h2>your password is= "+password+"</h2>");
+
+
+
+}
+</script>
 </body>
-
 </html>
