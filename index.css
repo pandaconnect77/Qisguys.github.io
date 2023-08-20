@@ -1,0 +1,61 @@
+
+.sai{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    background-color: gray;
+    color:white;
+    text-align: center;
+    
+}
+h1{
+    color:white;
+    color:;
+    
+}
+ul{
+    text-align: right;
+}
+
+.sai1 li,a{
+    display: inline-block;
+     list-style-type: none;
+    
+}
+.sai1 li a{
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: aliceblue;
+    position: relative;
+    
+}
+.s{
+    text-align: left;
+}
+
+  
+
+label{
+    font-size: 20px;
+    font-family: 
+}
+.subbu1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#subbu{
+    text-decoration: none;
+}
+a{
+     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+
+
+
+
+
