@@ -1,91 +1,68 @@
-body{
-	background-color:  #6c757d;
-}
-.{
-	margin: 0px;
-	padding: 0px;
-	font-family: sans-serif;
-}
-.sao{
-	position: relative;
-	width: 100%;
-	height: 100hv;
-	background: red;	}
-	img{
-		
+.carousel-inner {
+            border-radius: 10px;
+        }
 
-	}
-li {
-	list-style-type: none;
-	
-}
-li a{
-	text-decoration: none;
-	float: right;
-	margin: 23px ; 
-	font-size: 30px;
-	font-style: italic;
-	color: white;
-}
-li a:hover{
-	color: #cc00ff;
-}
-li a.active{
-	color: green;
-}
-h1{
-	margin-left: 50px;
-	font-style: italic;
-	margin-top: 200px;
-	color:white;
+        .carousel-inner img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+    .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-}
-h1:hover{
-	color: #cc00ff;
+        .card {
+            margin: 10px;
+            width: 250px;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-}
-.ab{
-	text-decoration: none;
-	background:white;
-	color: black;
-	font-size: 23px;
-	font-style: italic;
-	margin-left: 32%;
-	padding: 9px;
-	float: left;
-}
- .ab:hover{
-	background: #cc00ff;
-	color: white;
-}
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
 
+        .card-img {
+            transition: transform 0.3s ease;
+        }
 
-.navbar {
-  overflow: hidden;
- 
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+        .card:hover .card-img {
+            transform: scale(1.1);
+        }
 
-.navbar a {
-  float: left;
-  display: inline-block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 25px;
-  text-decoration: none;
-  font-size: 30px;
-}
+        .card-title {
+            font-size: 18px;
+            font-weight: 500;
+        }
 
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
-}
+        .card-subtitle {
+            font-size: 14px;
+            color: #666;
+        }
 
+        .card-price {
+            font-size: 20px;
+            font-weight: 500;
+        }
 
-.main {
-  padding: 30px;
-  margin-bottom: 30px;
-}
+        .card-btn {
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
 
+        .card:hover .card-btn {
+            background-color: #2d8cf0;
+            color: white;
+        }
+           .product {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .product-image {
+            border-radius: 50%;
+            max-width: 100%;
+            height: auto;
+        }
