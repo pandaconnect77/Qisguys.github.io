@@ -5,7 +5,212 @@
 <p>Here is a quote from WWF's website:</p>
 
 <blockquote >
-
+    
+    1	What is the term that talks about group operations?	<br><b>1)</b>	Split	<b>2)</b>	Apply	<b>3)</b>	Combine	<b>4)</b>	Split Apply Combine	<b>Ans)</b>	4	<br><br>
+    2	Split into groups is based on	<br><b>1)</b>	One key	<b>2)</b>	Two keys	<b>3)</b>	One or more keys	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    3	DataFrame can be grouped on its	<br><b>1)</b>	Rows	<b>2)</b>	Columns	<b>3)</b>	Rows and Columns	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    4	"Mean of the data1 column using the groups labels from key1 is
+    "	<br><b>1)</b>	grouped = df['data1'].groupby(df['key1'])	<b>2)</b>	grouped = df['key1'].groupby(df['data1'])	<b>3)</b>	grouped = df['data1'].groupby(df['data1'])	<b>4)</b>	grouped = df['key1'].groupby(df['key1'])	<b>Ans)</b>	1	<br><br>
+    5	To compute group means we can call	<br><b>1)</b>	groupedmean()	<b>2)</b>	grouped.mean()	<b>3)</b>	grouped(mean)	<b>4)</b>	grouped(mean())	<b>Ans)</b>	2	<br><br>
+    6	By default, all of the numeric columns are aggregated	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Maybe	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    7	GroupBy method which return a Series containing group sizes is	<br><b>1)</b>	length()	<b>2)</b>	mean()	<b>3)</b>	size()	<b>4)</b>	groupby()	<b>Ans)</b>	3	<br><br>
+    8	By default groupby groups on 	<br><b>1)</b>	axis=0	<b>2)</b>	axis=1	<b>3)</b>	axis=x	<b>4)</b>	axis=y	<b>Ans)</b>	1	<br><br>
+    9	For large data sets, it may be desirable to aggregate 	<br><b>1)</b>	only a few columns	<b>2)</b>	all columns	<b>3)</b>	Half of the  columns	<b>4)</b>	only two columns	<b>Ans)</b>	1	<br><br>
+    10	"Any function passed as a group key will be called once per index value
+    "	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Maybe	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    11	"To group by the length of the names, the function we use is
+    "	<br><b>1)</b>	sum()	<b>2)</b>	mean()	<b>3)</b>	size()	<b>4)</b>	len()	<b>Ans)</b>	4	<br><br>
+    12	Quantile performs linear interpolation if there is no value at exactly the passed percentile	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Maybe	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    13	A DataFrame will have hierarchical columns only if	<br><b>1)</b>	multiple functions are applied to at least one column	<b>2)</b>	multiple functions are applied to at most one column	<b>3)</b>	single functions is applied to at least one column	<b>4)</b>	single functions is applied to at most one column	<b>Ans)</b>	1	<br><br>
+    14	Group demeaning can be achieved using	<br><b>1)</b>	transform()	<b>2)</b>	apply()	<b>3)</b>	Both 	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    15	Which function splits the object being manipulated into pieces	<br><b>1)</b>	agg()	<b>2)</b>	apply()	<b>3)</b>	transform()	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    16	The method like describe,  is actually just a shortcut for	<br><b>1)</b>	f = lambda x: x.describe()	<b>2)</b>	f = lambda x: x.top()	<b>3)</b>	f = lambda x: x.size()	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    17	What functions are used for slicing data up into buckets with bins of your choosing	<br><b>1)</b>	cut and piece	<b>2)</b>	cut and qcut	<b>3)</b>	qcut and piece	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    18	When cleaning up missing data, in some cases we will filter out data observations using 	<br><b>1)</b>	dropna	<b>2)</b>	fillna	<b>3)</b>	mean	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    19	transform and apply methods, which will enable us to do 	<br><b>1)</b>	row functions	<b>2)</b>	column functions	<b>3)</b>	Both	<b>4)</b>	group functions	<b>Ans)</b>	4	<br><br>
+    20	we wanted to add a column to a DataFrame containing group means for each index. One way to do this is to 	<br><b>1)</b>	aggregate, then join	<b>2)</b>	aggregate, then merge	<b>3)</b>	aggregate, then concat	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    21	The most general purpose GroupBy method is 	<br><b>1)</b>	transform()	<b>2)</b>	apply()	<b>3)</b>	Both	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    22	splits the object being manipulated into pieces, invokes the passed function on each piece, then attempts to concatenate the pieces together	<br><b>1)</b>	transform()	<b>2)</b>	apply()	<b>3)</b>	Both	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    23	The tools that are used for slicing data up into buckets with bins of our choosing or by sample quantiles.	<br><b>1)</b>	cut, qcut	<b>2)</b>	cut, ucut	<b>3)</b>	cut, lcut	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    24	The Factor object returned by cut can be passed directly to 	<br><b>1)</b>	groupby	<b>2)</b>	apply	<b>3)</b>	transform()	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    25	To compute equal-size buckets based on sample quantiles, we use	<br><b>1)</b>	cut	<b>2)</b>	qcut	<b>3)</b>	ucut	<b>4)</b>	lcut	<b>Ans)</b>	2	<br><br>
+    26	Tool that is used to impute the NA values using a fixed value or some value derived from the data. 	<br><b>1)</b>	dropna	<b>2)</b>	fillna	<b>3)</b>	mean	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    27	Data summarization tool frequently found in spreadsheet programs and other data analysis software is 	<br><b>1)</b>	pivot table	<b>2)</b>	groupby	<b>3)</b>	reshape	<b>4)</b>	All	<b>Ans)</b>	1	<br><br>
+    28	Which tool aggregates a table of data by one or more keys, arranging the data in a rectangle with some of the group keys along the rows and some along the columns	<br><b>1)</b>	pivot table	<b>2)</b>	groupby	<b>3)</b>	reshape	<b>4)</b>	All	<b>Ans)</b>	1	<br><br>
+    29	In addition to providing a convenience interface to groupby, Which function can add partial totals, also known as margins.	<br><b>1)</b>	pivot table	<b>2)</b>	groupby	<b>3)</b>	reshape	<b>4)</b>	All	<b>Ans)</b>	1	<br><br>
+    30	The parameter that is passed to augment table to include partial totals is	<br><b>1)</b>	margin = True	<b>2)</b>	margin = False	<b>3)</b>	margins = True	<b>4)</b>	margins = False	<b>Ans)</b>	3	<br><br>
+    31	Special case of a pivot table that computes group frequencies is	<br><b>1)</b>	cross function	<b>2)</b>	cross tabulation	<b>3)</b>	cross table	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    32	Important form of structured data in many different fields, such as finance, economics, ecology, neuroscience, and physics is	<br><b>1)</b>	Intervals	<b>2)</b>	Time stamp	<b>3)</b>	Time Series	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    33	Many time series are 	<br><b>1)</b>	Irregular	<b>2)</b>	fixed frequency	<b>3)</b>	fixed period	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    34	Timestamps defines	<br><b>1)</b>	Month anf Full year	<b>2)</b>	Start and End time	<b>3)</b>	specific instants in time	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    35	Fixed Period defines	<br><b>1)</b>	Month anf Full year	<b>2)</b>	Start and End time	<b>3)</b>	specific instants in time	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    36	Intervals defines	<br><b>1)</b>	Month anf Full year	<b>2)</b>	Start and End time	<b>3)</b>	specific instants in time	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    37	To display present date time, we use	<br><b>1)</b>	date()	<b>2)</b>	datetime()	<b>3)</b>	now()	<b>4)</b>	datetime.now()	<b>Ans)</b>	4	<br><br>
+    38	datetime stores	<br><b>1)</b>	date	<b>2)</b>	time 	<b>3)</b>	both date and time with microseconds	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    39	Time delta represents	<br><b>1)</b>	date	<b>2)</b>	time 	<b>3)</b>	both date and time with microseconds	<b>4)</b>	difference between two datetime objects	<b>Ans)</b>	4	<br><br>
+    40	The function that is used to format Timestamp objects as strings is	<br><b>1)</b>	str	<b>2)</b>	strtime	<b>3)</b>	Both str and strtime	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    41	Package that is capable of parsing almost any human-intelligible date representation is	<br><b>1)</b>	pyenv	<b>2)</b>	pytz	<b>3)</b>	parsedatetime	<b>4)</b>	dateutil	<b>Ans)</b>	4	<br><br>
+    42	In international locales, day appearing before month is very common	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    43	The method that parses many different kinds of date representations.is	<br><b>1)</b>	to_datetime	<b>2)</b>	from_datetime	<b>3)</b>	to_from_datetime	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    44	Standard date formats like ISO8601 can be parsed very quickly	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    45	What is pandas’s NA value for timestamp data.	<br><b>1)</b>	NaN(Not a Number)	<b>2)</b>	NaT(Not a Time)	<b>3)</b>	NaT(Not a True)	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    46	Datetime objects are available in	<br><b>1)</b>	DateIndex	<b>2)</b>	TimeIndex	<b>3)</b>	DatetimeIndex	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    47	What is a subclass of Series and thus behaves in the same way with regard to indexing and selecting data based on label	<br><b>1)</b>	TimeSeries	<b>2)</b>	Indexing	<b>3)</b>	Selection	<b>4)</b>	Subset	<b>Ans)</b>	1	<br><br>
+    48	For longer time series, the parameter can be passed to easily select slices of data is 	<br><b>1)</b>	a year 	<b>2)</b>	only a year and month	<b>3)</b>	a year or only a year and month	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    49	Slicing with dates works just like with a regular Series	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    50	Most time series data is not ordered chronologically	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    51	The instance method which slices a TimeSeries between two dates is	<br><b>1)</b>	Merge	<b>2)</b>	Join	<b>3)</b>	truncate	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    52	Which property is used to tell that the index is not unique?	<br><b>1)</b>	is_nunique	<b>2)</b>	is_notunique	<b>3)</b>	is_unique	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    53	Indexing into the time series will either produce scalar values or slices depending on whether a timestamp is duplicated	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    54	We wanted to aggregate the data having non-unique timestamps. One way to do this is 	<br><b>1)</b>	use groupby 	<b>2)</b>	pass level=0 	<b>3)</b>	use groupby and pass level=1	<b>4)</b>	use groupby and pass level=0 	<b>Ans)</b>	4	<br><br>
+    55	Converting time series  to be fixed daily frequency can be accomplished by calling	<br><b>1)</b>	shifting	<b>2)</b>	range	<b>3)</b>	frequency	<b>4)</b>	resample	<b>Ans)</b>	4	<br><br>
+    56	What is responsible for generating a DatetimeIndex with an indicated length according to a particular frequency	<br><b>1)</b>	date_sample	<b>2)</b>	date_shift	<b>3)</b>	date_frequency	<b>4)</b>	date_range	<b>Ans)</b>	4	<br><br>
+    57	By default, date_range generates 	<br><b>1)</b>	yearly timestamps	<b>2)</b>	monthly timestamps	<b>3)</b>	weekly timestamps	<b>4)</b>	daily timestamps	<b>Ans)</b>	4	<br><br>
+    58	If we wanted a date index containing the last business day of each month, which frequency we would pass?	<br><b>1)</b>	BM	<b>2)</b>	BD	<b>3)</b>	MB	<b>4)</b>	DM	<b>Ans)</b>	1	<br><br>
+    59	date_range by default preserves	<br><b>1)</b>	time of the start timestamp	<b>2)</b>	time of the end timestamp	<b>3)</b>	time of the start or end timestamp	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    60	For each base frequency, there is an object defined generally referred to as a 	<br><b>1)</b>	date range 	<b>2)</b>	date offset	<b>3)</b>	DateTimeIndex	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    61	Hourly frequency can be represented with ?	<br><b>1)</b>	Hr class	<b>2)</b>	Hour class	<b>3)</b>	Both Hr and Hour class	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    62	Many offsets can be combined together by addition	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    63	Result of Hour(2) + Minute(30) is 	<br><b>1)</b>	2 hr 30 min	<b>2)</b>	2.30 hr	<b>3)</b>	150 * Minutes	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    64	Frequency class “week of month” enables us to get	<br><b>1)</b>	Weak of the Month	<b>2)</b>	Week of the Month	<b>3)</b>	Work of the Month	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    65	A common use of shift is computing percent changes in a time series	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    66	Percent changes in a time series can be represented as	<br><b>1)</b>	ts 	<b>2)</b>	ts / ts.shift(1) 	<b>3)</b>	ts / ts.shift(1) – 1	<b>4)</b>	ts.shift(1) – 1	<b>Ans)</b>	3	<br><br>
+    67	Anchored offsets can explicitly “roll” dates forward only	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    68	Anchored offsets can explicitly “roll” dates backward only	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    69	Anchored offsets can explicitly “roll” dates forward or backward 	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    70	Anchored offsets can explicitly “roll” dates forward using the method	<br><b>1)</b>	rollforward	<b>2)</b>	rollbackward	<b>3)</b>	rollupward	<b>4)</b>	rolldownward	<b>Ans)</b>	1	<br><br>
+    71	Anchored offsets can explicitly “roll” dates backward using the method	<br><b>1)</b>	rollforward	<b>2)</b>	rollbackward	<b>3)</b>	rollupward	<b>4)</b>	rolldownward	<b>Ans)</b>	2	<br><br>
+    72	Anchored offsets can explicitly “roll” dates forward or backward using the methods	<br><b>1)</b>	rollforward	<b>2)</b>	rollforward and rollbackward	<b>3)</b>	rollupward	<b>4)</b>	rolldownward	<b>Ans)</b>	2	<br><br>
+    73	The library that gives time zone information is 	<br><b>1)</b>	pytz library	<b>2)</b>	pitz library	<b>3)</b>	pyts library	<b>4)</b>	pits library	<b>Ans)</b>	1	<br><br>
+    74	Many time series users choose to work with the time series 	<br><b>1)</b>	daylight savings time (DST) 	<b>2)</b>	coordinated universal time (UTC)	<b>3)</b>	Greenwich Mean Time(GMT)	<b>4)</b>	Indian Standard Time(IST)	<b>Ans)</b>	2	<br><br>
+    75	New York is 5 hrs behind UTC during daylight savings time and 4 hrs the rest of the year. 	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    76	To get a time zone object from pytz, we use 	<br><b>1)</b>	pytz.timezone	<b>2)</b>	pitz.timezone	<b>3)</b>	pytz.tzone	<b>4)</b>	pitz.tzone	<b>Ans)</b>	1	<br><br>
+    77	Conversion from naive to localized is handled by the tz_localize method	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    78	Once a time series has been localized to a particular time zone, it can be converted to another time zone using	<br><b>1)</b>	tz_convert	<b>2)</b>	tz-convert	<b>3)</b>	tz*convert	<b>4)</b>	tz+convert	<b>Ans)</b>	1	<br><br>
+    79	tz_localize and tz_convert are instance methods on 	<br><b>1)</b>	DateIndex	<b>2)</b>	TimeIndex	<b>3)</b>	DatetimeIndex	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    80	If two time series with different time zones are combined, the result will be 	<br><b>1)</b>	daylight savings time (DST) 	<b>2)</b>	coordinated universal time (UTC)	<b>3)</b>	Greenwich Mean Time(GMT)	<b>4)</b>	Indian Standard Time(IST)	<b>Ans)</b>	2	<br><br>
+    81	Periods represent time spans, like 	<br><b>1)</b>	days	<b>2)</b>	months 	<b>3)</b>	quarters, or years. 	<b>4)</b>	days, months, quarters, or years	<b>Ans)</b>	4	<br><br>
+    82	If two periods have the same frequency, their difference is the number of units between them	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    83	Regular ranges of periods can be constructed using the function	<br><b>1)</b>	period_range 	<b>2)</b>	period_shift	<b>3)</b>	period_index	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    84	"The class that stores a sequence of periods and can serve as an axis index in any pandas data structure is 
+    "	<br><b>1)</b>	periodRange 	<b>2)</b>	periodShift	<b>3)</b>	periodIndex	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    85	Periods and PeriodIndex objects can be converted to another frequency using	<br><b>1)</b>	asfrequency	<b>2)</b>	asfreq	<b>3)</b>	Both asfrequncy and asfreq	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    86	Fiscal year ending in January, 2022Q4 runs from	<br><b>1)</b>	November through January	<b>2)</b>	December through January	<b>3)</b>	January through April	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    87	Series and DataFrame objects indexed by timestamps can be converted to periods using 	<br><b>1)</b>	from_period method	<b>2)</b>	to_period method	<b>3)</b>	period_from method	<b>4)</b>	period_to method	<b>Ans)</b>	2	<br><br>
+    88	Periods always refer to 	<br><b>1)</b>	overlapping timespans	<b>2)</b>	non-overlapping timespans	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    89	The process of converting a time series from one frequency to another	<br><b>1)</b>	Sampling	<b>2)</b>	Resampling	<b>3)</b>	downsampling	<b>4)</b>	upsampling	<b>Ans)</b>	2	<br><br>
+    90	Aggregating higher frequency data to lower frequency is called 	<br><b>1)</b>	Sampling	<b>2)</b>	Resampling	<b>3)</b>	downsampling	<b>4)</b>	upsampling	<b>Ans)</b>	3	<br><br>
+    91	Aggregating lower frequency data to higher frequency is called 	<br><b>1)</b>	Sampling	<b>2)</b>	Resampling	<b>3)</b>	downsampling	<b>4)</b>	upsampling	<b>Ans)</b>	4	<br><br>
+    92	Converting W-WED (weekly on Wednesday) to W-FRI is neither upsampling nor downstampling	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    93	The way to aggregate a time series is to compute four values for each bucket, the first, last , maximum and minimal values is	<br><b>1)</b>	how = 'olhc'	<b>2)</b>	how = 'oclh'	<b>3)</b>	how = 'ohlc'	<b>4)</b>	how = 'oclh'	<b>Ans)</b>	3	<br><br>
+    94	When converting from a low frequency to a higher frequency, no aggregation is needed.	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    95	In downsampling, the target frequency must be	<br><b>1)</b>	a superperiod of the source frequency	<b>2)</b>	a subperiod of the source frequency	<b>3)</b>	no change	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    96	In upsampling, the target frequency must be a 	<br><b>1)</b>	a superperiod of the source frequency	<b>2)</b>	a subperiod of the source frequency	<b>3)</b>	no change	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    97	Functions evaluated over a sliding window or with exponentially decaying weights is called	<br><b>1)</b>	sliding window functiions	<b>2)</b>	moving window functiions	<b>3)</b>	automatic window functiions	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    98	The functions that performs aggregate operations on the window with the same amount of sample each time are called	<br><b>1)</b>	sliding window functiions	<b>2)</b>	moving window functiions	<b>3)</b>	rolling window functiions	<b>4)</b>	expanding window functiions	<b>Ans)</b>	3	<br><br>
+    99	The functions that performs aggregate operations on the window which expands with time are called	<br><b>1)</b>	sliding window functiions	<b>2)</b>	moving window functiions	<b>3)</b>	rolling window functiions	<b>4)</b>	expanding window functiions	<b>Ans)</b>	4	<br><br>
+    100	The pseudo-random numbers generated with seed value 0 will start from the same point every time. 	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    101	The function that is used along an axis of the DataFrame is 	<br><b>1)</b>	apply()	<b>2)</b>	applymap()	<b>3)</b>	Groupby()	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    102	The function that is used a Dataframe elementwise  is 	<br><b>1)</b>	apply()	<b>2)</b>	applymap()	<b>3)</b>	Groupby()	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    103	The function that is used to group large amounts of data and compute operations on these groups is 	<br><b>1)</b>	apply()	<b>2)</b>	applymap()	<b>3)</b>	Groupby()	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    104	Programmatic style of invoking multiple method calls sequentially with each call performing an action on the same object and returning it is called	<br><b>1)</b>	Function Chaining	<b>2)</b>	Method Chaining	<b>3)</b>	Group Chaining	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    105	Method chaining substantially increases the readability of the code	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    106	Is quantile not explicitly implemented for GroupBy?	<br><b>1)</b>	Yes	<b>2)</b>	No	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    107	Computing group summary statistics inludes	<br><b>1)</b>	count function	<b>2)</b>	mean function	<b>3)</b>	standard deviation function	<b>4)</b>	All	<b>Ans)</b>	4	<br><br>
+    108	Who is the author of many popular packages for the R programming language	<br><b>1)</b>	Luca Massaron	<b>2)</b>	Hadley Wickham	<b>3)</b>	Wes McKinney	<b>4)</b>	Matt Harrison	<b>Ans)</b>	2	<br><br>
+    109	The term that is coined by Hadley Wickham for group operations is	<br><b>1)</b>	split	<b>2)</b>	apply	<b>3)</b>	combine	<b>4)</b>	split-apply-combine	<b>Ans)</b>	4	<br><br>
+    110	The splitting process is performed on a particular axis of an object	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	Can't say	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    111	Datetime objects and Timestamp objects, can be formatted as strings using the method	<br><b>1)</b>	str	<b>2)</b>	strftime	<b>3)</b>	Both str and strftime	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    112	The best way to parse a date with a known format is 	<br><b>1)</b>	datetime	<b>2)</b>	strptime	<b>3)</b>	datetime.strptime	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    113	4-digit year can be represented by type	<br><b>1)</b>	y%	<b>2)</b>	%y	<b>3)</b>	Y%	<b>4)</b>	%Y	<b>Ans)</b>	4	<br><br>
+    114	2-digit year can be represented by type	<br><b>1)</b>	y%	<b>2)</b>	%y	<b>3)</b>	Y%	<b>4)</b>	%Y	<b>Ans)</b>	2	<br><br>
+    115	Hour (24-hour clock) can be represented by	<br><b>1)</b>	h%	<b>2)</b>	%h	<b>3)</b>	H%	<b>4)</b>	%H	<b>Ans)</b>	4	<br><br>
+    116	Hour (12-hour clock) can be represented by	<br><b>1)</b>	i%	<b>2)</b>	%i	<b>3)</b>	I%	<b>4)</b>	%I	<b>Ans)</b>	4	<br><br>
+    117	Business daily can be represented by the offset type	<br><b>1)</b>	BusinessDay	<b>2)</b>	BusinessMonthEnd	<b>3)</b>	BusinessMonthBegin	<b>4)</b>	None	<b>Ans)</b>	1	<br><br>
+    118	Last business day (weekday) of month can be represented by the offset type	<br><b>1)</b>	BusinessDay	<b>2)</b>	BusinessMonthEnd	<b>3)</b>	BusinessMonthBegin	<b>4)</b>	None	<b>Ans)</b>	2	<br><br>
+    119	First weekday of month can be represented by the offset type	<br><b>1)</b>	BusinessDay	<b>2)</b>	BusinessMonthEnd	<b>3)</b>	BusinessMonthBegin	<b>4)</b>	None	<b>Ans)</b>	3	<br><br>
+    120	Last calendar day of month can be represented by the offset type	<br><b>1)</b>	MonthEnd	<b>2)</b>	QuarterEnd	<b>3)</b>	MonthBegin	<b>4)</b>	QuarterBegin	<b>Ans)</b>	1	<br><br>
+    121	when u print any series then the left most column is showing_______	<br><b>1)</b>	index	<b>2)</b>	data	<b>3)</b>	value	<b>4)</b>	none of the above	<b>Ans)</b>	1	<br><br>
+    122	Data can be visualized using?	<br><b>1)</b>	graphs	<b>2)</b>	charts 	<b>3)</b>	maps	<b>4)</b>	all of the above	<b>Ans)</b>	4	<br><br>
+    123	Data visualization is also an element of the broader _____________	<br><b>1)</b>	deliver presentation architecture	<b>2)</b>	data presentation architecture	<b>3)</b>	 dataset presentation architecture	<b>4)</b>	data process architecture	<b>Ans)</b>	2	<br><br>
+    124	Which method shows hierarchical data in a nested format?	<br><b>1)</b>	treemaps	<b>2)</b>	Scatter plots	<b>3)</b>	Population pyramids	<b>4)</b>	Area charts	<b>Ans)</b>	1	<br><br>
+    125	Which is used to inference for 1 proportion using normal approx?	<br><b>1)</b>	chisq.test()	<b>2)</b>	 fisher.test()	<b>3)</b>	Lm.test()	<b>4)</b>	prop.test()	<b>Ans)</b>	4	<br><br>
+    126	Which is used to find the factor congruence coefficients?	<br><b>1)</b>	factor.mosaicplot	<b>2)</b>	factor.xyplot	<b>3)</b>	factor.congruence	<b>4)</b>	factor.cumsum	<b>Ans)</b>	3	<br><br>
+    127	Which of the following is tool for checking normality?	<br><b>1)</b>	qqline()	<b>2)</b>	qline()	<b>3)</b>	anova()	<b>4)</b>	lm()	<b>Ans)</b>	1	<br><br>
+    128	 Common use cases for data visualization include?	<br><b>1)</b>	politics	<b>2)</b>	Sales and marketing	<b>3)</b>	Healthcare	<b>4)</b>	All of the above	<b>Ans)</b>	4	<br><br>
+    129	Which of the following plots are often used for checking randomness in time series?	<br><b>1)</b>	autocaustaion	<b>2)</b>	Autorank	<b>3)</b>	Autocorrelation	<b>4)</b>	None of the above	<b>Ans)</b>	3	<br><br>
+    130	Which are pros of data visualization?	<br><b>1)</b>	it can be accessed quickly by a wider auidence	<b>2)</b>	It can misrepresent information	<b>3)</b>	It can be distracting	<b>4)</b>	 None Of the above	<b>Ans)</b>	1	<br><br>
+    131	Which are cons of data visualization?	<br><b>1)</b>	it convey a lot of information in a small space	<b>2)</b>	It makes your report more visually appealing.	<b>3)</b>	visual data is distorted or excessively used.	<b>4)</b>	 None Of the above	<b>Ans)</b>	3	<br><br>
+    132	Which of the intricate techniques is not used for data visualization?	<br><b>1)</b>	bullet graphs	<b>2)</b>	Bubble Clouds	<b>3)</b>	Fever Maps	<b>4)</b>	Heat Maps	<b>Ans)</b>	3	<br><br>
+    133	Which one of the following is most basic and commonly used techniques?	<br><b>1)</b>	line chart	<b>2)</b>	 Scatter plots	<b>3)</b>	Population pyramids	<b>4)</b>	Area charts	<b>Ans)</b>	1	<br><br>
+    134	Which is used to query and edit graphical settings?	<br><b>1)</b>	avova()	<b>2)</b>	par()	<b>3)</b>	plot()	<b>4)</b>	cum()	<b>Ans)</b>	2	<br><br>
+    135	Which of the following method make vector of repeated values?	<br><b>1)</b>	rep()	<b>2)</b>	data()	<b>3)</b>	view()	<b>4)</b>	read()	<b>Ans)</b>	2	<br><br>
+    136	 Who calls the lower level functions lm.fit?	<br><b>1)</b>	lm()	<b>2)</b>	col.max	<b>3)</b>	par	<b>4)</b>	histo	<b>Ans)</b>	1	<br><br>
+    137	Which of the following lists names of variables in a data.frame?	<br><b>1)</b>	par()	<b>2)</b>	barchart()	<b>3)</b>	name()	<b>4)</b>	qantile()	<b>Ans)</b>	4	<br><br>
+    138	Which of the folllowing statement is true?	<br><b>1)</b>	scientific viualization sometimes referred to in shorthand as scvil	<b>2)</b>	Healthcare professionals frequently use choropleth maps to visualize important health data.	<b>3)</b>	Candlestick charts are used as trading tools and help finance professionals analyze price movements over time	<b>4)</b>	All of the above	<b>Ans)</b>	4	<br><br>
+    139	________is used for density plots?	<br><b>1)</b>	par()	<b>2)</b>	im	<b>3)</b>	kde	<b>4)</b>	cum()	<b>Ans)</b>	4	<br><br>
+    140	 Which of the following is true?	<br><b>1)</b>	if data is an ndaary index must be the same length as data	<b>2)</b>	Series is a one-dimensional labeled array capable of holding any data type.	<b>3)</b>	Both A and B	<b>4)</b>	None of the above	<b>Ans)</b>	3	<br><br>
+    141	Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame?	<br><b>1)</b>	DataFrame.from_items	<b>2)</b>	DataFrame.from_records	<b>3)</b>	 DataFrame.from_dict	<b>4)</b>	 All of the above	<b>Ans)</b>	1	<br><br>
+    142	Which of the following indexing capabilities is used as a concise means of selecting data from a pandas object	<br><b>1)</b>	ln	<b>2)</b>	ix	<b>3)</b>	ipy	<b>4)</b>	iy	<b>Ans)</b>	2	<br><br>
+    143	To display histogram with well-defined edge we can write	<br><b>1)</b>	df.plot(type='hist',edge='red')	<b>2)</b>	df.plot( type = ‘hist’, edgecolor = ‘red’)	<b>3)</b>	df.plot( type = ‘hist’, line = ‘red’)	<b>4)</b>	df.plot(type = ‘hist’, linecolor = ‘red’)	<b>Ans)</b>	2	<br><br>
+    144	plot which is used to given statistical summary is	<br><b>1)</b>	bar	<b>2)</b>	line	<b>3)</b>	histogram	<b>4)</b>	boxplot 	<b>Ans)</b>	4	<br><br>
+    145	Which of the following is not the parameter of pyplot’s plot() method?	<br><b>1)</b>	marker	<b>2)</b>	Lineheight	<b>3)</b>	Linestyle	<b>4)</b>	Color	<b>Ans)</b>	2	<br><br>
+    146	To compare data we can use ____ chart	<br><b>1)</b>	line charts	<b>2)</b>	bar  	<b>3)</b>	pie	<b>4)</b>	scatter	<b>Ans)</b>	2	<br><br>
+    147	Which of the following chart element is used to identify data series by its color patterns?	<br><b>1)</b>	chart tittle	<b>2)</b>	legend	<b>3)</b>	marker	<b>4)</b>	datalables	<b>Ans)</b>	2	<br><br>
+    148	Matplotlib is _____ plotting library	<br><b>1)</b>	1D	<b>2)</b>	2D	<b>3)</b>	3D	<b>4)</b>	none of the above	<b>Ans)</b>	2	<br><br>
+    149	The interface of Matplotlib used for data visualization	<br><b>1)</b>	seaborn	<b>2)</b>	Anaconda	<b>3)</b>	matlab	<b>4)</b>	pyplot	<b>Ans)</b>	4	<br><br>
+    150	If you install python IDLE, matplotlib is installed automatically.	<br><b>1)</b>	TRUE	<b>2)</b>	flase	<b>3)</b>	either 1&2	<b>4)</b>	none of the above	<b>Ans)</b>	2	<br><br>
+    151	The command to install Matplotlib library in python is	<br><b>1)</b>	install pip matplotlib	<b>2)</b>	Install matplotlib	<b>3)</b>	Pip matplotlib	<b>4)</b>	Pip install matplotlib	<b>Ans)</b>	4	<br><br>
+    152	which of the following library to be imported for creating chart	<br><b>1)</b>	matplotlib	<b>2)</b>	pandas	<b>3)</b>	math	<b>4)</b>	random	<b>Ans)</b>	1	<br><br>
+    153	lists can be formed from	<br><b>1)</b>	atoms	<b>2)</b>	atoms and lists	<b>3)</b>	lists	<b>4)</b>	none of the above	<b>Ans)</b>	2	<br><br>
+    154	which of the following is best suitable chart to represent continuous data?	<br><b>1)</b>	bar	<b>2)</b>	line	<b>3)</b>	scatter	<b>4)</b>	Histogram	<b>Ans)</b>	4	<br><br>
+    155	A figure/chart contains	<br><b>1)</b>	plotting area	<b>2)</b>	legend	<b>3)</b>	axis label	<b>4)</b>	all of the above	<b>Ans)</b>	4	<br><br>
+    156	Can write-line keyword be used for printing strings?	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	either 1&2	<b>4)</b>	none of the above	<b>Ans)</b>	1	<br><br>
+    157	which of the following function is used to save fig	<br><b>1)</b>	save()	<b>2)</b>	savefigure()	<b>3)</b>	savefig()	<b>4)</b>	none of the above	<b>Ans)</b>	3	<br><br>
+    158	which of the following pyplot function is used to plot pie chart	<br><b>1)</b>	pie()	<b>2)</b>	piechart()	<b>3)</b>	circle()	<b>4)</b>	oval()	<b>Ans)</b>	1	<br><br>
+    159	which attribute of plot() function help to specify the type of chart?	<br><b>1)</b>	type	<b>2)</b>	kind	<b>3)</b>	kinds	<b>4)</b>	types	<b>Ans)</b>	2	<br><br>
+    160	which attribute is uesd to fill each hist withpattern in histogram	<br><b>1)</b>	pattern	<b>2)</b>	fill	<b>3)</b>	hatch	<b>4)</b>	color	<b>Ans)</b>	3	<br><br>
+    161	what can be usedbto print "yes,no"?	<br><b>1)</b>	(print"yes.nol")	<b>2)</b>	(write "yes,no!")	<b>3)</b>	(print'yes,")(print",no")	<b>4)</b>	none of the above	<b>Ans)</b>	1	<br><br>
+    162	Which of the following function gives information about top level data?	<br><b>1)</b>	head	<b>2)</b>	tail	<b>3)</b>	summary	<b>4)</b>	none of the above	<b>Ans)</b>	1	<br><br>
+    163	 Point out the correct statement.	<br><b>1)</b>	head function work on string	<b>2)</b>	tail function work on string	<b>3)</b>	head function work on string but tail function do not	<b>4)</b>	none of the above	<b>Ans)</b>	4	<br><br>
+    164	Which of the following function is used for quantiles of quantitative values?	<br><b>1)</b>	quantle	<b>2)</b>	quantity	<b>3)</b>	quantiles	<b>4)</b>	all the above	<b>Ans)</b>	1	<br><br>
+    165	Which of the following function is used for determining missing values?	<br><b>1)</b>	any	<b>2)</b>	all	<b>3)</b>	is	<b>4)</b>	all the above	<b>Ans)</b>	4	<br><br>
+    166	Which of the following function is used for casting data frames?	<br><b>1)</b>	dcast	<b>2)</b>	 ucast	<b>3)</b>	rcast	<b>4)</b>	all the above	<b>Ans)</b>	1	<br><br>
+    167	 mutate function is used for casting as multi dimensional arrays.	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	either1or 2	<b>4)</b>	None of the above	<b>Ans)</b>	2	<br><br>
+    168	Which of the following transforms can be performed with data value?	<br><b>1)</b>	log2	<b>2)</b>	cos	<b>3)</b>	log 10	<b>4)</b>	all the above	<b>Ans)</b>	4	<br><br>
+    169	Point out the wrong statement.	<br><b>1)</b>	common variable are used to create missingness vector	<b>2)</b>	 Common variables are used to cutting up quantitative variables	<b>3)</b>	 Common variables are not used to apply transforms	<b>4)</b>	All of the mentioned	<b>Ans)</b>	3	<br><br>
+    170	arr=np.arange(9).reshape(3,3),result=np.trace(arr),print(result)	<br><b>1)</b>	10	<b>2)</b>	12	<b>3)</b>	15	<b>4)</b>	11	<b>Ans)</b>	3	<br><br>
+    171	In which situations the web scrapping is used?	<br><b>1)</b>	personal data	<b>2)</b>	Copyrighted data	<b>3)</b>	Data requires a login	<b>4)</b>	all the above	<b>Ans)</b>	4	<br><br>
+    172	Web Scrappig software are?	<br><b>1)</b>	octaparse	<b>2)</b>	mozenda	<b>3)</b>	both 1&2	<b>4)</b>	none of the above	<b>Ans)</b>	3	<br><br>
+    173	Open-source tools for web scrapping?	<br><b>1)</b>	scrapy	<b>2)</b>	Bs4	<b>3)</b>	storm crawler	<b>4)</b>	all the above	<b>Ans)</b>	4	<br><br>
+    174	Which of the following does not visualize data?	<br><b>1)</b>	charts	<b>2)</b>	maps	<b>3)</b>	shapes	<b>4)</b>	graphs	<b>Ans)</b>	3	<br><br>
+    175	Which of the following type of chart is not supported by pyplot?	<br><b>1)</b>	histogram	<b>2)</b>	boxplot	<b>3)</b>	pie	<b>4)</b>	all the above	<b>Ans)</b>	4	<br><br>
+    176	To display histogram with well-defined edge we can write	<br><b>1)</b>	df.plot(type='hist',edge='red')	<b>2)</b>	df.plot( type = ‘hist’, edgecolor = ‘red’)	<b>3)</b>	df.plot( type = ‘hist’, line = ‘red’)	<b>4)</b>	df.plot(type = ‘hist’, linecolor = ‘red’)	<b>Ans)</b>	2	<br><br>
+    177	plot which is used to given statistical summary is	<br><b>1)</b>	bar	<b>2)</b>	line	<b>3)</b>	histogram	<b>4)</b>	boxplot	<b>Ans)</b>	4	<br><br>
+    178	Which of the following is not the parameter of pyplot’s plot() method?	<br><b>1)</b>	marker	<b>2)</b>	Lineheight	<b>3)</b>	Linestyle	<b>4)</b>	color	<b>Ans)</b>	4	<br><br>
+    179	To compare data we can use ____ chart	<br><b>1)</b>	line	<b>2)</b>	pie	<b>3)</b>	bar	<b>4)</b>	scatter	<b>Ans)</b>	3	<br><br>
+    180	Which of the following chart element is used to identify data series by its color patterns?	<br><b>1)</b>	chart title	<b>2)</b>	legend	<b>3)</b>	marker	<b>4)</b>	data labels	<b>Ans)</b>	2	<br><br>
+    181	Data _____________ refers to graphical representation of data.	<br><b>1)</b>	visualization	<b>2)</b>	analysis	<b>3)</b>	plotting	<b>4)</b>	handling	<b>Ans)</b>	1	<br><br>
+    182	The interface of Matplotlib used for data visualization is	<br><b>1)</b>	seaborn	<b>2)</b>	matplot	<b>3)</b>	anaconda	<b>4)</b>	pyplot	<b>Ans)</b>	4	<br><br>
+    183	the best suitable real life example of data visualization is	<br><b>1)</b>	percent of population of by age group in india	<b>2)</b>	Google Analytics	<b>3)</b>	both 1&2	<b>4)</b>	none of the above	<b>Ans)</b>	3	<br><br>
+    184	Which of the following is correct syntax to create histogram with bins specified?	<br><b>1)</b>	plt.hist(x,bins=10)	<b>2)</b>	Plt.hist(x,bins = [10,11,12,13,14])	<b>3)</b>	Plt.hist(x, bins = range(10,15))	<b>4)</b>	All are correct	<b>Ans)</b>	4	<br><br>
+    185	If you install python IDLE, matplotlib is installed automatically.	<br><b>1)</b>	TRUE	<b>2)</b>	FALSE	<b>3)</b>	either 1&2	<b>4)</b>	None of the above	<b>Ans)</b>	2	<br><br>
+    186	The command to install Matplotlib library in python is	<br><b>1)</b>	install pip matplotlib	<b>2)</b>	Install matplotlib	<b>3)</b>	Pip matplotlib	<b>4)</b>	Pip install matplotlib	<b>Ans)</b>	4	<br><br>
+    187	Select the correct statement to display horizontal box plot	<br><b>1)</b>	plt.box(data,vert=False)	<b>2)</b>	Plt.box(data, horiz=True)	<b>3)</b>	Plt.boxplot(data, vert = False)	<b>4)</b>	Plt.boxplot(data, horiz = True)	<b>Ans)</b>	3	<br><br>
+    188	To create a chart, pyplot provides	<br><b>1)</b>	figure()	<b>2)</b>	chart()	<b>3)</b>	plot()	<b>4)</b>	print()	<b>Ans)</b>	3	<br><br>
+    189	Which of the following type of chart is not valid?	<br><b>1)</b>	line	<b>2)</b>	pie	<b>3)</b>	curve	<b>4)</b>	Bar	<b>Ans)</b>	3	<br><br>
+    190	to create histogram pyplot provides	<br><b>1)</b>	hist()	<b>2)</b>	histo()	<b>3)</b>	histogram()	<b>4)</b>	histg()	<b>Ans)</b>	1	<br><br>
+    191	We can display more than one data series together in	<br><b>1)</b>	line	<b>2)</b>	bar	<b>3)</b>	both 1&2	<b>4)</b>	None of the above	<b>Ans)</b>	3	<br><br>
+    192	Seaborn is python _________library based on matplotllib.	<br><b>1)</b>	Graphicial interface	<b>2)</b>	data visualization	<b>3)</b>	satistical graph	<b>4)</b>	data structure	<b>Ans)</b>	2	<br><br>
+    193	Seaborn provides a high level interface for	<br><b>1)</b>	drawing attractive	<b>2)</b>	statistical graphs	<b>3)</b>	both 1&2	<b>4)</b>	None of the above	<b>Ans)</b>	3	<br><br>
+    194	find the syntax for seaborn	<br><b>1)</b>	import as sns	<b>2)</b>	import seaborn as	<b>3)</b>	import seaborn as sns	<b>4)</b>	all the above	<b>Ans)</b>	3	<br><br>
+    195	What is the function to give color to plot	<br><b>1)</b>	plt.show()	<b>2)</b>	sns.swarmplot()	<b>3)</b>	color_palette()	<b>4)</b>	countplot()	<b>Ans)</b>	3	<br><br>
+    196	Define KDE	<br><b>1)</b>	kool desktop Enivornment	<b>2)</b>	kentucky department of environment	<b>3)</b>	k desktop environment	<b>4)</b>	kernal density estimation	<b>Ans)</b>	4	<br><br>
+    197	________store data in the form of rectangular grids by which the data can be over viewed easily.	<br><b>1)</b>	dataset	<b>2)</b>	datatype	<b>3)</b>	dataframe	<b>4)</b>	frame structure	<b>Ans)</b>	3	<br><br>
+    198	The interface for manipulating the styles is	<br><b>1)</b>	set_style	<b>2)</b>	set_color()	<b>3)</b>	set_view()	<b>4)</b>	set_font()	<b>Ans)</b>	1	<br><br>
+    199	We have another function which deals with color palettes.	<br><b>1)</b>	sb.despine()	<b>2)</b>	color_palette()	<b>3)</b>	seaborn.palplot()	<b>4)</b>	sb.sinplot()	<b>Ans)</b>	3	<br><br>
+    200	function _________ provides the most convenient way to take a quick look	<br><b>1)</b>	distplot()	<b>2)</b>	countplot()	<b>3)</b>	sns.swarmplot()	<b>4)</b>	plt.show()	<b>Ans)</b>	1	<br><br>
+    
 </blockquote>
 
 </body>
